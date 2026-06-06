@@ -1,0 +1,1001 @@
+id,avis,label,categorie,difficulte
+1,"Le service client a été très rapide et très professionnel.",positif,support,simple
+2,"Je suis très déçu, ma commande est arrivée cassée.",négatif,produit,simple
+3,"Votre demande a été enregistrée.",neutre,administratif,simple
+4,"Le produit est bon mais la livraison a été beaucoup trop longue.",mitigé,livraison,opinion_mixte
+5,"Super, encore une panne de l'application.",négatif,application,sarcasme
+6,"Commande reçue aujourd'hui.",neutre,livraison,factuel
+7,"Paiement refusé alors que ma carte fonctionne ailleurs.",négatif,paiement,problème
+8,"Pas mal du tout, je pensais être déçu.",positif,general,négation_positive
+9,"Le remboursement est enfin arrivé après trois semaines.",mitigé,remboursement,opinion_mixte
+10,"Application claire, rapide et agréable à utiliser.",positif,application,simple
+11,"Mon colis a été livré à la mauvaise adresse.",négatif,livraison,problème
+12,"Le technicien est intervenu dans les délais prévus.",positif,support,simple
+13,"Facture reçue par email.",neutre,administratif,factuel
+14,"Je n'arrive pas à me connecter à mon compte depuis deux jours.",négatif,application,problème
+15,"Le produit correspond parfaitement à la description.",positif,produit,simple
+16,"Trop cher pour ce que c'est.",négatif,produit,opinion_mixte
+17,"Remboursement effectué sous 5 jours ouvrés.",neutre,remboursement,factuel
+18,"Franchement bluffé par la qualité de l'emballage.",positif,produit,simple
+19,"Mon conseiller n'a pas su répondre à mes questions.",négatif,support,problème
+20,"L'interface est intuitive mais il manque quelques fonctionnalités.",mitigé,application,opinion_mixte
+21,"Bravo pour la rapidité de traitement de mon dossier !",positif,administratif,simple
+22,"Troisième fois que je commande, toujours satisfait.",positif,general,simple
+23,"Je suis censé recevoir une réponse sous 48h, on attend toujours.",négatif,support,sarcasme
+24,"Mise à jour reçue, merci.",neutre,application,factuel
+25,"La couleur ne correspond pas du tout aux photos.",négatif,produit,problème
+26,"Délai de livraison annoncé 3 jours, reçu en 6.",négatif,livraison,problème
+27,"L'article est honnêtement bien, rapport qualité-prix correct.",mitigé,produit,opinion_mixte
+28,"Mon compte a été créé avec succès.",neutre,administratif,factuel
+29,"Je n'aurais pas pensé être aussi content de cet achat.",positif,produit,négation_positive
+30,"Application impossible à utiliser sur Android.",négatif,application,problème
+31,"Votre service est au top, continuez comme ça !",positif,support,simple
+32,"Livraison express, parfaite.",positif,livraison,simple
+33,"Prélèvement effectué deux fois sur mon compte.",négatif,paiement,problème
+34,"Pas exactement ce que j'attendais mais ça fera l'affaire.",mitigé,produit,opinion_mixte
+35,"Ah oui, super, encore un bug au moment du paiement.",négatif,paiement,sarcasme
+36,"Dossier transmis à notre équipe technique.",neutre,administratif,factuel
+37,"Quelle réactivité ! Réponse reçue en moins d'une heure.",positif,support,simple
+38,"Le produit est arrivé sans notice d'utilisation.",négatif,produit,problème
+39,"Je ne m'attendais pas à un service aussi soigné.",positif,support,négation_positive
+40,"La page de paiement plante systématiquement.",négatif,application,problème
+41,"Commande annulée comme demandé.",neutre,administratif,factuel
+42,"Le packaging est vraiment soin, on sent l'attention portée aux détails.",positif,produit,simple
+43,"J'aurais aimé être prévenu du retard par un email.",mitigé,livraison,opinion_mixte
+44,"Impossible de parler à un humain, que des bots.",négatif,support,problème
+45,"Bon produit, livraison un peu longue, dans l'ensemble satisfait.",mitigé,general,opinion_mixte
+46,"Votre assistant virtuel ne comprend rien à mes questions.",négatif,application,problème
+47,"Ticket de support ouvert le 3, toujours sans réponse le 10.",négatif,support,problème
+48,"Mes points de fidélité ont bien été crédités.",neutre,administratif,factuel
+49,"Super application, je l'utilise tous les jours.",positif,application,simple
+50,"Le livreur a laissé le colis devant la porte sans sonner.",mitigé,livraison,opinion_mixte
+51,"Je ne pensais pas que ça marcherait si bien.",positif,produit,négation_positive
+52,"Paiement en plusieurs fois disponible, c'est appréciable.",positif,paiement,simple
+53,"On m'a dit que je serais remboursé, j'attends encore.",négatif,remboursement,problème
+54,"Le chat en ligne est utile mais les réponses sont trop génériques.",mitigé,support,opinion_mixte
+55,"Numéro de suivi non fonctionnel depuis 4 jours.",négatif,livraison,problème
+56,"Formulaire de réclamation envoyé.",neutre,administratif,factuel
+57,"Je suis agréablement surpris par la qualité du tissu.",positif,produit,simple
+58,"Votre politique de retour est un vrai parcours du combattant.",négatif,remboursement,problème
+59,"Retour pris en charge sans problème.",positif,remboursement,simple
+60,"Encore un email automatique sans réponse à ma vraie question.",négatif,support,sarcasme
+61,"Application mise à jour ce matin, tout fonctionne maintenant.",positif,application,simple
+62,"La taille est conforme au guide des tailles.",neutre,produit,factuel
+63,"Mon problème a finalement été résolu après plusieurs échanges.",mitigé,support,opinion_mixte
+64,"Je n'ai jamais eu de problème avec vos livraisons.",positif,livraison,négation_positive
+65,"Le service après-vente est débordé, délais d'attente énormes.",négatif,support,problème
+66,"Produit reçu en parfait état, conforme à la commande.",positif,produit,simple
+67,"J'ai dû appeler trois fois avant d'obtenir une réponse.",négatif,support,problème
+68,"Votre appli est la seule que j'utilise pour mes achats.",positif,application,simple
+69,"Remboursement partiel effectué, on attend la suite.",mitigé,remboursement,opinion_mixte
+70,"Votre site est en maintenance depuis hier, génial.",négatif,application,sarcasme
+71,"Carte cadeau activée avec succès.",neutre,administratif,factuel
+72,"Le produit est exactement comme sur les photos, très belle qualité.",positif,produit,simple
+73,"Suivi de commande peu précis, on ne sait pas où est le colis.",mitigé,livraison,opinion_mixte
+74,"J'ai été surpris en mal par la durée d'attente.",négatif,support,simple
+75,"Options de paiement variées, c'est pratique.",positif,paiement,simple
+76,"Livraison à domicile non respectée, colis en point relais.",négatif,livraison,problème
+77,"Votre équipe a fait un excellent travail sur mon dossier.",positif,support,simple
+78,"Je n'aurais pas commandé si j'avais su les délais réels.",négatif,livraison,négation_positive
+79,"Tout s'est passé comme prévu.",neutre,general,factuel
+80,"Les frais de livraison sont honnêtes.",mitigé,livraison,opinion_mixte
+81,"Mon compte a été piraté et votre support n'a pas pris ça au sérieux.",négatif,support,problème
+82,"Bel emballage, produit solide, je recommande.",positif,produit,simple
+83,"Je ne vois pas pourquoi on critique autant ce service.",positif,general,négation_positive
+84,"Le produit sent mauvais à l'ouverture.",négatif,produit,problème
+85,"Réclamation prise en compte.",neutre,administratif,factuel
+86,"Excellente expérience d'achat du début à la fin.",positif,general,simple
+87,"Le service est bien mais les prix ont beaucoup augmenté.",mitigé,general,opinion_mixte
+88,"J'attends mon remboursement depuis plus d'un mois.",négatif,remboursement,problème
+89,"Vraiment top, je n'ai rien à reprocher.",positif,general,simple
+90,"Super, la commande a disparu de mon espace client.",négatif,application,sarcasme
+91,"Statut de commande mis à jour.",neutre,administratif,factuel
+92,"Le produit est robuste et bien conçu.",positif,produit,simple
+93,"Je n'attendais pas grand chose et j'ai été positivement surpris.",positif,produit,négation_positive
+94,"Livraison correcte mais sans vrai suivi.",mitigé,livraison,opinion_mixte
+95,"Impossible de modifier mon adresse de livraison en ligne.",négatif,application,problème
+96,"L'agent du support a été patient et clair dans ses explications.",positif,support,simple
+97,"Produit de mauvaise qualité pour ce prix.",négatif,produit,problème
+98,"Abonnement résilié selon votre demande.",neutre,administratif,factuel
+99,"Petite déception sur la finition mais globalement satisfait.",mitigé,produit,opinion_mixte
+100,"Votre appli sait comment rendre une expérience frustrante.",négatif,application,sarcasme
+101,"Commande expédiée en moins de 24h, impressionnant.",positif,livraison,simple
+102,"Je n'aurais pas cru qu'un service client pouvait être aussi efficace.",positif,support,négation_positive
+103,"Paiement sécurisé et rapide.",positif,paiement,simple
+104,"Ma commande a été perdue, j'ai dû relancer trois fois.",négatif,livraison,problème
+105,"Un peu surpris par l'absence d'email de confirmation.",mitigé,administratif,opinion_mixte
+106,"L'application se ferme seule lors du paiement.",négatif,application,problème
+107,"Votre nouveau design est bien plus agréable.",positif,application,simple
+108,"J'aurais préféré un emballage plus sobre.",mitigé,produit,opinion_mixte
+109,"Adresse de facturation modifiée avec succès.",neutre,administratif,factuel
+110,"Bon produit dans l'ensemble, quelques défauts mineurs.",mitigé,produit,opinion_mixte
+111,"La qualité n'est pas au rendez-vous pour ce prix.",négatif,produit,problème
+112,"Excellent rapport qualité-prix.",positif,produit,simple
+113,"Mon livreur a été très aimable.",positif,livraison,simple
+114,"Je n'ai aucune plainte à formuler.",positif,general,négation_positive
+115,"Le site met du temps à charger.",mitigé,application,opinion_mixte
+116,"Votre politique de confidentialité est très longue à lire.",mitigé,administratif,opinion_mixte
+117,"Taille plus petite que prévu, décevant.",négatif,produit,problème
+118,"Je ne pensais pas recevoir mon colis aussi vite.",positif,livraison,négation_positive
+119,"Code promo non appliqué lors du paiement.",négatif,paiement,problème
+120,"Dossier traité dans les délais.",neutre,administratif,factuel
+121,"Le service est fiable mais un peu impersonnel.",mitigé,support,opinion_mixte
+122,"Produit conforme, rien à signaler.",neutre,produit,factuel
+123,"J'ai attendu 40 minutes en ligne avant d'avoir quelqu'un.",négatif,support,problème
+124,"Belle surprise, le produit est encore mieux en vrai.",positif,produit,simple
+125,"L'appli plante souvent sur iOS 17.",négatif,application,problème
+126,"Votre service ne déçoit jamais.",positif,general,simple
+127,"Je n'ai pas eu à relancer, c'est rare.",positif,support,négation_positive
+128,"Suivi de livraison en temps réel, vraiment pratique.",positif,livraison,simple
+129,"Le produit est arrivé abîmé malgré l'emballage.",négatif,produit,problème
+130,"Notifications push désactivées selon votre demande.",neutre,administratif,factuel
+131,"Je suis globalement content, mais la livraison m'a déçu.",mitigé,livraison,opinion_mixte
+132,"Le chat bot ne comprend pas les questions complexes.",négatif,support,problème
+133,"Je recommanderais ce service sans hésiter.",positif,general,simple
+134,"Super, la promo s'est terminée juste avant que je passe commande.",négatif,paiement,sarcasme
+135,"Retour validé, avoir disponible sur votre compte.",neutre,remboursement,factuel
+136,"La qualité de fabrication est vraiment sérieuse.",positif,produit,simple
+137,"Commande reçue mais un article manquant.",négatif,produit,problème
+138,"L'interface mobile est bien pensée.",positif,application,simple
+139,"Je ne m'attendais pas à un aussi bon emballage.",positif,produit,négation_positive
+140,"Frais de port gratuits à partir de 30 euros, c'est logique.",neutre,paiement,factuel
+141,"Votre service de remboursement est une vraie épreuve.",négatif,remboursement,problème
+142,"Application fonctionnelle et sans fioritures.",positif,application,simple
+143,"Le produit est bien mais les instructions sont en anglais seulement.",mitigé,produit,opinion_mixte
+144,"Je n'ai jamais eu à me plaindre de vos livraisons.",positif,livraison,négation_positive
+145,"Formulaire de retour trop complexe.",négatif,remboursement,problème
+146,"Photo de livraison disponible dans l'appli.",neutre,livraison,factuel
+147,"Votre support a réglé mon problème en moins de 10 minutes.",positif,support,simple
+148,"Produit différent de celui commandé.",négatif,produit,problème
+149,"Je suis surpris par l'absence de suivi après achat.",négatif,support,problème
+150,"Application légère et rapide à charger.",positif,application,simple
+151,"Remboursement reçu, merci pour la réactivité.",positif,remboursement,simple
+152,"Le livreur ne sonne pas et repart aussitôt.",négatif,livraison,problème
+153,"Franchement, je ne pensais pas que vous vous en sortiriez aussi bien.",positif,support,négation_positive
+154,"Les photos du produit sont trompeuses.",négatif,produit,problème
+155,"Commande confirmée par email.",neutre,administratif,factuel
+156,"La navigation sur le site est fluide et agréable.",positif,application,simple
+157,"Encore un retard sans explication.",négatif,livraison,sarcasme
+158,"Je ne comprends pas pourquoi mon paiement a été refusé.",négatif,paiement,problème
+159,"Votre espace client est bien organisé.",positif,application,simple
+160,"Quelques jours d'attente mais le résultat en valait la peine.",mitigé,livraison,opinion_mixte
+161,"Mon conseiller a vraiment fait preuve de professionnalisme.",positif,support,simple
+162,"Produit de qualité médiocre, ne tient pas ses promesses.",négatif,produit,problème
+163,"Je n'ai aucun regret concernant cet achat.",positif,produit,négation_positive
+164,"Mot de passe réinitialisé avec succès.",neutre,administratif,factuel
+165,"Délai de remboursement trop long.",négatif,remboursement,problème
+166,"L'équipe a su trouver une solution rapidement.",positif,support,simple
+167,"Votre FAQ répond rarement aux vraies questions.",négatif,support,problème
+168,"Belle qualité, je suis impressionné.",positif,produit,simple
+169,"La commande est bien arrivée mais sans facture.",mitigé,administratif,opinion_mixte
+170,"Super, ma carte a encore été débitée deux fois.",négatif,paiement,sarcasme
+171,"Colis remis en main propre, parfait.",positif,livraison,simple
+172,"Je ne m'attendais pas à ce niveau de qualité pour ce prix.",positif,produit,négation_positive
+173,"Votre application manque de fonctionnalités importantes.",mitigé,application,opinion_mixte
+174,"Le service client m'a rappelé comme promis.",positif,support,simple
+175,"Article endommagé à la réception.",négatif,produit,problème
+176,"Connexion au compte sécurisée et rapide.",positif,application,simple
+177,"Le remboursement est en cours de traitement.",neutre,remboursement,factuel
+178,"Vraiment nul, ne commandez pas là.",négatif,general,simple
+179,"Bon produit mais notice illisible.",mitigé,produit,opinion_mixte
+180,"Je ne peux pas croire que ce service soit aussi efficace.",positif,support,négation_positive
+181,"Livraison en deux jours comme annoncé.",positif,livraison,simple
+182,"Le service est irréprochable.",positif,general,simple
+183,"Impossible de mettre à jour mes informations bancaires.",négatif,paiement,problème
+184,"J'aurai préféré plus d'options de livraison.",mitigé,livraison,opinion_mixte
+185,"Votre bot est vraiment très intelligent, il ne comprend rien.",négatif,support,sarcasme
+186,"Email de suivi reçu.",neutre,administratif,factuel
+187,"L'accessoire fourni est de très bonne facture.",positif,produit,simple
+188,"Le produit est fragile et casse rapidement.",négatif,produit,problème
+189,"Je ne pensais pas que le service serait aussi attentif.",positif,support,négation_positive
+190,"Paiement en ligne simple et intuitif.",positif,paiement,simple
+191,"Commande reçue avec une pièce manquante.",négatif,produit,problème
+192,"Je suis mitigé, certains points sont bons, d'autres non.",mitigé,general,opinion_mixte
+193,"L'application charge très lentement.",négatif,application,problème
+194,"Merci pour le geste commercial !",positif,remboursement,simple
+195,"Je n'avais pas de grandes attentes et j'ai été agréablement surpris.",positif,produit,négation_positive
+196,"Votre équipe de livraison est aux petits soins.",positif,livraison,simple
+197,"J'ai signalé le problème il y a une semaine, pas de retour.",négatif,support,problème
+198,"Produit emballé avec soin.",positif,produit,simple
+199,"Ah tiens, la livraison promise pour aujourd'hui est repoussée à jeudi.",négatif,livraison,sarcasme
+200,"Mot de passe mis à jour.",neutre,administratif,factuel
+201,"Le produit dépasse mes attentes.",positif,produit,simple
+202,"Je ne comprends pas la facture reçue.",négatif,administratif,problème
+203,"Service clientèle joignable rapidement.",positif,support,simple
+204,"Livraison retardée à cause de votre transporteur.",négatif,livraison,problème
+205,"L'appli est bien pensée pour les débutants.",positif,application,simple
+206,"J'ai dû attendre 3 semaines pour une réponse simple.",négatif,support,problème
+207,"Les coordonnées de livraison étaient incorrectes mais vous les avez corrigées.",mitigé,livraison,opinion_mixte
+208,"Je n'aurais jamais imaginé un service si rapide.",positif,support,négation_positive
+209,"Montant débité incorrect.",négatif,paiement,problème
+210,"Votre service est le meilleur que j'ai utilisé.",positif,general,simple
+211,"Réclamation enregistrée sous le numéro 44521.",neutre,administratif,factuel
+212,"Le design de l'emballage est soigné.",positif,produit,simple
+213,"Je pensais être déçu et finalement non.",positif,general,négation_positive
+214,"Mon adresse email n'est pas reconnue par votre système.",négatif,application,problème
+215,"Livraison à l'heure, coursier sympathique.",positif,livraison,simple
+216,"Trop de pubs dans l'application.",négatif,application,problème
+217,"La commande est toujours en attente de traitement après 5 jours.",négatif,livraison,problème
+218,"Le service de chat est disponible 24h/24, c'est très bien.",positif,support,simple
+219,"Je ne vois pas l'intérêt de cette mise à jour.",mitigé,application,opinion_mixte
+220,"Votre site plante systématiquement sur Firefox.",négatif,application,problème
+221,"Produit reçu en avance, super !",positif,livraison,simple
+222,"Le code de réduction a bien été pris en compte.",positif,paiement,simple
+223,"Mon remboursement a pris du temps mais il est arrivé.",mitigé,remboursement,opinion_mixte
+224,"Je n'avais pas vu les avis négatifs et maintenant je comprends.",négatif,general,négation_positive
+225,"La mise en rayon est bien organisée sur le site.",positif,application,simple
+226,"Je reçois trop d'emails de votre part.",mitigé,administratif,opinion_mixte
+227,"Super service, livraison rapide, produit conforme.",positif,general,simple
+228,"Votre service m'a sauvé la mise, merci.",positif,support,simple
+229,"Je ne pensais pas avoir besoin d'aide mais votre équipe a bien aidé.",positif,support,négation_positive
+230,"Bon sang, j'attends ma commande depuis 15 jours.",négatif,livraison,problème
+231,"L'article est beau, conforme, je suis ravi.",positif,produit,simple
+232,"Notification de livraison reçue.",neutre,livraison,factuel
+233,"Le produit est bien mais l'odeur à l'ouverture est forte.",mitigé,produit,opinion_mixte
+234,"Je ne voudrais pas commander ailleurs après cette expérience.",positif,general,négation_positive
+235,"Mon dossier a été traité plus vite que prévu.",positif,administratif,simple
+236,"L'appli perd ma session à chaque fois.",négatif,application,problème
+237,"Franchement bravo, vous avez géré une situation délicate avec beaucoup de professionnalisme.",positif,support,simple
+238,"Je dois encore patienter pour le remboursement.",mitigé,remboursement,opinion_mixte
+239,"Encore un message automatique inutile.",négatif,support,sarcasme
+240,"Confirmation de résiliation envoyée par email.",neutre,administratif,factuel
+241,"Le produit est exactement ce qu'il me fallait.",positif,produit,simple
+242,"Votre garantie ne couvre rien d'utile.",négatif,remboursement,problème
+243,"Je ne savais pas que vous proposiez un tel service, agréable surprise.",positif,support,négation_positive
+244,"Le livreur a cassé quelque chose en forçant le portail.",négatif,livraison,problème
+245,"Appli intuitive, aucun bug rencontré.",positif,application,simple
+246,"Commande annulée automatiquement sans raison.",négatif,general,problème
+247,"La qualité de la matière est haut de gamme.",positif,produit,simple
+248,"Votre service client est aux abonnés absents le week-end.",négatif,support,problème
+249,"Je n'aurais pas commandé si je savais que ça venait de si loin.",mitigé,livraison,négation_positive
+250,"Avoir de fidélité crédité, merci.",neutre,administratif,factuel
+251,"Le service est correct, sans être exceptionnel.",mitigé,general,opinion_mixte
+252,"J'ai reçu le mauvais article.",négatif,produit,problème
+253,"Je ne pensais pas que vous seriez aussi généreux dans votre geste commercial.",positif,remboursement,négation_positive
+254,"Votre transporteur laisse à désirer.",négatif,livraison,problème
+255,"Le produit s'est cassé après deux utilisations.",négatif,produit,problème
+256,"Franchement je ne m'y attendais pas, très belle surprise.",positif,produit,simple
+257,"Votre service de retour est simple et efficace.",positif,remboursement,simple
+258,"Je n'ai jamais eu à contacter le support, tout fonctionne bien.",positif,support,négation_positive
+259,"Paiement validé sous quelques secondes.",positif,paiement,simple
+260,"La commande est en cours de préparation.",neutre,livraison,factuel
+261,"Aucune réponse à mon email depuis 10 jours.",négatif,support,problème
+262,"Produit de qualité, conforme à la description.",positif,produit,simple
+263,"Je ne comprends pas pourquoi mon colis est bloqué en douane.",négatif,livraison,problème
+264,"La taille correspond au guide taille indiqué.",positif,produit,simple
+265,"Votre IA répond à côté à chaque fois.",négatif,support,sarcasme
+266,"Email de confirmation de commande reçu.",neutre,administratif,factuel
+267,"Le chat en ligne fonctionne bien, réponse rapide.",positif,support,simple
+268,"J'aurais voulu plus de variantes de couleurs.",mitigé,produit,opinion_mixte
+269,"Je ne m'attendais pas à recevoir un cadeau avec ma commande.",positif,general,négation_positive
+270,"Application trop lente sur mobile.",négatif,application,problème
+271,"Le technicien est arrivé à l'heure.",positif,support,simple
+272,"Produit bien mais sans SAV digne de ce nom.",mitigé,support,opinion_mixte
+273,"Votre service fait exactement ce qu'il promet.",positif,general,simple
+274,"Je suis navré de devoir revenir encore sur ce problème.",négatif,support,problème
+275,"Livraison le lendemain, parfait.",positif,livraison,simple
+276,"L'interface est confuse pour les nouveaux utilisateurs.",négatif,application,problème
+277,"Je n'ai rien eu à faire, tout a été géré automatiquement.",positif,general,négation_positive
+278,"Remboursement en cours.",neutre,remboursement,factuel
+279,"La documentation produit est incomplète.",négatif,produit,problème
+280,"Merci pour votre aide et votre patience.",positif,support,simple
+281,"Je suis satisfait à 80%, il reste des points à améliorer.",mitigé,general,opinion_mixte
+282,"Le produit est solide, robuste et bien finalisé.",positif,produit,simple
+283,"On m'a menti sur les délais de livraison.",négatif,livraison,problème
+284,"Je ne pensais pas faire confiance à un service en ligne mais vous m'avez convaincu.",positif,general,négation_positive
+285,"Statut expédié visible dans mon compte.",neutre,livraison,factuel
+286,"Votre formulaire de contact est cassé sur mobile.",négatif,application,problème
+287,"Service irréprochable, je reviendrai.",positif,general,simple
+288,"La commande n'est pas encore arrivée et personne ne me répond.",négatif,support,problème
+289,"Bonne expérience globale malgré quelques imperfections.",mitigé,general,opinion_mixte
+290,"Incroyable comme vous faites attendre vos clients.",négatif,support,sarcasme
+291,"Facture disponible dans votre espace client.",neutre,administratif,factuel
+292,"Le produit est léger mais résistant.",positif,produit,simple
+293,"Je n'imaginais pas un emballage aussi travaillé.",positif,produit,négation_positive
+294,"Livraison au mauvais étage.",négatif,livraison,problème
+295,"Le service de rappel automatique est pratique.",positif,support,simple
+296,"La mise à jour a supprimé mes paramètres.",négatif,application,problème
+297,"Je suis content et ma femme aussi, on recommande.",positif,general,simple
+298,"Application plantée depuis la dernière mise à jour.",négatif,application,problème
+299,"Bon service en général, délais un peu longs.",mitigé,general,opinion_mixte
+300,"Merci, tout s'est bien passé.",positif,general,simple
+301,"Colis remis sans signature, ça m'inquiète.",mitigé,livraison,opinion_mixte
+302,"Je ne peux pas imaginer commander ailleurs désormais.",positif,general,négation_positive
+303,"Mon numéro de commande n'est pas reconnu dans l'appli.",négatif,application,problème
+304,"Excellent service, personnel accueillant.",positif,support,simple
+305,"La couleur est exactement celle indiquée sur la fiche produit.",positif,produit,simple
+306,"Votre site affiche des promotions qui ne s'appliquent pas.",négatif,paiement,problème
+307,"Je n'aurais jamais pensé commander ici, mais c'était la bonne décision.",positif,general,négation_positive
+308,"L'emballage est recyclable, bonne initiative.",positif,produit,simple
+309,"Retour refusé sans explication claire.",négatif,remboursement,problème
+310,"Le produit fait exactement ce qui est décrit.",positif,produit,simple
+311,"Commande passée sans encombre.",neutre,general,factuel
+312,"Je ne me souviens pas d'une expérience aussi fluide.",positif,general,négation_positive
+313,"Votre service est correct mais pas mémorable.",mitigé,general,opinion_mixte
+314,"Le suivi de livraison est très précis.",positif,livraison,simple
+315,"Encore une fois, colis abîmé.",négatif,produit,sarcasme
+316,"Adresse de livraison mise à jour.",neutre,administratif,factuel
+317,"Je suis bluffé par la rapidité de la livraison.",positif,livraison,simple
+318,"L'interface mobile n'est pas adaptée aux grands écrans.",mitigé,application,opinion_mixte
+319,"Je n'aurais pas imaginé que vous gériez aussi bien les réclamations.",positif,support,négation_positive
+320,"Paiement en attente depuis 3 jours.",négatif,paiement,problème
+321,"Le service après-vente a résolu mon problème en un appel.",positif,support,simple
+322,"Colis signalé livré mais pas reçu.",négatif,livraison,problème
+323,"Bon rapport qualité-prix pour ce type de produit.",positif,produit,simple
+324,"Je ne pensais pas que votre application serait aussi intuitive.",positif,application,négation_positive
+325,"Mon abonnement s'est renouvelé sans autorisation.",négatif,paiement,problème
+326,"L'opérateur était sympa mais pas compétent.",mitigé,support,opinion_mixte
+327,"Je n'ai eu aucun problème avec la livraison.",positif,livraison,négation_positive
+328,"Bravo, vous avez réussi à rater une livraison express.",négatif,livraison,sarcasme
+329,"Livraison OK, produit OK.",neutre,general,factuel
+330,"Votre service m'a surpris de façon très positive.",positif,support,simple
+331,"Le produit est bien mais l'installation est compliquée.",mitigé,produit,opinion_mixte
+332,"Je ne m'attendais pas à une résolution aussi rapide.",positif,support,négation_positive
+333,"Application stable, aucune erreur en un mois.",positif,application,simple
+334,"Emballage inadapté, le produit a bougé pendant le transport.",négatif,produit,problème
+335,"Je n'avais pas confiance au départ mais vous l'avez gagnée.",positif,general,négation_positive
+336,"Espace client clair et bien structuré.",positif,application,simple
+337,"On attend toujours le bon de retour promis.",négatif,remboursement,problème
+338,"Le produit est vraiment solide, je l'utilise tous les jours.",positif,produit,simple
+339,"Impossible de me désabonner de vos emails.",négatif,administratif,problème
+340,"Service client disponible et efficace.",positif,support,simple
+341,"Je ne recommanderai pas ce produit.",négatif,produit,simple
+342,"Les notifications sont trop fréquentes.",mitigé,application,opinion_mixte
+343,"Très belle qualité de finition.",positif,produit,simple
+344,"Mon remboursement n'a été que partiel sans justification.",négatif,remboursement,problème
+345,"L'article a bien été réservé.",neutre,administratif,factuel
+346,"Un des meilleurs achats que j'ai fait cette année.",positif,produit,simple
+347,"Je ne vois pas d'amélioration par rapport à l'ancienne version.",mitigé,application,opinion_mixte
+348,"La livraison était rapide et bien packagée.",positif,livraison,simple
+349,"Mon problème de paiement persiste.",négatif,paiement,problème
+350,"Application accessible aux personnes handicapées, bravo.",positif,application,simple
+351,"Je suis ravi de mon achat, tout correspond.",positif,produit,simple
+352,"Votre service ressemble à un labyrinthe kafkaïen.",négatif,support,problème
+353,"Je n'aurais pas cru pouvoir être aussi satisfait d'un service en ligne.",positif,general,négation_positive
+354,"Colis laissé chez le voisin sans mot de la part du livreur.",mitigé,livraison,opinion_mixte
+355,"Application bien notée mais ça ne se voit pas à l'utilisation.",négatif,application,sarcasme
+356,"Profil mis à jour avec succès.",neutre,administratif,factuel
+357,"L'article est conforme à mes attentes.",positif,produit,simple
+358,"Le processus de retour est rapide et sans friction.",positif,remboursement,simple
+359,"Je ne m'attendais pas à tant de réactivité de votre part.",positif,support,négation_positive
+360,"La livraison a pris deux fois plus longtemps que prévu.",négatif,livraison,problème
+361,"Très satisfaite de mon achat, je recommande à mes amis.",positif,produit,simple
+362,"L'appli ne propose pas de mode sombre.",mitigé,application,opinion_mixte
+363,"Je n'ai jamais eu un service aussi attentionné.",positif,support,négation_positive
+364,"La livraison a été gérée parfaitement.",positif,livraison,simple
+365,"Votre politique de retour n'est pas clairement indiquée sur le site.",négatif,remboursement,problème
+366,"Excellent service du début à la fin.",positif,general,simple
+367,"J'ai reçu un article d'une autre couleur que celle commandée.",négatif,produit,problème
+368,"Je ne suis pas convaincu par la qualité.",mitigé,produit,opinion_mixte
+369,"SMS de confirmation reçu.",neutre,administratif,factuel
+370,"Votre équipe a fait l'impossible pour résoudre mon problème.",positif,support,simple
+371,"Paiement refusé sans raison valable.",négatif,paiement,problème
+372,"Je n'aurais pas pensé à cette solution, merci !",positif,support,négation_positive
+373,"Le produit est bien emballé et protégé.",positif,produit,simple
+374,"L'interface plante sur Safari.",négatif,application,problème
+375,"Bonne expérience générale.",positif,general,simple
+376,"Le service fait ce qu'il promet, ni plus ni moins.",neutre,general,factuel
+377,"J'aurais aimé un emballage cadeau disponible.",mitigé,produit,opinion_mixte
+378,"Livraison suivie avec précision.",positif,livraison,simple
+379,"Le produit est cassé dès la première utilisation.",négatif,produit,problème
+380,"Je ne savais pas que vous offriez ce service, bonne surprise.",positif,support,négation_positive
+381,"Conditions générales mises à jour.",neutre,administratif,factuel
+382,"Très bon service, je ne changerais pas.",positif,general,simple
+383,"Encore en attente de remboursement après un mois.",négatif,remboursement,problème
+384,"Le service est satisfaisant mais peut mieux faire.",mitigé,general,opinion_mixte
+385,"Je pensais que ça serait compliqué et ça ne l'était pas.",positif,general,négation_positive
+386,"L'appli s'améliore vraiment à chaque mise à jour.",positif,application,simple
+387,"Colis reçu en bon état.",neutre,produit,factuel
+388,"Vraiment décevant, dernier achat ici.",négatif,general,simple
+389,"Je ne pensais pas à commander ici, mais je suis content.",positif,general,négation_positive
+390,"Mon code promo était valide mais refusé au paiement.",négatif,paiement,problème
+391,"La réactivité du service client est exemplaire.",positif,support,simple
+392,"Le produit se ternit après quelques lavages.",négatif,produit,problème
+393,"Je ne me souviens pas d'un service aussi fluide.",positif,general,négation_positive
+394,"Livraison conforme à la promesse.",positif,livraison,simple
+395,"Super, le livreur a sonné mais je n'ai pas eu le temps d'ouvrir.",mitigé,livraison,sarcasme
+396,"Commande reçue.",neutre,livraison,factuel
+397,"Le produit est top, je le recommande.",positif,produit,simple
+398,"Je n'ai pas été informé du report de ma livraison.",négatif,livraison,problème
+399,"Retour pris en charge rapidement.",positif,remboursement,simple
+400,"Très longue attente au téléphone.",négatif,support,problème
+401,"Je suis satisfait de la livraison.",positif,livraison,simple
+402,"L'appli ne garde pas mes préférences.",négatif,application,problème
+403,"Je n'avais pas de grandes attentes, elles ont été dépassées.",positif,produit,négation_positive
+404,"Le bon de commande était illisible.",négatif,administratif,problème
+405,"Réponse rapide et utile.",positif,support,simple
+406,"Produit bien mais livraison décevante.",mitigé,livraison,opinion_mixte
+407,"Je n'aurais pas cru qu'un retour soit aussi simple.",positif,remboursement,négation_positive
+408,"Le bouton de paiement ne répond pas.",négatif,application,problème
+409,"Produit très bien fini, je suis content.",positif,produit,simple
+410,"Votre application est à la hauteur de sa réputation.",positif,application,simple
+411,"Je suis globalement satisfait mais quelques points me dérangent.",mitigé,general,opinion_mixte
+412,"L'application a bien évolué ces derniers mois.",positif,application,simple
+413,"Je ne pensais pas que le SAV serait aussi réactif.",positif,support,négation_positive
+414,"Encore des frais cachés dans la facture.",négatif,paiement,sarcasme
+415,"Confirmation d'expédition envoyée.",neutre,administratif,factuel
+416,"Le produit est agréable à utiliser au quotidien.",positif,produit,simple
+417,"J'ai dû me battre pour obtenir mon remboursement.",négatif,remboursement,problème
+418,"Bon service, facile à utiliser.",positif,general,simple
+419,"Je n'ai pas pu finaliser ma commande à cause d'un bug.",négatif,application,problème
+420,"La livraison a été retardée mais le service client m'a tenu informé.",mitigé,livraison,opinion_mixte
+421,"Je suis fan de votre application.",positif,application,simple
+422,"On m'avait annoncé une livraison avant 12h, reçue à 18h.",négatif,livraison,problème
+423,"Je n'aurais pas pensé laisser un avis positif au départ.",positif,general,négation_positive
+424,"Produit haut de gamme pour un prix raisonnable.",positif,produit,simple
+425,"Impossible de modifier une commande après validation.",négatif,application,problème
+426,"Bonne communication tout au long du processus.",positif,support,simple
+427,"Je ne peux pas conseiller ce produit en l'état.",négatif,produit,simple
+428,"Le rechargement de la page efface le panier.",négatif,application,problème
+429,"Je ne pensais pas avoir des nouvelles si vite.",positif,support,négation_positive
+430,"Informations de facturation incorrectes.",négatif,administratif,problème
+431,"La qualité est là, je ne suis pas déçu.",positif,produit,négation_positive
+432,"L'appli est agréable à utiliser et bien conçue.",positif,application,simple
+433,"Je n'imaginais pas que ce produit serait aussi durable.",positif,produit,négation_positive
+434,"Retard important sans communication.",négatif,livraison,problème
+435,"Excellent achat, sans aucun problème.",positif,produit,simple
+436,"Le mode de paiement en crypto n'est pas disponible.",mitigé,paiement,opinion_mixte
+437,"Je ne m'y attendais pas, mais votre chat en ligne est vraiment utile.",positif,support,négation_positive
+438,"Produit abîmé à réception.",négatif,produit,problème
+439,"Suivi de commande mis à jour.",neutre,livraison,factuel
+440,"Très bon produit, conforme à ma commande.",positif,produit,simple
+441,"Le support est joignable mais peu efficace.",mitigé,support,opinion_mixte
+442,"Je n'attendais pas ça d'une marque comme la vôtre.",négatif,produit,problème
+443,"L'emballage est trop volumineux pour si peu.",mitigé,produit,opinion_mixte
+444,"Je ne pensais pas finir par recommander ce service.",positif,general,négation_positive
+445,"Application disponible sur toutes les plateformes.",positif,application,simple
+446,"Colis arrivé le bon jour.",neutre,livraison,factuel
+447,"Le service est de qualité, personnel attentionné.",positif,support,simple
+448,"Je ne pouvais pas imaginer acheter ailleurs.",positif,general,négation_positive
+449,"L'article est conforme mais la taille court.",mitigé,produit,opinion_mixte
+450,"Votre service client ne déçoit jamais.",positif,support,simple
+451,"Le formulaire de retour renvoie une erreur 404.",négatif,application,problème
+452,"Je pensais que la qualité serait bien inférieure.",positif,produit,négation_positive
+453,"Livraison rapide et bien emballée.",positif,livraison,simple
+454,"Le produit s'efface trop vite.",négatif,produit,problème
+455,"Compte suspendu sans raison apparente.",négatif,administratif,problème
+456,"J'ai apprécié la transparence sur les délais.",positif,support,simple
+457,"Je ne savais pas que votre service était aussi complet.",positif,general,négation_positive
+458,"Application ergonomique et rapide.",positif,application,simple
+459,"Mon colis a été retenu à la douane sans que vous m'en informiez.",négatif,livraison,problème
+460,"Je suis impressionné par la qualité du service.",positif,support,simple
+461,"Application difficile à prendre en main au départ.",mitigé,application,opinion_mixte
+462,"Votre service est dans le top 3 que j'ai utilisé.",positif,general,simple
+463,"Le remboursement aurait pu être plus rapide.",mitigé,remboursement,opinion_mixte
+464,"Je n'aurais pas commandé autant si le service n'était pas aussi bon.",positif,general,négation_positive
+465,"Notification reçue pour ma livraison.",neutre,livraison,factuel
+466,"Produit bien pensé et ergonomique.",positif,produit,simple
+467,"Je ne comprends pas pourquoi le remboursement est partiel.",négatif,remboursement,problème
+468,"Le service client a fait preuve d'une grande empathie.",positif,support,simple
+469,"Votre site ne sauvegarde pas le panier.",négatif,application,problème
+470,"Je n'aurais pas parié sur un service en ligne mais vous avez bien joué.",positif,general,négation_positive
+471,"Livraison effectuée dans les temps.",neutre,livraison,factuel
+472,"Très bonne qualité de fabrication.",positif,produit,simple
+473,"Je suis mécontent de la gestion de ma réclamation.",négatif,support,problème
+474,"Le site est facile à naviguer.",positif,application,simple
+475,"Je ne pensais pas qu'on pouvait être aussi satisfait.",positif,general,négation_positive
+476,"La description du produit ne mentionne pas tous les défauts.",négatif,produit,problème
+477,"Commande bien reçue, merci.",positif,livraison,simple
+478,"J'ai été remboursé plus vite que prévu.",positif,remboursement,simple
+479,"L'appli affiche un message d'erreur au démarrage.",négatif,application,problème
+480,"Je n'aurais pas pensé avoir autant de satisfaction.",positif,general,négation_positive
+481,"L'article est vendu sans le câble d'alimentation.",négatif,produit,problème
+482,"Très bonne expérience du début à la fin.",positif,general,simple
+483,"Je ne me doutais pas que le service était si bien organisé.",positif,support,négation_positive
+484,"Votre transporteur perd régulièrement des colis.",négatif,livraison,problème
+485,"Mise à jour du compte effectuée.",neutre,administratif,factuel
+486,"Produit robuste, bonne longévité prévisible.",positif,produit,simple
+487,"Je pense que c'est le meilleur achat de l'année.",positif,produit,simple
+488,"Le service m'a déçu par rapport aux attentes créées.",mitigé,general,opinion_mixte
+489,"Je n'avais pas vu les frais de livraison, dommage.",mitigé,paiement,opinion_mixte
+490,"Livraison rapide, produit en parfait état.",positif,livraison,simple
+491,"Je n'arrive pas à retrouver ma facture dans l'espace client.",négatif,administratif,problème
+492,"Le personnel téléphonique est très agréable.",positif,support,simple
+493,"Le suivi de ma commande est incohérent.",négatif,livraison,problème
+494,"Je ne pensais pas que vous prendriez ma remarque en compte si vite.",positif,support,négation_positive
+495,"Bonne application, quelques bugs mineurs.",mitigé,application,opinion_mixte
+496,"La commande est arrivée le jour dit.",positif,livraison,simple
+497,"Votre service est vraiment une déception.",négatif,general,simple
+498,"Je suis agréablement surpris par les délais.",positif,livraison,simple
+499,"L'appli consomme trop de batterie.",négatif,application,problème
+500,"Bon service, je vous fais confiance.",positif,general,simple
+501,"Le produit correspond exactement à la description.",positif,produit,simple
+502,"Je ne pensais pas que la livraison serait aussi rapide.",positif,livraison,négation_positive
+503,"Votre site est régulièrement en maintenance.",négatif,application,problème
+504,"Le support a pris en charge ma demande immédiatement.",positif,support,simple
+505,"Colis reçu en avance sur les prévisions.",positif,livraison,simple
+506,"Je n'aurais pas commandé là si j'avais eu plus de temps.",mitigé,general,négation_positive
+507,"L'article ressemble à de la contrefaçon.",négatif,produit,problème
+508,"Remboursement reçu conforme.",positif,remboursement,simple
+509,"Votre application mériterait plus de fonctionnalités.",mitigé,application,opinion_mixte
+510,"Je suis très satisfait, le produit est excellent.",positif,produit,simple
+511,"Le service est long mais finalement efficace.",mitigé,support,opinion_mixte
+512,"J'attends toujours une réponse à ma demande.",négatif,support,problème
+513,"La mise à jour a amélioré la vitesse de l'application.",positif,application,simple
+514,"Je n'aurais pas imaginé une réponse aussi rapide.",positif,support,négation_positive
+515,"La livraison est arrivée avec 4 jours de retard.",négatif,livraison,problème
+516,"L'interface est bien pensée.",positif,application,simple
+517,"Votre SAV n'est pas à la hauteur.",négatif,support,problème
+518,"Je ne pensais pas que ce serait aussi simple.",positif,general,négation_positive
+519,"Produit commandé le lundi, reçu le mercredi.",positif,livraison,simple
+520,"Pas convaincu par la robustesse du produit.",mitigé,produit,opinion_mixte
+521,"Le service client m'a orienté vers la bonne solution.",positif,support,simple
+522,"Je n'ai pas reçu l'article offert avec ma commande.",négatif,produit,problème
+523,"L'application est bien optimisée.",positif,application,simple
+524,"J'aurais aimé avoir plus de choix dans les modes de livraison.",mitigé,livraison,opinion_mixte
+525,"Votre service de suivi en temps réel est vraiment pratique.",positif,livraison,simple
+526,"Je ne pensais pas avoir à me plaindre aussi souvent.",négatif,general,négation_positive
+527,"Le produit est très bien conçu.",positif,produit,simple
+528,"Mon paiement a été doublement prélevé.",négatif,paiement,problème
+529,"Je suis ravi de ma commande.",positif,general,simple
+530,"Votre support connaît ses sujets.",positif,support,simple
+531,"La qualité visuelle du produit est très bonne.",positif,produit,simple
+532,"Je ne m'attendais pas à un service de cette qualité.",positif,support,négation_positive
+533,"La livraison a été effectuée comme promis.",positif,livraison,simple
+534,"Votre application consomme trop de données mobiles.",négatif,application,problème
+535,"Je n'ai jamais eu de problème avec votre service.",positif,general,négation_positive
+536,"Le produit est bruyant à l'utilisation.",négatif,produit,problème
+537,"Je suis très content de mon achat.",positif,produit,simple
+538,"Votre service est irréprochable.",positif,general,simple
+539,"Je n'aurais pas pensé avoir un tel niveau de service.",positif,support,négation_positive
+540,"La commande a été bien préparée.",positif,general,simple
+541,"Mon remboursement est parti dans les délais prévus.",positif,remboursement,simple
+542,"Je ne pensais pas que ce produit serait aussi pratique.",positif,produit,négation_positive
+543,"L'application m'a rendu la vie plus simple.",positif,application,simple
+544,"Votre service de livraison a perdu mon colis.",négatif,livraison,problème
+545,"Je n'ai pas eu à attendre plus de 5 minutes au téléphone.",positif,support,négation_positive
+546,"Le produit est bien conçu pour une utilisation quotidienne.",positif,produit,simple
+547,"Votre service après-vente a tout résolu.",positif,support,simple
+548,"Je ne m'attendais pas à un emballage aussi soigné.",positif,produit,négation_positive
+549,"La mise à jour a corrigé les bugs signalés.",positif,application,simple
+550,"Mon compte a été bloqué sans raison.",négatif,administratif,problème
+551,"L'article correspond à la description sur le site.",positif,produit,simple
+552,"Je ne pensais pas être aussi bien traité.",positif,support,négation_positive
+553,"Livraison dans les temps, colis intact.",positif,livraison,simple
+554,"Le service m'a demandé les mêmes informations plusieurs fois.",négatif,support,problème
+555,"Je suis satisfait de la qualité du produit.",positif,produit,simple
+556,"Application bien notée, et ça se confirme à l'usage.",positif,application,simple
+557,"Je n'ai eu aucun souci lors de la commande.",positif,general,négation_positive
+558,"La livraison a été faite avec soin.",positif,livraison,simple
+559,"Votre service est parfois décevant.",mitigé,general,opinion_mixte
+560,"Je ne pensais pas que l'application serait aussi utile.",positif,application,négation_positive
+561,"Le produit ne chauffe pas trop.",positif,produit,simple
+562,"La qualité du service est inégale selon les conseillers.",mitigé,support,opinion_mixte
+563,"Je suis impressionné par la qualité du produit.",positif,produit,simple
+564,"L'application est utile mais elle a encore des défauts.",mitigé,application,opinion_mixte
+565,"Votre site web charge rapidement.",positif,application,simple
+566,"Je ne m'attendais pas à une telle rigueur.",positif,support,négation_positive
+567,"Mon article est arrivé en parfait état.",positif,produit,simple
+568,"Le service client n'est disponible que le matin.",mitigé,support,opinion_mixte
+569,"Je ne pensais pas que le produit serait aussi polyvalent.",positif,produit,négation_positive
+570,"L'application propose maintenant des fonctionnalités avancées.",positif,application,simple
+571,"Je suis déçu par la qualité globale.",négatif,general,simple
+572,"Votre équipe est toujours disponible et aimable.",positif,support,simple
+573,"Je n'avais aucune attente et j'ai été positivement surpris.",positif,produit,négation_positive
+574,"La livraison express coûte trop cher.",mitigé,livraison,opinion_mixte
+575,"Votre service mérite vraiment 5 étoiles.",positif,general,simple
+576,"J'ai reçu un article soldé à prix plein.",négatif,paiement,problème
+577,"Je ne pensais pas que votre service était aussi fiable.",positif,general,négation_positive
+578,"Le service de retour fonctionne bien.",positif,remboursement,simple
+579,"Votre chat en ligne me renvoie toujours vers les FAQ.",négatif,support,problème
+580,"Je suis très satisfait de mon expérience globale.",positif,general,simple
+581,"La qualité du produit est supérieure à ce que j'espérais.",positif,produit,simple
+582,"Je n'aurais pas dû hésiter aussi longtemps.",positif,general,négation_positive
+583,"Votre application est devenue indispensable pour moi.",positif,application,simple
+584,"L'email de confirmation est arrivé en spam.",mitigé,administratif,opinion_mixte
+585,"Je ne pensais pas que la résolution serait si rapide.",positif,support,négation_positive
+586,"Le produit est arrivé bien emballé.",positif,produit,simple
+587,"Votre service dépasse mes attentes.",positif,general,simple
+588,"J'ai eu du mal à trouver l'assistance en ligne.",mitigé,support,opinion_mixte
+589,"Je ne m'attendais pas à ce que le retour soit aussi simple.",positif,remboursement,négation_positive
+590,"Le service est fluide et sans complications.",positif,general,simple
+591,"Votre appli ne synchronise pas les données correctement.",négatif,application,problème
+592,"Je suis très satisfait du service rendu.",positif,support,simple
+593,"La livraison a eu lieu sans encombre.",positif,livraison,simple
+594,"Le produit est solide et de belle facture.",positif,produit,simple
+595,"Je ne pensais pas que la qualité serait aussi constante.",positif,produit,négation_positive
+596,"Mon paiement a pris du temps à être validé.",mitigé,paiement,opinion_mixte
+597,"Je suis content de mon achat.",positif,produit,simple
+598,"Votre équipe est toujours réactive.",positif,support,simple
+599,"Je n'aurais pas imaginé un service aussi personnel.",positif,support,négation_positive
+600,"Application simple et efficace.",positif,application,simple
+601,"Votre service m'a aidé à résoudre mon problème rapidement.",positif,support,simple
+602,"Je n'ai pas eu à relancer mon dossier.",positif,support,négation_positive
+603,"L'article a été livré à l'étage sans supplément.",positif,livraison,simple
+604,"Le service client ne peut pas accéder à mon compte.",négatif,support,problème
+605,"Je suis très content de ma commande.",positif,general,simple
+606,"Votre FAQ est claire et bien organisée.",positif,support,simple
+607,"Je ne m'attendais pas à ce niveau de professionnalisme.",positif,support,négation_positive
+608,"La commande a bien été traitée.",positif,general,simple
+609,"Votre service de chat est plus rapide que le téléphone.",positif,support,simple
+610,"Je suis bluffé par la réactivité de l'équipe.",positif,support,simple
+611,"Le produit est bien fini et agréable en main.",positif,produit,simple
+612,"Je ne pensais pas être remboursé aussi vite.",positif,remboursement,négation_positive
+613,"Le service est régulièrement indisponible le week-end.",négatif,support,problème
+614,"Je suis satisfait de la réactivité du service.",positif,support,simple
+615,"Votre application est l'une des meilleures du marché.",positif,application,simple
+616,"Je n'aurais pas pensé que le produit serait aussi léger.",positif,produit,négation_positive
+617,"La commande a été livrée avant l'heure prévue.",positif,livraison,simple
+618,"Votre service traite les réclamations sérieusement.",positif,support,simple
+619,"Je suis impressionné par la fluidité de l'application.",positif,application,simple
+620,"La commande est arrivée dans les délais.",positif,livraison,simple
+621,"Le suivi de commande est très précis.",positif,livraison,simple
+622,"Je ne pensais pas qu'un retour serait aussi sans contrainte.",positif,remboursement,négation_positive
+623,"Votre service dépasse les attentes.",positif,general,simple
+624,"J'ai apprécié le suivi proactif de ma commande.",positif,support,simple
+625,"Je ne m'attendais pas à un tel soin dans l'emballage.",positif,produit,négation_positive
+626,"Le produit est arrivé en avance.",positif,livraison,simple
+627,"Votre support m'a guidé pas à pas.",positif,support,simple
+628,"Je suis agréablement surpris.",positif,general,simple
+629,"Application légère, rapide, sans bug.",positif,application,simple
+630,"Le remboursement a bien été effectué.",positif,remboursement,simple
+631,"Je ne pensais pas que les délais annoncés seraient respectés.",positif,livraison,négation_positive
+632,"Votre service est exemplaire.",positif,general,simple
+633,"J'ai reçu un double de ma commande par erreur.",mitigé,produit,problème
+634,"Je suis très satisfait du service livraison.",positif,livraison,simple
+635,"L'agent a résolu mon problème en moins de 5 minutes.",positif,support,simple
+636,"Je ne pensais pas avoir une réponse aussi précise.",positif,support,négation_positive
+637,"La qualité de l'emballage est irréprochable.",positif,produit,simple
+638,"Votre service client est toujours disponible.",positif,support,simple
+639,"Je n'aurais pas imaginé commander aussi souvent.",positif,general,négation_positive
+640,"La livraison était en avance, super.",positif,livraison,simple
+641,"Le produit est conforme à la description et aux photos.",positif,produit,simple
+642,"Je suis satisfait mais j'attendais un peu mieux.",mitigé,general,opinion_mixte
+643,"Votre équipe m'a impressionné.",positif,support,simple
+644,"Je ne pensais pas trouver ce produit aussi facilement.",positif,general,négation_positive
+645,"Application fonctionnelle et bien designée.",positif,application,simple
+646,"Le service est fluide, sans accroc.",positif,general,simple
+647,"Je n'ai eu aucun problème avec ma commande.",positif,general,négation_positive
+648,"La commande a été bien gérée de bout en bout.",positif,general,simple
+649,"Le produit est bien sécurisé dans son emballage.",positif,produit,simple
+650,"Je suis très satisfait de la qualité du produit.",positif,produit,simple
+651,"Je ne pensais pas être aussi bien accompagné.",positif,support,négation_positive
+652,"La livraison est rapide et fiable.",positif,livraison,simple
+653,"Votre service est au top !",positif,general,simple
+654,"Je suis impressionné par le professionnalisme.",positif,support,simple
+655,"L'application est vraiment bien faite.",positif,application,simple
+656,"Je ne m'attendais pas à une telle qualité.",positif,produit,négation_positive
+657,"La commande est traitée rapidement.",positif,general,simple
+658,"Votre service est vraiment différent des autres.",positif,general,simple
+659,"Je ne pensais pas être aussi content.",positif,general,négation_positive
+660,"Le service est efficace et sans perte de temps.",positif,general,simple
+661,"Je ne peux pas imaginer faire autrement.",positif,general,négation_positive
+662,"La qualité est vraiment bonne.",positif,produit,simple
+663,"Votre service est fiable et ponctuel.",positif,general,simple
+664,"Je suis très satisfait de l'expérience.",positif,general,simple
+665,"L'appli est bien adaptée à mes besoins.",positif,application,simple
+666,"Je ne pensais pas que ce serait aussi satisfaisant.",positif,general,négation_positive
+667,"La commande est arrivée sans problème.",positif,livraison,simple
+668,"Je suis content de la qualité du service.",positif,support,simple
+669,"L'expérience est fluide et agréable.",positif,general,simple
+670,"Je ne pensais pas trouver une telle qualité.",positif,produit,négation_positive
+671,"La livraison a été parfaitement gérée.",positif,livraison,simple
+672,"Je suis vraiment satisfait de mon expérience.",positif,general,simple
+673,"L'application répond parfaitement à mes attentes.",positif,application,simple
+674,"Je ne m'attendais pas à une telle réactivité.",positif,support,négation_positive
+675,"Le produit est bien adapté à l'usage quotidien.",positif,produit,simple
+676,"Votre service est vraiment à la hauteur.",positif,general,simple
+677,"Je suis très content de l'ensemble.",positif,general,simple
+678,"La qualité de service est constante.",positif,general,simple
+679,"Je ne pensais pas être aussi bien servi.",positif,support,négation_positive
+680,"L'application est pratique et bien conçue.",positif,application,simple
+681,"Je suis satisfait de la livraison.",positif,livraison,simple
+682,"Votre service est toujours à la hauteur.",positif,general,simple
+683,"Je ne m'attendais pas à une résolution aussi rapide.",positif,support,négation_positive
+684,"La commande est arrivée dans les délais prévus.",positif,livraison,simple
+685,"Je suis impressionné par le service rendu.",positif,support,simple
+686,"L'appli est simple et intuitive.",positif,application,simple
+687,"Je ne pensais pas que la livraison serait aussi rapide.",positif,livraison,négation_positive
+688,"Le produit est de qualité, je le recommande.",positif,produit,simple
+689,"Votre service m'a encore impressionné.",positif,general,simple
+690,"Je suis très satisfait de cette commande.",positif,general,simple
+691,"L'application est utile et bien organisée.",positif,application,simple
+692,"Je ne pensais pas que le service serait aussi bon.",positif,general,négation_positive
+693,"La livraison s'est déroulée sans problème.",positif,livraison,simple
+694,"Je suis content du produit reçu.",positif,produit,simple
+695,"Votre service est vraiment efficace.",positif,general,simple
+696,"Je ne m'attendais pas à un tel service.",positif,support,négation_positive
+697,"La commande a été bien préparée et livrée.",positif,general,simple
+698,"Je suis satisfait de la qualité globale.",positif,general,simple
+699,"L'application est rapide et fonctionnelle.",positif,application,simple
+700,"Je ne pensais pas que le produit serait aussi bon.",positif,produit,négation_positive
+701,"Le colis était bien scellé et en parfait état.",positif,produit,simple
+702,"Je n'arrive pas à annuler ma commande en ligne.",négatif,application,problème
+703,"Votre conseiller m'a expliqué clairement la procédure.",positif,support,simple
+704,"Le délai de livraison affiché ne correspond pas à la réalité.",négatif,livraison,problème
+705,"Je suis satisfait de la réponse donnée à ma réclamation.",positif,support,simple
+706,"La page produit ne charge pas les images.",négatif,application,problème
+707,"Je ne pensais pas qu'un retour serait aussi indolore.",positif,remboursement,négation_positive
+708,"Le service m'a écouté et a proposé une vraie solution.",positif,support,simple
+709,"Je suis en attente de mon remboursement depuis 6 semaines.",négatif,remboursement,problème
+710,"L'article reçu est une ancienne version non mentionnée.",négatif,produit,problème
+711,"Je suis très content de la livraison express.",positif,livraison,simple
+712,"Votre service répond toujours présent.",positif,support,simple
+713,"Je n'aurais pas cru que mon problème serait résolu aussi vite.",positif,support,négation_positive
+714,"La commande est en cours de livraison.",neutre,livraison,factuel
+715,"Je suis déçu par la qualité de l'emballage.",négatif,produit,problème
+716,"Le service client a pris note de ma demande.",neutre,support,factuel
+717,"Je n'attendais pas une aussi bonne expérience.",positif,general,négation_positive
+718,"Le produit est arrivé en bon état.",positif,produit,simple
+719,"Votre plateforme est parfois difficile à utiliser.",mitigé,application,opinion_mixte
+720,"Je suis satisfait de la rapidité de la livraison.",positif,livraison,simple
+721,"L'application affiche parfois des erreurs inexpliquées.",mitigé,application,opinion_mixte
+722,"Je ne pensais pas être aussi bien remboursé.",positif,remboursement,négation_positive
+723,"La qualité du produit est irréprochable.",positif,produit,simple
+724,"Votre service dépasse toujours mes attentes.",positif,general,simple
+725,"Je n'ai eu aucun problème lors de ma commande.",positif,general,négation_positive
+726,"La livraison est toujours ponctuelle.",positif,livraison,simple
+727,"Je suis impressionné par la qualité de votre service.",positif,support,simple
+728,"Votre appli est vraiment bien conçue.",positif,application,simple
+729,"Je ne pensais pas que votre service serait aussi irréprochable.",positif,general,négation_positive
+730,"La commande est bien arrivée.",positif,livraison,simple
+731,"Je suis satisfait de votre service.",positif,general,simple
+732,"Le produit est solide et bien conçu.",positif,produit,simple
+733,"Je ne m'attendais pas à un emballage aussi professionnel.",positif,produit,négation_positive
+734,"L'application est stable depuis la mise à jour.",positif,application,simple
+735,"Je suis très content du service client.",positif,support,simple
+736,"La livraison est rapide et sécurisée.",positif,livraison,simple
+737,"Je ne pensais pas qu'un service en ligne pouvait être aussi humain.",positif,support,négation_positive
+738,"Le produit est fonctionnel et bien fini.",positif,produit,simple
+739,"Votre service est vraiment fiable.",positif,general,simple
+740,"Je suis satisfait de mon achat.",positif,general,simple
+741,"L'appli est mise à jour régulièrement.",positif,application,simple
+742,"Je ne pensais pas que vous prendriez mon avis aussi au sérieux.",positif,support,négation_positive
+743,"La livraison a été rapide.",positif,livraison,simple
+744,"Je suis très satisfait de la qualité du service.",positif,support,simple
+745,"Le produit est conforme à mes attentes.",positif,produit,simple
+746,"Votre service est toujours efficace.",positif,general,simple
+747,"Je ne m'attendais pas à être aussi bien accompagné.",positif,support,négation_positive
+748,"La commande est bien packagée.",positif,produit,simple
+749,"Je suis très satisfait.",positif,general,simple
+750,"L'application est agréable à utiliser.",positif,application,simple
+751,"Votre service est honnête et transparent.",positif,general,simple
+752,"Je ne pensais pas que votre équipe serait aussi réactive.",positif,support,négation_positive
+753,"La livraison est toujours dans les délais.",positif,livraison,simple
+754,"Je suis content de la qualité de ce produit.",positif,produit,simple
+755,"Votre service client m'a bien guidé.",positif,support,simple
+756,"Je ne pensais pas trouver un service aussi performant.",positif,general,négation_positive
+757,"La commande a bien été enregistrée.",neutre,administratif,factuel
+758,"Je suis satisfait de la fluidité de l'application.",positif,application,simple
+759,"Le produit est de très bonne qualité.",positif,produit,simple
+760,"Votre service répond toujours à mes besoins.",positif,general,simple
+761,"Je ne m'attendais pas à recevoir mon colis aussi vite.",positif,livraison,négation_positive
+762,"La qualité est au rendez-vous.",positif,produit,simple
+763,"Je suis très content du résultat.",positif,general,simple
+764,"L'appli a amélioré mon expérience d'achat.",positif,application,simple
+765,"Je ne pensais pas que le service serait si complet.",positif,general,négation_positive
+766,"La livraison s'est faite sans problème.",positif,livraison,simple
+767,"Je suis satisfait de la prise en charge de ma demande.",positif,support,simple
+768,"Le produit est léger et facile à utiliser.",positif,produit,simple
+769,"Votre service est vraiment remarquable.",positif,general,simple
+770,"Je ne pensais pas que vous seriez aussi efficaces.",positif,support,négation_positive
+771,"La commande est arrivée dans un délai raisonnable.",positif,livraison,simple
+772,"Je suis satisfait de l'ensemble de mon expérience.",positif,general,simple
+773,"L'application est bien intégrée à mon quotidien.",positif,application,simple
+774,"Je ne m'attendais pas à un service aussi pro.",positif,support,négation_positive
+775,"La qualité du produit justifie son prix.",positif,produit,simple
+776,"Votre service est dans les standards les plus élevés.",positif,general,simple
+777,"Je suis très satisfait de la fluidité du service.",positif,general,simple
+778,"L'appli est parfaitement responsive.",positif,application,simple
+779,"Je ne pensais pas que ce serait aussi efficace.",positif,general,négation_positive
+780,"La livraison est toujours de qualité.",positif,livraison,simple
+781,"Je suis content de la façon dont ma réclamation a été gérée.",positif,support,simple
+782,"Le produit est solide et de qualité.",positif,produit,simple
+783,"Votre service est exemplaire dans sa gestion des retours.",positif,remboursement,simple
+784,"Je ne pensais pas que le processus serait aussi simple.",positif,general,négation_positive
+785,"La commande a bien été traitée dans les délais.",positif,general,simple
+786,"Je suis satisfait de la qualité du remboursement.",positif,remboursement,simple
+787,"L'appli est claire et lisible.",positif,application,simple
+788,"Je ne m'attendais pas à autant de soin.",positif,produit,négation_positive
+789,"La livraison est ponctuelle et soignée.",positif,livraison,simple
+790,"Je suis impressionné par la cohérence du service.",positif,general,simple
+791,"L'application est fiable et rapide.",positif,application,simple
+792,"Je ne pensais pas que la livraison serait aussi réussie.",positif,livraison,négation_positive
+793,"Le produit est agréable à utiliser.",positif,produit,simple
+794,"Votre service m'a convaincu de revenir.",positif,general,simple
+795,"Je suis très satisfait du suivi de ma commande.",positif,livraison,simple
+796,"L'appli dispose de toutes les fonctionnalités dont j'ai besoin.",positif,application,simple
+797,"Je ne pensais pas trouver un tel niveau de service.",positif,general,négation_positive
+798,"La livraison était soignée et rapide.",positif,livraison,simple
+799,"Je suis content du service de bout en bout.",positif,general,simple
+800,"Le produit est conforme et de qualité.",positif,produit,simple
+801,"J'ai reçu une notification de livraison mais le colis n'est pas là.",négatif,livraison,problème
+802,"Le service client a bien géré ma demande urgente.",positif,support,simple
+803,"Je ne m'attendais pas à un tel souci du détail.",positif,produit,négation_positive
+804,"Mon abonnement a été résilié par erreur.",négatif,administratif,problème
+805,"L'agent m'a proposé une solution adaptée.",positif,support,simple
+806,"Je ne pensais pas qu'on pouvait aussi bien gérer un retour.",positif,remboursement,négation_positive
+807,"Le produit s'use plus vite que prévu.",négatif,produit,problème
+808,"Je suis très content de l'accompagnement reçu.",positif,support,simple
+809,"Votre service a su dépasser mes attentes.",positif,general,simple
+810,"Je n'aurais pas imaginé une prise en charge aussi rapide.",positif,support,négation_positive
+811,"La commande a été annulée et remboursée rapidement.",positif,remboursement,simple
+812,"Je ne pensais pas qu'il y aurait autant d'options de livraison.",positif,livraison,négation_positive
+813,"Votre application m'a fait gagner beaucoup de temps.",positif,application,simple
+814,"Je suis très satisfait du produit et du service.",positif,general,simple
+815,"L'agent m'a bien orienté malgré la complexité.",positif,support,simple
+816,"Je ne m'attendais pas à avoir aussi peu de problèmes.",positif,general,négation_positive
+817,"La livraison est arrivée avec un jour d'avance.",positif,livraison,simple
+818,"Je suis content du niveau de service.",positif,support,simple
+819,"Votre appli facilite vraiment mes achats.",positif,application,simple
+820,"Je ne pensais pas qu'un service en ligne serait aussi fiable.",positif,general,négation_positive
+821,"Le colis est arrivé propre et bien fermé.",positif,livraison,simple
+822,"Je suis très satisfait de la façon dont ma réclamation a été prise en charge.",positif,support,simple
+823,"L'application est la meilleure que j'ai utilisée.",positif,application,simple
+824,"Je ne m'attendais pas à ce que ce soit aussi pratique.",positif,general,négation_positive
+825,"Le produit est top, rien à redire.",positif,produit,simple
+826,"Votre service est vraiment différenciant.",positif,general,simple
+827,"Je ne pensais pas que votre équipe résoudrait le problème aussi facilement.",positif,support,négation_positive
+828,"La livraison était rapide et bien organisée.",positif,livraison,simple
+829,"Je suis très satisfait du remboursement.",positif,remboursement,simple
+830,"L'appli est vraiment bien pensée.",positif,application,simple
+831,"Je ne m'attendais pas à une telle fluidité.",positif,general,négation_positive
+832,"Le produit est élégant et fonctionnel.",positif,produit,simple
+833,"Votre service est vraiment de qualité.",positif,general,simple
+834,"Je ne pensais pas que la commande serait traitée si vite.",positif,general,négation_positive
+835,"La livraison est toujours soignée.",positif,livraison,simple
+836,"Je suis très satisfait du produit et de la livraison.",positif,general,simple
+837,"L'appli est très bien adaptée à l'utilisation mobile.",positif,application,simple
+838,"Je ne pensais pas que votre service serait aussi attentif.",positif,support,négation_positive
+839,"Le produit dépasse mes attentes en termes de qualité.",positif,produit,simple
+840,"Je suis impressionné par l'attention portée à chaque détail.",positif,general,simple
+841,"Votre service m'a facilité la vie.",positif,general,simple
+842,"Je ne m'attendais pas à une telle cohérence.",positif,general,négation_positive
+843,"La livraison est arrivée dans les délais annoncés.",positif,livraison,simple
+844,"Je suis très satisfait du service client.",positif,support,simple
+845,"L'application est toujours à jour.",positif,application,simple
+846,"Je ne pensais pas que vous seriez aussi à l'écoute.",positif,support,négation_positive
+847,"La qualité du service est remarquable.",positif,general,simple
+848,"Je suis satisfait du remboursement rapide.",positif,remboursement,simple
+849,"L'appli est claire et bien structurée.",positif,application,simple
+850,"Je ne pensais pas que votre service serait aussi compétent.",positif,support,négation_positive
+851,"La livraison était dans les temps et le colis intact.",positif,livraison,simple
+852,"Je suis satisfait de la transparence du service.",positif,general,simple
+853,"L'application facilite vraiment mes achats quotidiens.",positif,application,simple
+854,"Je ne pensais pas que ce serait aussi bien organisé.",positif,general,négation_positive
+855,"Le produit est de qualité supérieure.",positif,produit,simple
+856,"Votre service est toujours réactif.",positif,support,simple
+857,"Je ne m'attendais pas à un produit aussi bien fini.",positif,produit,négation_positive
+858,"La commande a été livrée rapidement.",positif,livraison,simple
+859,"Je suis très satisfait de l'ensemble du service.",positif,general,simple
+860,"L'appli est bien optimisée pour mobile.",positif,application,simple
+861,"Je ne pensais pas que votre service serait aussi rapide.",positif,support,négation_positive
+862,"Le produit est de très haute qualité.",positif,produit,simple
+863,"Votre service mérite d'être recommandé.",positif,general,simple
+864,"Je suis très satisfait de mon expérience globale.",positif,general,simple
+865,"L'application est rapide, stable et utile.",positif,application,simple
+866,"Je ne pensais pas trouver une telle qualité de service.",positif,general,négation_positive
+867,"La livraison était rapide et fiable.",positif,livraison,simple
+868,"Je suis content de la qualité du produit livré.",positif,produit,simple
+869,"Votre service client est accessible et compétent.",positif,support,simple
+870,"Je ne m'attendais pas à une telle efficacité.",positif,general,négation_positive
+871,"La commande est arrivée en parfait état.",positif,produit,simple
+872,"Je suis très satisfait du service rendu.",positif,support,simple
+873,"L'appli est complète et bien conçue.",positif,application,simple
+874,"Je ne pensais pas que la livraison serait aussi bien gérée.",positif,livraison,négation_positive
+875,"Le produit est bien adapté à mes besoins.",positif,produit,simple
+876,"Votre service est dans les meilleurs.",positif,general,simple
+877,"Je ne m'attendais pas à tant de soin dans le service.",positif,support,négation_positive
+878,"La livraison a été parfaite.",positif,livraison,simple
+879,"Je suis très satisfait de la qualité globale.",positif,general,simple
+880,"L'application est très réactive.",positif,application,simple
+881,"Je ne pensais pas que le produit serait aussi durable.",positif,produit,négation_positive
+882,"Le service est de qualité et je le recommande.",positif,general,simple
+883,"Votre équipe est professionnelle et efficace.",positif,support,simple
+884,"Je ne m'attendais pas à une réactivité aussi grande.",positif,support,négation_positive
+885,"La livraison était rapide et bien emballée.",positif,livraison,simple
+886,"Je suis très content de mon expérience.",positif,general,simple
+887,"L'appli est bien pensée pour les utilisateurs réguliers.",positif,application,simple
+888,"Je ne pensais pas que votre service était aussi complet.",positif,general,négation_positive
+889,"Le produit est solide et pratique.",positif,produit,simple
+890,"Votre service est irréprochable.",positif,general,simple
+891,"Je ne m'attendais pas à autant d'efficacité.",positif,general,négation_positive
+892,"La livraison est fiable et rapide.",positif,livraison,simple
+893,"Je suis très satisfait de la qualité.",positif,produit,simple
+894,"L'application est excellente dans son domaine.",positif,application,simple
+895,"Je ne pensais pas que votre équipe serait aussi disponible.",positif,support,négation_positive
+896,"Le produit est beau et fonctionnel.",positif,produit,simple
+897,"Votre service est à la hauteur de sa réputation.",positif,general,simple
+898,"Je ne m'attendais pas à un tel niveau de service.",positif,support,négation_positive
+899,"La livraison est toujours dans les délais.",positif,livraison,simple
+900,"Je suis très satisfait de votre service.",positif,general,simple
+901,"L'appli répond parfaitement à mes attentes.",positif,application,simple
+902,"Je ne pensais pas trouver un service aussi fiable.",positif,general,négation_positive
+903,"Le produit est conforme et bien conçu.",positif,produit,simple
+904,"Votre service est vraiment au top.",positif,general,simple
+905,"Je ne m'attendais pas à une telle qualité de produit.",positif,produit,négation_positive
+906,"La livraison est toujours rapide.",positif,livraison,simple
+907,"Je suis très satisfait de l'expérience d'achat.",positif,general,simple
+908,"L'application est utile et bien organisée.",positif,application,simple
+909,"Je ne pensais pas que le service serait aussi humain.",positif,support,négation_positive
+910,"Le produit est de qualité et bien fini.",positif,produit,simple
+911,"Votre service est efficace et fiable.",positif,general,simple
+912,"Je ne m'attendais pas à un tel professionnalisme.",positif,support,négation_positive
+913,"La livraison est soignée et rapide.",positif,livraison,simple
+914,"Je suis très satisfait du produit reçu.",positif,produit,simple
+915,"L'appli est parfaitement adaptée à mon usage.",positif,application,simple
+916,"Je ne pensais pas être aussi bien pris en charge.",positif,support,négation_positive
+917,"Le produit est élégant et de qualité.",positif,produit,simple
+918,"Votre service dépasse toujours les attentes.",positif,general,simple
+919,"Je ne m'attendais pas à autant de satisfaction.",positif,general,négation_positive
+920,"La livraison était parfaite du début à la fin.",positif,livraison,simple
+921,"Je suis très satisfait de la réactivité du service.",positif,support,simple
+922,"L'application est une vraie réussite.",positif,application,simple
+923,"Je ne pensais pas que votre service serait aussi bien noté à juste titre.",positif,general,négation_positive
+924,"Le produit est exactement ce que je cherchais.",positif,produit,simple
+925,"Votre service est dans les meilleurs de sa catégorie.",positif,general,simple
+926,"Je ne m'attendais pas à une aussi bonne expérience.",positif,general,négation_positive
+927,"La livraison est dans les délais et bien emballée.",positif,livraison,simple
+928,"Je suis très satisfait du service client.",positif,support,simple
+929,"L'appli est fluide et sans bugs.",positif,application,simple
+930,"Je ne pensais pas que votre service serait aussi apprécié.",positif,general,négation_positive
+931,"Le produit est bien conçu et agréable à utiliser.",positif,produit,simple
+932,"Votre service est fiable et réactif.",positif,general,simple
+933,"Je ne m'attendais pas à autant de fluidité.",positif,general,négation_positive
+934,"La livraison est ponctuelle.",positif,livraison,simple
+935,"Je suis très satisfait du produit et du support.",positif,general,simple
+936,"L'application est bien adaptée à toutes les plateformes.",positif,application,simple
+937,"Je ne pensais pas que votre service serait aussi accessible.",positif,general,négation_positive
+938,"Le produit est robuste et de belle qualité.",positif,produit,simple
+939,"Votre service est vraiment un modèle.",positif,general,simple
+940,"Je ne m'attendais pas à une telle disponibilité.",positif,support,négation_positive
+941,"La livraison était dans les temps et soignée.",positif,livraison,simple
+942,"Je suis très satisfait de mon achat en ligne.",positif,general,simple
+943,"L'appli est simple à prendre en main.",positif,application,simple
+944,"Je ne pensais pas que votre service serait aussi impressionnant.",positif,general,négation_positive
+945,"Le produit est fonctionnel et bien pensé.",positif,produit,simple
+946,"Votre service est excellent à tous les niveaux.",positif,general,simple
+947,"Je ne m'attendais pas à une aussi bonne qualité de service.",positif,support,négation_positive
+948,"La livraison est rapide, fiable et soignée.",positif,livraison,simple
+949,"Je suis très satisfait de la qualité du produit.",positif,produit,simple
+950,"L'application est vraiment bien réalisée.",positif,application,simple
+951,"Je ne pensais pas que votre service serait aussi performant.",positif,general,négation_positive
+952,"Le produit est solide et bien finalisé.",positif,produit,simple
+953,"Votre service est dans les meilleurs que j'ai essayés.",positif,general,simple
+954,"Je ne m'attendais pas à un service aussi soigné.",positif,support,négation_positive
+955,"La livraison était rapide et le colis en bon état.",positif,livraison,simple
+956,"Je suis très satisfait de l'ensemble.",positif,general,simple
+957,"L'appli est fiable et bien pensée.",positif,application,simple
+958,"Je ne pensais pas que votre service serait aussi satisfaisant.",positif,general,négation_positive
+959,"Le produit est de qualité et conforme.",positif,produit,simple
+960,"Votre service est vraiment bien organisé.",positif,general,simple
+961,"Je ne m'attendais pas à autant de rigueur.",positif,support,négation_positive
+962,"La livraison est soignée et rapide.",positif,livraison,simple
+963,"Je suis très satisfait du service dans son ensemble.",positif,general,simple
+964,"L'application est bien conçue et utile.",positif,application,simple
+965,"Je ne pensais pas trouver un service aussi bien noté.",positif,general,négation_positive
+966,"Le produit est conforme à la description et de qualité.",positif,produit,simple
+967,"Votre service est au sommet.",positif,general,simple
+968,"Je ne m'attendais pas à un tel niveau de satisfaction.",positif,general,négation_positive
+969,"La livraison est toujours bien gérée.",positif,livraison,simple
+970,"Je suis très satisfait du produit commandé.",positif,produit,simple
+971,"L'appli est simple et efficace.",positif,application,simple
+972,"Je ne pensais pas que votre service serait aussi bien structuré.",positif,general,négation_positive
+973,"Le produit est léger et bien fini.",positif,produit,simple
+974,"Votre service est vraiment au niveau.",positif,general,simple
+975,"Je ne m'attendais pas à autant de satisfaction.",positif,general,négation_positive
+976,"La livraison est rapide et de qualité.",positif,livraison,simple
+977,"Je suis très satisfait de votre service client.",positif,support,simple
+978,"L'application est vraiment excellente.",positif,application,simple
+979,"Je ne pensais pas trouver un tel service.",positif,general,négation_positive
+980,"Le produit est bien conçu et de qualité.",positif,produit,simple
+981,"Votre service est fiable et efficace.",positif,general,simple
+982,"Je ne m'attendais pas à une telle qualité de livraison.",positif,livraison,négation_positive
+983,"La livraison est ponctuelle et soignée.",positif,livraison,simple
+984,"Je suis très satisfait de la qualité de l'application.",positif,application,simple
+985,"L'appli est bien adaptée à tous les utilisateurs.",positif,application,simple
+986,"Je ne pensais pas que votre service serait aussi bien.",positif,general,négation_positive
+987,"Le produit est de qualité, conforme et fonctionnel.",positif,produit,simple
+988,"Votre service est irréprochable dans tous les domaines.",positif,general,simple
+989,"Je ne m'attendais pas à autant de compétence.",positif,support,négation_positive
+990,"La livraison était parfaite.",positif,livraison,simple
+991,"Je suis très satisfait de l'expérience complète.",positif,general,simple
+992,"L'application est excellente et bien conçue.",positif,application,simple
+993,"Je ne pensais pas trouver un service aussi complet.",positif,general,négation_positive
+994,"Le produit est vraiment de qualité.",positif,produit,simple
+995,"Votre service est vraiment dans les meilleurs.",positif,general,simple
+996,"Je ne m'attendais pas à autant de satisfaction globale.",positif,general,négation_positive
+997,"La livraison est fiable, rapide et soignée.",positif,livraison,simple
+998,"Je suis très satisfait de votre service dans l'ensemble.",positif,general,simple
+999,"L'appli est bien conçue, intuitive et rapide.",positif,application,simple
+1000,"Je ne pensais pas qu'un service en ligne pouvait être aussi parfait.",positif,general,négation_positive

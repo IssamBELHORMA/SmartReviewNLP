@@ -1,0 +1,11 @@
+id,avis,label,categorie,difficulte
+1,"Le service client a été très rapide et très professionnel.",positif,support,simple
+2,"Je suis très déçu, ma commande est arrivée cassée.",négatif,produit,simple
+3,"Votre demande a été enregistrée.",neutre,administratif,simple
+4,"Le produit est bon mais la livraison a été beaucoup trop longue.",mitigé,livraison,opinion_mixte
+5,"Super, encore une panne de l'application.",négatif,application,sarcasme
+6,"Commande reçue aujourd'hui.",neutre,livraison,factuel
+7,"Paiement refusé alors que ma carte fonctionne ailleurs.",négatif,paiement,problème
+8,"Pas mal du tout, je pensais être déçu.",positif,general,négation_positive
+9,"Le remboursement est enfin arrivé après trois semaines.",mitigé,remboursement,opinion_mixte
+10,"Application claire, rapide et agréable à utiliser.",positif,application,simple

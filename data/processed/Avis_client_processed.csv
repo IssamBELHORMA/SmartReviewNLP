@@ -1,0 +1,1001 @@
+id,avis,label,categorie,difficulte,clean_avis,tokens_count,text_without_stopwords,processed_avis
+1,Le service client a été très rapide et très professionnel.,positif,support,simple,le service client a été très rapide et très professionnel,10,service client été rapide professionnel,service client éter rapide professionnel
+2,"Je suis très déçu, ma commande est arrivée cassée.",négatif,produit,simple,je suis très déçu ma commande est arrivée cassée,9,suis déçu commande arrivée cassée,suis décevoir commande arriver casser
+3,Votre demande a été enregistrée.,neutre,administratif,simple,votre demande a été enregistrée,5,demande été enregistrée,demande éter enregistrer
+4,Le produit est bon mais la livraison a été beaucoup trop longue.,mitigé,livraison,opinion_mixte,le produit est bon mais la livraison a été beaucoup trop longue,12,produit bon livraison été beaucoup trop longue,produit bon livraison éter beaucoup trop long
+5,"Super, encore une panne de l'application.",négatif,application,sarcasme,super encore une panne de l'application,6,super encore panne l'application,super encore panne l'application
+6,Commande reçue aujourd'hui.,neutre,livraison,factuel,commande reçue aujourd'hui,3,commande reçue aujourd'hui,commande recevoir aujourd'hui
+7,Paiement refusé alors que ma carte fonctionne ailleurs.,négatif,paiement,problème,paiement refusé alors que ma carte fonctionne ailleurs,8,paiement refusé alors carte fonctionne ailleurs,paie refuser alors carte fonctionne ailleurs
+8,"Pas mal du tout, je pensais être déçu.",positif,general,négation_positive,pas mal du tout je pensais être déçu,8,pas mal pensais déçu,pas mal pensais décevoir
+9,Le remboursement est enfin arrivé après trois semaines.,mitigé,remboursement,opinion_mixte,le remboursement est enfin arrivé après trois semaines,8,remboursement enfin arrivé après trois semaines,rembourse enfin arriver après trois semaines
+10,"Application claire, rapide et agréable à utiliser.",positif,application,simple,application claire rapide et agréable à utiliser,7,application claire rapide agréable utiliser,application claire rapide agréable utiliser
+11,Mon colis a été livré à la mauvaise adresse.,négatif,livraison,problème,mon colis a été livré à la mauvaise adresse,9,colis été livré mauvaise adresse,colis éter livrer mauvaise adresse
+12,Le technicien est intervenu dans les délais prévus.,positif,support,simple,le technicien est intervenu dans les délais prévus,8,technicien intervenu délais prévus,technicien intervenu délais prévus
+13,Facture reçue par email.,neutre,administratif,factuel,facture reçue par email,4,facture reçue email,facture recevoir email
+14,Je n'arrive pas à me connecter à mon compte depuis deux jours.,négatif,application,problème,je n'arrive pas à me connecter à mon compte depuis deux jours,12,n'arrive pas connecter compte depuis deux jours,n'arrive pas connecter compte depuis deux jours
+15,Le produit correspond parfaitement à la description.,positif,produit,simple,le produit correspond parfaitement à la description,7,produit correspond parfaitement description,produit correspond parfaite description
+16,Trop cher pour ce que c'est.,négatif,produit,opinion_mixte,trop cher pour ce que c'est,6,trop cher c'est,trop cher c'est
+17,Remboursement effectué sous 5 jours ouvrés.,neutre,remboursement,factuel,remboursement effectué sous 5 jours ouvrés,5,remboursement effectué jours ouvrés,rembourse effectuer jours ouvréer
+18,Franchement bluffé par la qualité de l'emballage.,positif,produit,simple,franchement bluffé par la qualité de l'emballage,7,franchement bluffé qualité l'emballage,franche bluffer qualiter l'emballage
+19,Mon conseiller n'a pas su répondre à mes questions.,négatif,support,problème,mon conseiller n'a pas su répondre à mes questions,9,conseiller n'a pas su répondre questions,conseiller n'a pas su répondre questions
+20,L'interface est intuitive mais il manque quelques fonctionnalités.,mitigé,application,opinion_mixte,l'interface est intuitive mais il manque quelques fonctionnalités,8,l'interface intuitive manque quelques fonctionnalités,l'interface intuitive manque quelques fonctionnalitéer
+21,Bravo pour la rapidité de traitement de mon dossier !,positif,administratif,simple,bravo pour la rapidité de traitement de mon dossier,9,bravo rapidité traitement dossier,bravo rapiditer traite dossier
+22,"Troisième fois que je commande, toujours satisfait.",positif,general,simple,troisième fois que je commande toujours satisfait,7,troisième fois commande toujours satisfait,troisième fois commande toujours satisfaire
+23,"Je suis censé recevoir une réponse sous 48h, on attend toujours.",négatif,support,sarcasme,je suis censé recevoir une réponse sous 48h on attend toujours,11,suis censé recevoir réponse on attend toujours,suis censer recevoir réponse on attend toujours
+24,"Mise à jour reçue, merci.",neutre,application,factuel,mise à jour reçue merci,5,mise jour reçue merci,mise jour recevoir merci
+25,La couleur ne correspond pas du tout aux photos.,négatif,produit,problème,la couleur ne correspond pas du tout aux photos,9,couleur ne correspond pas photos,couleur ne correspond pas photos
+26,"Délai de livraison annoncé 3 jours, reçu en 6.",négatif,livraison,problème,délai de livraison annoncé 3 jours reçu en 6,7,délai livraison annoncé jours reçu,délai livraison annoncer jours recevoir
+27,"L'article est honnêtement bien, rapport qualité-prix correct.",mitigé,produit,opinion_mixte,l'article est honnêtement bien rapport qualité prix correct,8,l'article honnêtement rapport qualité prix correct,l'article honnête rapport qualiter prix correct
+28,Mon compte a été créé avec succès.,neutre,administratif,factuel,mon compte a été créé avec succès,7,compte été créé succès,compte éter créer succès
+29,Je n'aurais pas pensé être aussi content de cet achat.,positif,produit,négation_positive,je n'aurais pas pensé être aussi content de cet achat,10,n'aurais pas pensé content achat,n'aurais pas penser content achat
+30,Application impossible à utiliser sur Android.,négatif,application,problème,application impossible à utiliser sur android,6,application impossible utiliser android,application impossible utiliser android
+31,"Votre service est au top, continuez comme ça !",positif,support,simple,votre service est au top continuez comme ça,8,service top continuez ça,service top continuez ça
+32,"Livraison express, parfaite.",positif,livraison,simple,livraison express parfaite,3,livraison express parfaite,livraison express parfaite
+33,Prélèvement effectué deux fois sur mon compte.,négatif,paiement,problème,prélèvement effectué deux fois sur mon compte,7,prélèvement effectué deux fois compte,prélève effectuer deux fois compte
+34,Pas exactement ce que j'attendais mais ça fera l'affaire.,mitigé,produit,opinion_mixte,pas exactement ce que j'attendais mais ça fera l'affaire,9,pas exactement j'attendais ça fera l'affaire,pas exacte j'attendais ça fera l'affaire
+35,"Ah oui, super, encore un bug au moment du paiement.",négatif,paiement,sarcasme,ah oui super encore un bug au moment du paiement,10,ah oui super encore bug moment paiement,ah oui super encore bug moment paie
+36,Dossier transmis à notre équipe technique.,neutre,administratif,factuel,dossier transmis à notre équipe technique,6,dossier transmis équipe technique,dossier transmis équipe technique
+37,Quelle réactivité ! Réponse reçue en moins d'une heure.,positif,support,simple,quelle réactivité réponse reçue en moins d'une heure,8,quelle réactivité réponse reçue d'une heure,quelle réactiviter réponse recevoir d'une heure
+38,Le produit est arrivé sans notice d'utilisation.,négatif,produit,problème,le produit est arrivé sans notice d'utilisation,7,produit arrivé notice d'utilisation,produit arriver notice d'utilisation
+39,Je ne m'attendais pas à un service aussi soigné.,positif,support,négation_positive,je ne m'attendais pas à un service aussi soigné,9,ne m'attendais pas service soigné,ne m'attendais pas service soigner
+40,La page de paiement plante systématiquement.,négatif,application,problème,la page de paiement plante systématiquement,6,page paiement plante systématiquement,page paie plante systématique
+41,Commande annulée comme demandé.,neutre,administratif,factuel,commande annulée comme demandé,4,commande annulée demandé,commande annuler demander
+42,"Le packaging est vraiment soin, on sent l'attention portée aux détails.",positif,produit,simple,le packaging est vraiment soin on sent l'attention portée aux détails,11,packaging vraiment soin on sent l'attention portée détails,packaging vrai soin on sent l'attention porter détails
+43,J'aurais aimé être prévenu du retard par un email.,mitigé,livraison,opinion_mixte,j'aurais aimé être prévenu du retard par un email,9,j'aurais aimé prévenu retard email,j'aurais aimer prévenu retard email
+44,"Impossible de parler à un humain, que des bots.",négatif,support,problème,impossible de parler à un humain que des bots,9,impossible parler humain bots,impossible parler humain bots
+45,"Bon produit, livraison un peu longue, dans l'ensemble satisfait.",mitigé,general,opinion_mixte,bon produit livraison un peu longue dans l'ensemble satisfait,9,bon produit livraison peu longue l'ensemble satisfait,bon produit livraison peu long l'ensemble satisfaire
+46,Votre assistant virtuel ne comprend rien à mes questions.,négatif,application,problème,votre assistant virtuel ne comprend rien à mes questions,9,assistant virtuel ne comprend rien questions,assistant virtuel ne comprend rien questions
+47,"Ticket de support ouvert le 3, toujours sans réponse le 10.",négatif,support,problème,ticket de support ouvert le 3 toujours sans réponse le 10,9,ticket support ouvert toujours réponse,ticket support ouvert toujours réponse
+48,Mes points de fidélité ont bien été crédités.,neutre,administratif,factuel,mes points de fidélité ont bien été crédités,8,points fidélité été crédités,points fidéliter éter créditéer
+49,"Super application, je l'utilise tous les jours.",positif,application,simple,super application je l'utilise tous les jours,7,super application l'utilise tous jours,super application l'utilise tous jours
+50,Le livreur a laissé le colis devant la porte sans sonner.,mitigé,livraison,opinion_mixte,le livreur a laissé le colis devant la porte sans sonner,11,livreur laissé colis devant porte sonner,livreur laisser colis devant porte sonner
+51,Je ne pensais pas que ça marcherait si bien.,positif,produit,négation_positive,je ne pensais pas que ça marcherait si bien,9,ne pensais pas ça marcherait,ne pensais pas ça marcherait
+52,"Paiement en plusieurs fois disponible, c'est appréciable.",positif,paiement,simple,paiement en plusieurs fois disponible c'est appréciable,7,paiement plusieurs fois disponible c'est appréciable,paie plusieurs fois disponible c'est appréciable
+53,"On m'a dit que je serais remboursé, j'attends encore.",négatif,remboursement,problème,on m'a dit que je serais remboursé j'attends encore,9,on m'a dit serais remboursé j'attends encore,on m'a dit serais rembourser j'attends encore
+54,Le chat en ligne est utile mais les réponses sont trop génériques.,mitigé,support,opinion_mixte,le chat en ligne est utile mais les réponses sont trop génériques,12,chat ligne utile réponses trop génériques,chat ligne utile réponses trop génériques
+55,Numéro de suivi non fonctionnel depuis 4 jours.,négatif,livraison,problème,numéro de suivi non fonctionnel depuis 4 jours,7,numéro suivi non fonctionnel depuis jours,numéro suivi non fonctionnel depuis jours
+56,Formulaire de réclamation envoyé.,neutre,administratif,factuel,formulaire de réclamation envoyé,4,formulaire réclamation envoyé,formulaire réclamation envoyer
+57,Je suis agréablement surpris par la qualité du tissu.,positif,produit,simple,je suis agréablement surpris par la qualité du tissu,9,suis agréablement surpris qualité tissu,suis agréable surpris qualiter tissu
+58,Votre politique de retour est un vrai parcours du combattant.,négatif,remboursement,problème,votre politique de retour est un vrai parcours du combattant,10,politique retour vrai parcours combattant,politique retour vrai parcours combattant
+59,Retour pris en charge sans problème.,positif,remboursement,simple,retour pris en charge sans problème,6,retour pris charge problème,retour pris charge problème
+60,Encore un email automatique sans réponse à ma vraie question.,négatif,support,sarcasme,encore un email automatique sans réponse à ma vraie question,10,encore email automatique réponse vraie question,encore email automatique réponse vraie question
+61,"Application mise à jour ce matin, tout fonctionne maintenant.",positif,application,simple,application mise à jour ce matin tout fonctionne maintenant,9,application mise jour matin fonctionne maintenant,application mise jour matin fonctionne maintenant
+62,La taille est conforme au guide des tailles.,neutre,produit,factuel,la taille est conforme au guide des tailles,8,taille conforme guide tailles,taille conforme guide tailles
+63,Mon problème a finalement été résolu après plusieurs échanges.,mitigé,support,opinion_mixte,mon problème a finalement été résolu après plusieurs échanges,9,problème finalement été résolu après plusieurs échanges,problème finale éter résolu après plusieurs échanges
+64,Je n'ai jamais eu de problème avec vos livraisons.,positif,livraison,négation_positive,je n'ai jamais eu de problème avec vos livraisons,9,n'ai jamais eu problème livraisons,n'ai jamais eu problème livraisons
+65,"Le service après-vente est débordé, délais d'attente énormes.",négatif,support,problème,le service après vente est débordé délais d'attente énormes,9,service après vente débordé délais d'attente énormes,service après vente déborder délais d'attente énormes
+66,"Produit reçu en parfait état, conforme à la commande.",positif,produit,simple,produit reçu en parfait état conforme à la commande,9,produit reçu parfait état conforme commande,produit recevoir parfait état conforme commande
+67,J'ai dû appeler trois fois avant d'obtenir une réponse.,négatif,support,problème,j'ai dû appeler trois fois avant d'obtenir une réponse,9,j'ai dû appeler trois fois avant d'obtenir réponse,j'ai dû appeler trois fois avant d'obtenir réponse
+68,Votre appli est la seule que j'utilise pour mes achats.,positif,application,simple,votre appli est la seule que j'utilise pour mes achats,10,appli seule j'utilise achats,appli seule j'utilise achats
+69,"Remboursement partiel effectué, on attend la suite.",mitigé,remboursement,opinion_mixte,remboursement partiel effectué on attend la suite,7,remboursement partiel effectué on attend suite,rembourse partiel effectuer on attend suite
+70,"Votre site est en maintenance depuis hier, génial.",négatif,application,sarcasme,votre site est en maintenance depuis hier génial,8,site maintenance depuis hier génial,site maintenance depuis hier génial
+71,Carte cadeau activée avec succès.,neutre,administratif,factuel,carte cadeau activée avec succès,5,carte cadeau activée succès,carte cadeau activer succès
+72,"Le produit est exactement comme sur les photos, très belle qualité.",positif,produit,simple,le produit est exactement comme sur les photos très belle qualité,11,produit exactement photos belle qualité,produit exacte photos belle qualiter
+73,"Suivi de commande peu précis, on ne sait pas où est le colis.",mitigé,livraison,opinion_mixte,suivi de commande peu précis on ne sait pas où est le colis,13,suivi commande peu précis on ne sait pas colis,suivi commande peu précis on ne sait pas colis
+74,J'ai été surpris en mal par la durée d'attente.,négatif,support,simple,j'ai été surpris en mal par la durée d'attente,9,j'ai été surpris mal durée d'attente,j'ai éter surpris mal durer d'attente
+75,"Options de paiement variées, c'est pratique.",positif,paiement,simple,options de paiement variées c'est pratique,6,options paiement variées c'est pratique,options paie variéer c'est pratique
+76,"Livraison à domicile non respectée, colis en point relais.",négatif,livraison,problème,livraison à domicile non respectée colis en point relais,9,livraison domicile non respectée colis point relais,livraison domicile non respecter colis point relais
+77,Votre équipe a fait un excellent travail sur mon dossier.,positif,support,simple,votre équipe a fait un excellent travail sur mon dossier,10,équipe fait excellent travail dossier,équipe fait excellent travail dossier
+78,Je n'aurais pas commandé si j'avais su les délais réels.,négatif,livraison,négation_positive,je n'aurais pas commandé si j'avais su les délais réels,10,n'aurais pas commandé j'avais su délais réels,n'aurais pas commander j'avais su délais réels
+79,Tout s'est passé comme prévu.,neutre,general,factuel,tout s'est passé comme prévu,5,s'est passé prévu,s'est passer prévu
+80,Les frais de livraison sont honnêtes.,mitigé,livraison,opinion_mixte,les frais de livraison sont honnêtes,6,frais livraison honnêtes,frais livraison honnêtes
+81,Mon compte a été piraté et votre support n'a pas pris ça au sérieux.,négatif,support,problème,mon compte a été piraté et votre support n'a pas pris ça au sérieux,14,compte été piraté support n'a pas pris ça sérieux,compte éter pirater support n'a pas pris ça sérieux
+82,"Bel emballage, produit solide, je recommande.",positif,produit,simple,bel emballage produit solide je recommande,6,bel emballage produit solide recommande,bel emballage produit solide recommande
+83,Je ne vois pas pourquoi on critique autant ce service.,positif,general,négation_positive,je ne vois pas pourquoi on critique autant ce service,10,ne vois pas pourquoi on critique autant service,ne vois pas pourquoi on critique autant service
+84,Le produit sent mauvais à l'ouverture.,négatif,produit,problème,le produit sent mauvais à l'ouverture,6,produit sent mauvais l'ouverture,produit sent mauvais l'ouverture
+85,Réclamation prise en compte.,neutre,administratif,factuel,réclamation prise en compte,4,réclamation prise compte,réclamation prise compte
+86,Excellente expérience d'achat du début à la fin.,positif,general,simple,excellente expérience d'achat du début à la fin,8,excellente expérience d'achat début fin,excellente expérience d'achat début fin
+87,Le service est bien mais les prix ont beaucoup augmenté.,mitigé,general,opinion_mixte,le service est bien mais les prix ont beaucoup augmenté,10,service prix beaucoup augmenté,service prix beaucoup augmenter
+88,J'attends mon remboursement depuis plus d'un mois.,négatif,remboursement,problème,j'attends mon remboursement depuis plus d'un mois,7,j'attends remboursement depuis d'un mois,j'attends rembourse depuis d'un mois
+89,"Vraiment top, je n'ai rien à reprocher.",positif,general,simple,vraiment top je n'ai rien à reprocher,7,vraiment top n'ai rien reprocher,vrai top n'ai rien reprocher
+90,"Super, la commande a disparu de mon espace client.",négatif,application,sarcasme,super la commande a disparu de mon espace client,9,super commande disparu espace client,super commande disparu espace client
+91,Statut de commande mis à jour.,neutre,administratif,factuel,statut de commande mis à jour,6,statut commande mis jour,statut commande mis jour
+92,Le produit est robuste et bien conçu.,positif,produit,simple,le produit est robuste et bien conçu,7,produit robuste conçu,produit robuste conçu
+93,Je n'attendais pas grand chose et j'ai été positivement surpris.,positif,produit,négation_positive,je n'attendais pas grand chose et j'ai été positivement surpris,10,n'attendais pas grand chose j'ai été positivement surpris,n'attendais pas grand chose j'ai éter positive surpris
+94,Livraison correcte mais sans vrai suivi.,mitigé,livraison,opinion_mixte,livraison correcte mais sans vrai suivi,6,livraison correcte vrai suivi,livraison correcte vrai suivi
+95,Impossible de modifier mon adresse de livraison en ligne.,négatif,application,problème,impossible de modifier mon adresse de livraison en ligne,9,impossible modifier adresse livraison ligne,impossible modifier adresse livraison ligne
+96,L'agent du support a été patient et clair dans ses explications.,positif,support,simple,l'agent du support a été patient et clair dans ses explications,11,l'agent support été patient clair explications,l'agent support éter patient clair explications
+97,Produit de mauvaise qualité pour ce prix.,négatif,produit,problème,produit de mauvaise qualité pour ce prix,7,produit mauvaise qualité prix,produit mauvaise qualiter prix
+98,Abonnement résilié selon votre demande.,neutre,administratif,factuel,abonnement résilié selon votre demande,5,abonnement résilié selon demande,abonne résilier selon demande
+99,Petite déception sur la finition mais globalement satisfait.,mitigé,produit,opinion_mixte,petite déception sur la finition mais globalement satisfait,8,petite déception finition globalement satisfait,petite déception finition globale satisfaire
+100,Votre appli sait comment rendre une expérience frustrante.,négatif,application,sarcasme,votre appli sait comment rendre une expérience frustrante,8,appli sait comment rendre expérience frustrante,appli sait com rendre expérience frustrante
+101,"Commande expédiée en moins de 24h, impressionnant.",positif,livraison,simple,commande expédiée en moins de 24h impressionnant,7,commande expédiée impressionnant,commande expédier impressionnant
+102,Je n'aurais pas cru qu'un service client pouvait être aussi efficace.,positif,support,négation_positive,je n'aurais pas cru qu'un service client pouvait être aussi efficace,11,n'aurais pas cru qu'un service client pouvait efficace,n'aurais pas cru qu'un service client pouvait efficace
+103,Paiement sécurisé et rapide.,positif,paiement,simple,paiement sécurisé et rapide,4,paiement sécurisé rapide,paie sécuriser rapide
+104,"Ma commande a été perdue, j'ai dû relancer trois fois.",négatif,livraison,problème,ma commande a été perdue j'ai dû relancer trois fois,10,commande été perdue j'ai dû relancer trois fois,commande éter perdue j'ai dû relancer trois fois
+105,Un peu surpris par l'absence d'email de confirmation.,mitigé,administratif,opinion_mixte,un peu surpris par l'absence d'email de confirmation,8,peu surpris l'absence d'email confirmation,peu surpris l'absence d'email confirmation
+106,L'application se ferme seule lors du paiement.,négatif,application,problème,l'application se ferme seule lors du paiement,7,l'application ferme seule paiement,l'application ferme seule paie
+107,Votre nouveau design est bien plus agréable.,positif,application,simple,votre nouveau design est bien plus agréable,7,nouveau design agréable,nouveau design agréable
+108,J'aurais préféré un emballage plus sobre.,mitigé,produit,opinion_mixte,j'aurais préféré un emballage plus sobre,6,j'aurais préféré emballage sobre,j'aurais préférer emballage sobre
+109,Adresse de facturation modifiée avec succès.,neutre,administratif,factuel,adresse de facturation modifiée avec succès,6,adresse facturation modifiée succès,adresse facturation modifier succès
+110,"Bon produit dans l'ensemble, quelques défauts mineurs.",mitigé,produit,opinion_mixte,bon produit dans l'ensemble quelques défauts mineurs,7,bon produit l'ensemble quelques défauts mineurs,bon produit l'ensemble quelques défauts mineurs
+111,La qualité n'est pas au rendez-vous pour ce prix.,négatif,produit,problème,la qualité n'est pas au rendez vous pour ce prix,10,qualité n'est pas rendez prix,qualiter n'est pas rendez prix
+112,Excellent rapport qualité-prix.,positif,produit,simple,excellent rapport qualité prix,4,excellent rapport qualité prix,excellent rapport qualiter prix
+113,Mon livreur a été très aimable.,positif,livraison,simple,mon livreur a été très aimable,6,livreur été aimable,livreur éter aimable
+114,Je n'ai aucune plainte à formuler.,positif,general,négation_positive,je n'ai aucune plainte à formuler,6,n'ai aucune plainte formuler,n'ai aucune plainte formuler
+115,Le site met du temps à charger.,mitigé,application,opinion_mixte,le site met du temps à charger,7,site met temps charger,site met temps charger
+116,Votre politique de confidentialité est très longue à lire.,mitigé,administratif,opinion_mixte,votre politique de confidentialité est très longue à lire,9,politique confidentialité longue lire,politique confidentialiter long lire
+117,"Taille plus petite que prévu, décevant.",négatif,produit,problème,taille plus petite que prévu décevant,6,taille petite prévu décevant,taille petite prévu décevant
+118,Je ne pensais pas recevoir mon colis aussi vite.,positif,livraison,négation_positive,je ne pensais pas recevoir mon colis aussi vite,9,ne pensais pas recevoir colis vite,ne pensais pas recevoir colis vite
+119,Code promo non appliqué lors du paiement.,négatif,paiement,problème,code promo non appliqué lors du paiement,7,code promo non appliqué paiement,code promo non appliquer paie
+120,Dossier traité dans les délais.,neutre,administratif,factuel,dossier traité dans les délais,5,dossier traité délais,dossier traiter délais
+121,Le service est fiable mais un peu impersonnel.,mitigé,support,opinion_mixte,le service est fiable mais un peu impersonnel,8,service fiable peu impersonnel,service fiable peu impersonnel
+122,"Produit conforme, rien à signaler.",neutre,produit,factuel,produit conforme rien à signaler,5,produit conforme rien signaler,produit conforme rien signaler
+123,J'ai attendu 40 minutes en ligne avant d'avoir quelqu'un.,négatif,support,problème,j'ai attendu 40 minutes en ligne avant d'avoir quelqu'un,8,j'ai attendu minutes ligne avant d'avoir quelqu'un,j'ai attendu minutes ligne avant d'avoir quelqu'un
+124,"Belle surprise, le produit est encore mieux en vrai.",positif,produit,simple,belle surprise le produit est encore mieux en vrai,9,belle surprise produit encore mieux vrai,belle surprise produit encore mieux vrai
+125,L'appli plante souvent sur iOS 17.,négatif,application,problème,l'appli plante souvent sur ios 17,5,l'appli plante souvent ios,l'appli plante souvent ios
+126,Votre service ne déçoit jamais.,positif,general,simple,votre service ne déçoit jamais,5,service ne déçoit jamais,service ne déçoit jamais
+127,"Je n'ai pas eu à relancer, c'est rare.",positif,support,négation_positive,je n'ai pas eu à relancer c'est rare,8,n'ai pas eu relancer c'est rare,n'ai pas eu relancer c'est rare
+128,"Suivi de livraison en temps réel, vraiment pratique.",positif,livraison,simple,suivi de livraison en temps réel vraiment pratique,8,suivi livraison temps réel vraiment pratique,suivi livraison temps réel vrai pratique
+129,Le produit est arrivé abîmé malgré l'emballage.,négatif,produit,problème,le produit est arrivé abîmé malgré l'emballage,7,produit arrivé abîmé malgré l'emballage,produit arriver abîmer malgrer l'emballage
+130,Notifications push désactivées selon votre demande.,neutre,administratif,factuel,notifications push désactivées selon votre demande,6,notifications push désactivées selon demande,notifications push désactivéer selon demande
+131,"Je suis globalement content, mais la livraison m'a déçu.",mitigé,livraison,opinion_mixte,je suis globalement content mais la livraison m'a déçu,9,suis globalement content livraison m'a déçu,suis globale content livraison m'a décevoir
+132,Le chat bot ne comprend pas les questions complexes.,négatif,support,problème,le chat bot ne comprend pas les questions complexes,9,chat bot ne comprend pas questions complexes,chat bot ne comprend pas questions complexes
+133,Je recommanderais ce service sans hésiter.,positif,general,simple,je recommanderais ce service sans hésiter,6,recommanderais service hésiter,recommanderais service hésiter
+134,"Super, la promo s'est terminée juste avant que je passe commande.",négatif,paiement,sarcasme,super la promo s'est terminée juste avant que je passe commande,11,super promo s'est terminée juste avant passe commande,super promo s'est terminer juste avant passe commande
+135,"Retour validé, avoir disponible sur votre compte.",neutre,remboursement,factuel,retour validé avoir disponible sur votre compte,7,retour validé disponible compte,retour valider disponible compte
+136,La qualité de fabrication est vraiment sérieuse.,positif,produit,simple,la qualité de fabrication est vraiment sérieuse,7,qualité fabrication vraiment sérieuse,qualiter fabrication vrai sérieuse
+137,Commande reçue mais un article manquant.,négatif,produit,problème,commande reçue mais un article manquant,6,commande reçue article manquant,commande recevoir article manquant
+138,L'interface mobile est bien pensée.,positif,application,simple,l'interface mobile est bien pensée,5,l'interface mobile pensée,l'interface mobile penser
+139,Je ne m'attendais pas à un aussi bon emballage.,positif,produit,négation_positive,je ne m'attendais pas à un aussi bon emballage,9,ne m'attendais pas bon emballage,ne m'attendais pas bon emballage
+140,"Frais de port gratuits à partir de 30 euros, c'est logique.",neutre,paiement,factuel,frais de port gratuits à partir de 30 euros c'est logique,10,frais port gratuits partir euros c'est logique,frais port gratuits partir euros c'est logique
+141,Votre service de remboursement est une vraie épreuve.,négatif,remboursement,problème,votre service de remboursement est une vraie épreuve,8,service remboursement vraie épreuve,service rembourse vraie épreuve
+142,Application fonctionnelle et sans fioritures.,positif,application,simple,application fonctionnelle et sans fioritures,5,application fonctionnelle fioritures,application fonctionnelle fioritures
+143,Le produit est bien mais les instructions sont en anglais seulement.,mitigé,produit,opinion_mixte,le produit est bien mais les instructions sont en anglais seulement,11,produit instructions anglais seulement,produit instructions anglais seule
+144,Je n'ai jamais eu à me plaindre de vos livraisons.,positif,livraison,négation_positive,je n'ai jamais eu à me plaindre de vos livraisons,10,n'ai jamais eu plaindre livraisons,n'ai jamais eu plaindre livraisons
+145,Formulaire de retour trop complexe.,négatif,remboursement,problème,formulaire de retour trop complexe,5,formulaire retour trop complexe,formulaire retour trop complexe
+146,Photo de livraison disponible dans l'appli.,neutre,livraison,factuel,photo de livraison disponible dans l'appli,6,photo livraison disponible l'appli,photo livraison disponible l'appli
+147,Votre support a réglé mon problème en moins de 10 minutes.,positif,support,simple,votre support a réglé mon problème en moins de 10 minutes,10,support réglé problème minutes,support régler problème minutes
+148,Produit différent de celui commandé.,négatif,produit,problème,produit différent de celui commandé,5,produit différent celui commandé,produit différent celui commander
+149,Je suis surpris par l'absence de suivi après achat.,négatif,support,problème,je suis surpris par l'absence de suivi après achat,9,suis surpris l'absence suivi après achat,suis surpris l'absence suivi après achat
+150,Application légère et rapide à charger.,positif,application,simple,application légère et rapide à charger,6,application légère rapide charger,application légère rapide charger
+151,"Remboursement reçu, merci pour la réactivité.",positif,remboursement,simple,remboursement reçu merci pour la réactivité,6,remboursement reçu merci réactivité,rembourse recevoir merci réactiviter
+152,Le livreur ne sonne pas et repart aussitôt.,négatif,livraison,problème,le livreur ne sonne pas et repart aussitôt,8,livreur ne sonne pas repart aussitôt,livreur ne sonne pas repart aussitôt
+153,"Franchement, je ne pensais pas que vous vous en sortiriez aussi bien.",positif,support,négation_positive,franchement je ne pensais pas que vous vous en sortiriez aussi bien,12,franchement ne pensais pas sortiriez,franche ne pensais pas sortiriez
+154,Les photos du produit sont trompeuses.,négatif,produit,problème,les photos du produit sont trompeuses,6,photos produit trompeuses,photos produit trompeuses
+155,Commande confirmée par email.,neutre,administratif,factuel,commande confirmée par email,4,commande confirmée email,commande confirmer email
+156,La navigation sur le site est fluide et agréable.,positif,application,simple,la navigation sur le site est fluide et agréable,9,navigation site fluide agréable,navigation site fluide agréable
+157,Encore un retard sans explication.,négatif,livraison,sarcasme,encore un retard sans explication,5,encore retard explication,encore retard explication
+158,Je ne comprends pas pourquoi mon paiement a été refusé.,négatif,paiement,problème,je ne comprends pas pourquoi mon paiement a été refusé,10,ne comprends pas pourquoi paiement été refusé,ne comprends pas pourquoi paie éter refuser
+159,Votre espace client est bien organisé.,positif,application,simple,votre espace client est bien organisé,6,espace client organisé,espace client organiser
+160,Quelques jours d'attente mais le résultat en valait la peine.,mitigé,livraison,opinion_mixte,quelques jours d'attente mais le résultat en valait la peine,10,quelques jours d'attente résultat valait peine,quelques jours d'attente résultat valait peine
+161,Mon conseiller a vraiment fait preuve de professionnalisme.,positif,support,simple,mon conseiller a vraiment fait preuve de professionnalisme,8,conseiller vraiment fait preuve professionnalisme,conseiller vrai fait preuve professionnalisme
+162,"Produit de qualité médiocre, ne tient pas ses promesses.",négatif,produit,problème,produit de qualité médiocre ne tient pas ses promesses,9,produit qualité médiocre ne tient pas promesses,produit qualiter médiocre ne tient pas promesses
+163,Je n'ai aucun regret concernant cet achat.,positif,produit,négation_positive,je n'ai aucun regret concernant cet achat,7,n'ai aucun regret concernant achat,n'ai aucun regret concernant achat
+164,Mot de passe réinitialisé avec succès.,neutre,administratif,factuel,mot de passe réinitialisé avec succès,6,mot passe réinitialisé succès,mot passe réinitialiser succès
+165,Délai de remboursement trop long.,négatif,remboursement,problème,délai de remboursement trop long,5,délai remboursement trop long,délai rembourse trop long
+166,L'équipe a su trouver une solution rapidement.,positif,support,simple,l'équipe a su trouver une solution rapidement,7,l'équipe su trouver solution rapidement,l'équipe su trouver solution rapide
+167,Votre FAQ répond rarement aux vraies questions.,négatif,support,problème,votre faq répond rarement aux vraies questions,7,faq répond rarement vraies questions,faq répond rare vraies questions
+168,"Belle qualité, je suis impressionné.",positif,produit,simple,belle qualité je suis impressionné,5,belle qualité suis impressionné,belle qualiter suis impressionner
+169,La commande est bien arrivée mais sans facture.,mitigé,administratif,opinion_mixte,la commande est bien arrivée mais sans facture,8,commande arrivée facture,commande arriver facture
+170,"Super, ma carte a encore été débitée deux fois.",négatif,paiement,sarcasme,super ma carte a encore été débitée deux fois,9,super carte encore été débitée deux fois,super carte encore éter débiter deux fois
+171,"Colis remis en main propre, parfait.",positif,livraison,simple,colis remis en main propre parfait,6,colis remis main propre parfait,colis remis main propre parfait
+172,Je ne m'attendais pas à ce niveau de qualité pour ce prix.,positif,produit,négation_positive,je ne m'attendais pas à ce niveau de qualité pour ce prix,12,ne m'attendais pas niveau qualité prix,ne m'attendais pas niveau qualiter prix
+173,Votre application manque de fonctionnalités importantes.,mitigé,application,opinion_mixte,votre application manque de fonctionnalités importantes,6,application manque fonctionnalités importantes,application manque fonctionnalitéer importantes
+174,Le service client m'a rappelé comme promis.,positif,support,simple,le service client m'a rappelé comme promis,7,service client m'a rappelé promis,service client m'a rappeler promis
+175,Article endommagé à la réception.,négatif,produit,problème,article endommagé à la réception,5,article endommagé réception,article endommager réception
+176,Connexion au compte sécurisée et rapide.,positif,application,simple,connexion au compte sécurisée et rapide,6,connexion compte sécurisée rapide,connexion compte sécuriser rapide
+177,Le remboursement est en cours de traitement.,neutre,remboursement,factuel,le remboursement est en cours de traitement,7,remboursement cours traitement,rembourse cours traite
+178,"Vraiment nul, ne commandez pas là.",négatif,general,simple,vraiment nul ne commandez pas là,6,vraiment nul ne commandez pas là,vrai nul ne commandez pas là
+179,Bon produit mais notice illisible.,mitigé,produit,opinion_mixte,bon produit mais notice illisible,5,bon produit notice illisible,bon produit notice illisible
+180,Je ne peux pas croire que ce service soit aussi efficace.,positif,support,négation_positive,je ne peux pas croire que ce service soit aussi efficace,11,ne peux pas croire service soit efficace,ne peux pas croire service soit efficace
+181,Livraison en deux jours comme annoncé.,positif,livraison,simple,livraison en deux jours comme annoncé,6,livraison deux jours annoncé,livraison deux jours annoncer
+182,Le service est irréprochable.,positif,general,simple,le service est irréprochable,4,service irréprochable,service irréprochable
+183,Impossible de mettre à jour mes informations bancaires.,négatif,paiement,problème,impossible de mettre à jour mes informations bancaires,8,impossible mettre jour informations bancaires,impossible mettre jour informations bancaires
+184,J'aurai préféré plus d'options de livraison.,mitigé,livraison,opinion_mixte,j'aurai préféré plus d'options de livraison,6,j'aurai préféré d'options livraison,j'aurai préférer d'options livraison
+185,"Votre bot est vraiment très intelligent, il ne comprend rien.",négatif,support,sarcasme,votre bot est vraiment très intelligent il ne comprend rien,10,bot vraiment intelligent ne comprend rien,bot vrai intelligent ne comprend rien
+186,Email de suivi reçu.,neutre,administratif,factuel,email de suivi reçu,4,email suivi reçu,email suivi recevoir
+187,L'accessoire fourni est de très bonne facture.,positif,produit,simple,l'accessoire fourni est de très bonne facture,7,l'accessoire fourni bonne facture,l'accessoire fourni bonne facture
+188,Le produit est fragile et casse rapidement.,négatif,produit,problème,le produit est fragile et casse rapidement,7,produit fragile casse rapidement,produit fragile casse rapide
+189,Je ne pensais pas que le service serait aussi attentif.,positif,support,négation_positive,je ne pensais pas que le service serait aussi attentif,10,ne pensais pas service serait attentif,ne pensais pas service serait attentif
+190,Paiement en ligne simple et intuitif.,positif,paiement,simple,paiement en ligne simple et intuitif,6,paiement ligne simple intuitif,paie ligne simple intuitif
+191,Commande reçue avec une pièce manquante.,négatif,produit,problème,commande reçue avec une pièce manquante,6,commande reçue pièce manquante,commande recevoir pièce manquante
+192,"Je suis mitigé, certains points sont bons, d'autres non.",mitigé,general,opinion_mixte,je suis mitigé certains points sont bons d'autres non,9,suis mitigé certains points bons d'autres non,suis mitiger certains points bons d'autres non
+193,L'application charge très lentement.,négatif,application,problème,l'application charge très lentement,4,l'application charge lentement,l'application charge lente
+194,Merci pour le geste commercial !,positif,remboursement,simple,merci pour le geste commercial,5,merci geste commercial,merci geste commercial
+195,Je n'avais pas de grandes attentes et j'ai été agréablement surpris.,positif,produit,négation_positive,je n'avais pas de grandes attentes et j'ai été agréablement surpris,11,n'avais pas grandes attentes j'ai été agréablement surpris,n'avais pas grandes attentes j'ai éter agréable surpris
+196,Votre équipe de livraison est aux petits soins.,positif,livraison,simple,votre équipe de livraison est aux petits soins,8,équipe livraison petits soins,équipe livraison petits soins
+197,"J'ai signalé le problème il y a une semaine, pas de retour.",négatif,support,problème,j'ai signalé le problème il y a une semaine pas de retour,12,j'ai signalé problème semaine pas retour,j'ai signaler problème semaine pas retour
+198,Produit emballé avec soin.,positif,produit,simple,produit emballé avec soin,4,produit emballé soin,produit emballer soin
+199,"Ah tiens, la livraison promise pour aujourd'hui est repoussée à jeudi.",négatif,livraison,sarcasme,ah tiens la livraison promise pour aujourd'hui est repoussée à jeudi,11,ah tiens livraison promise aujourd'hui repoussée jeudi,ah tiens livraison promise aujourd'hui repousser jeudi
+200,Mot de passe mis à jour.,neutre,administratif,factuel,mot de passe mis à jour,6,mot passe mis jour,mot passe mis jour
+201,Le produit dépasse mes attentes.,positif,produit,simple,le produit dépasse mes attentes,5,produit dépasse attentes,produit dépasse attentes
+202,Je ne comprends pas la facture reçue.,négatif,administratif,problème,je ne comprends pas la facture reçue,7,ne comprends pas facture reçue,ne comprends pas facture recevoir
+203,Service clientèle joignable rapidement.,positif,support,simple,service clientèle joignable rapidement,4,service clientèle joignable rapidement,service clientèle joignable rapide
+204,Livraison retardée à cause de votre transporteur.,négatif,livraison,problème,livraison retardée à cause de votre transporteur,7,livraison retardée cause transporteur,livraison retarder cause transporteur
+205,L'appli est bien pensée pour les débutants.,positif,application,simple,l'appli est bien pensée pour les débutants,7,l'appli pensée débutants,l'appli penser débutants
+206,J'ai dû attendre 3 semaines pour une réponse simple.,négatif,support,problème,j'ai dû attendre 3 semaines pour une réponse simple,8,j'ai dû attendre semaines réponse simple,j'ai dû attendre semaines réponse simple
+207,Les coordonnées de livraison étaient incorrectes mais vous les avez corrigées.,mitigé,livraison,opinion_mixte,les coordonnées de livraison étaient incorrectes mais vous les avez corrigées,11,coordonnées livraison étaient incorrectes avez corrigées,coordonnéer livraison étaient incorrectes avez corrigéer
+208,Je n'aurais jamais imaginé un service si rapide.,positif,support,négation_positive,je n'aurais jamais imaginé un service si rapide,8,n'aurais jamais imaginé service rapide,n'aurais jamais imaginer service rapide
+209,Montant débité incorrect.,négatif,paiement,problème,montant débité incorrect,3,montant débité incorrect,montant débiter incorrect
+210,Votre service est le meilleur que j'ai utilisé.,positif,general,simple,votre service est le meilleur que j'ai utilisé,8,service meilleur j'ai utilisé,service meilleur j'ai utiliser
+211,Réclamation enregistrée sous le numéro 44521.,neutre,administratif,factuel,réclamation enregistrée sous le numéro 44521,5,réclamation enregistrée numéro,réclamation enregistrer numéro
+212,Le design de l'emballage est soigné.,positif,produit,simple,le design de l'emballage est soigné,6,design l'emballage soigné,design l'emballage soigner
+213,Je pensais être déçu et finalement non.,positif,general,négation_positive,je pensais être déçu et finalement non,7,pensais déçu finalement non,pensais décevoir finale non
+214,Mon adresse email n'est pas reconnue par votre système.,négatif,application,problème,mon adresse email n'est pas reconnue par votre système,9,adresse email n'est pas reconnue système,adresse email n'est pas reconnue système
+215,"Livraison à l'heure, coursier sympathique.",positif,livraison,simple,livraison à l'heure coursier sympathique,5,livraison l'heure coursier sympathique,livraison l'heure coursier sympathique
+216,Trop de pubs dans l'application.,négatif,application,problème,trop de pubs dans l'application,5,trop pubs l'application,trop pubs l'application
+217,La commande est toujours en attente de traitement après 5 jours.,négatif,livraison,problème,la commande est toujours en attente de traitement après 5 jours,10,commande toujours attente traitement après jours,commande toujours attente traite après jours
+218,"Le service de chat est disponible 24h/24, c'est très bien.",positif,support,simple,le service de chat est disponible 24h 24 c'est très bien,10,service chat disponible c'est,service chat disponible c'est
+219,Je ne vois pas l'intérêt de cette mise à jour.,mitigé,application,opinion_mixte,je ne vois pas l'intérêt de cette mise à jour,10,ne vois pas l'intérêt mise jour,ne vois pas l'intérêt mise jour
+220,Votre site plante systématiquement sur Firefox.,négatif,application,problème,votre site plante systématiquement sur firefox,6,site plante systématiquement firefox,site plante systématique firefox
+221,"Produit reçu en avance, super !",positif,livraison,simple,produit reçu en avance super,5,produit reçu avance super,produit recevoir avance super
+222,Le code de réduction a bien été pris en compte.,positif,paiement,simple,le code de réduction a bien été pris en compte,10,code réduction été pris compte,code réduction éter pris compte
+223,Mon remboursement a pris du temps mais il est arrivé.,mitigé,remboursement,opinion_mixte,mon remboursement a pris du temps mais il est arrivé,10,remboursement pris temps arrivé,rembourse pris temps arriver
+224,Je n'avais pas vu les avis négatifs et maintenant je comprends.,négatif,general,négation_positive,je n'avais pas vu les avis négatifs et maintenant je comprends,11,n'avais pas vu avis négatifs maintenant comprends,n'avais pas vu avis négatifs maintenant comprends
+225,La mise en rayon est bien organisée sur le site.,positif,application,simple,la mise en rayon est bien organisée sur le site,10,mise rayon organisée site,mise rayon organiser site
+226,Je reçois trop d'emails de votre part.,mitigé,administratif,opinion_mixte,je reçois trop d'emails de votre part,7,reçois trop d'emails part,reçois trop d'emails part
+227,"Super service, livraison rapide, produit conforme.",positif,general,simple,super service livraison rapide produit conforme,6,super service livraison rapide produit conforme,super service livraison rapide produit conforme
+228,"Votre service m'a sauvé la mise, merci.",positif,support,simple,votre service m'a sauvé la mise merci,7,service m'a sauvé mise merci,service m'a sauver mise merci
+229,Je ne pensais pas avoir besoin d'aide mais votre équipe a bien aidé.,positif,support,négation_positive,je ne pensais pas avoir besoin d'aide mais votre équipe a bien aidé,13,ne pensais pas besoin d'aide équipe aidé,ne pensais pas besoin d'aide équipe aider
+230,"Bon sang, j'attends ma commande depuis 15 jours.",négatif,livraison,problème,bon sang j'attends ma commande depuis 15 jours,7,bon sang j'attends commande depuis jours,bon sang j'attends commande depuis jours
+231,"L'article est beau, conforme, je suis ravi.",positif,produit,simple,l'article est beau conforme je suis ravi,7,l'article beau conforme suis ravi,l'article beau conforme suis ravi
+232,Notification de livraison reçue.,neutre,livraison,factuel,notification de livraison reçue,4,notification livraison reçue,notification livraison recevoir
+233,Le produit est bien mais l'odeur à l'ouverture est forte.,mitigé,produit,opinion_mixte,le produit est bien mais l'odeur à l'ouverture est forte,10,produit l'odeur l'ouverture forte,produit l'odeur l'ouverture forte
+234,Je ne voudrais pas commander ailleurs après cette expérience.,positif,general,négation_positive,je ne voudrais pas commander ailleurs après cette expérience,9,ne voudrais pas commander ailleurs après expérience,ne voudrais pas commander ailleurs après expérience
+235,Mon dossier a été traité plus vite que prévu.,positif,administratif,simple,mon dossier a été traité plus vite que prévu,9,dossier été traité vite prévu,dossier éter traiter vite prévu
+236,L'appli perd ma session à chaque fois.,négatif,application,problème,l'appli perd ma session à chaque fois,7,l'appli perd session chaque fois,l'appli perd session chaque fois
+237,"Franchement bravo, vous avez géré une situation délicate avec beaucoup de professionnalisme.",positif,support,simple,franchement bravo vous avez géré une situation délicate avec beaucoup de professionnalisme,12,franchement bravo avez géré situation délicate beaucoup professionnalisme,franche bravo avez gérer situation délicate beaucoup professionnalisme
+238,Je dois encore patienter pour le remboursement.,mitigé,remboursement,opinion_mixte,je dois encore patienter pour le remboursement,7,dois encore patienter remboursement,dois encore patienter rembourse
+239,Encore un message automatique inutile.,négatif,support,sarcasme,encore un message automatique inutile,5,encore message automatique inutile,encore message automatique inutile
+240,Confirmation de résiliation envoyée par email.,neutre,administratif,factuel,confirmation de résiliation envoyée par email,6,confirmation résiliation envoyée email,confirmation résiliation envoyer email
+241,Le produit est exactement ce qu'il me fallait.,positif,produit,simple,le produit est exactement ce qu'il me fallait,8,produit exactement qu'il fallait,produit exacte qu'il fallait
+242,Votre garantie ne couvre rien d'utile.,négatif,remboursement,problème,votre garantie ne couvre rien d'utile,6,garantie ne couvre rien d'utile,garantie ne couvre rien d'utile
+243,"Je ne savais pas que vous proposiez un tel service, agréable surprise.",positif,support,négation_positive,je ne savais pas que vous proposiez un tel service agréable surprise,12,ne savais pas proposiez tel service agréable surprise,ne savais pas proposiez tel service agréable surprise
+244,Le livreur a cassé quelque chose en forçant le portail.,négatif,livraison,problème,le livreur a cassé quelque chose en forçant le portail,10,livreur cassé quelque chose forçant portail,livreur casser quelque chose forçant portail
+245,"Appli intuitive, aucun bug rencontré.",positif,application,simple,appli intuitive aucun bug rencontré,5,appli intuitive aucun bug rencontré,appli intuitive aucun bug rencontrer
+246,Commande annulée automatiquement sans raison.,négatif,general,problème,commande annulée automatiquement sans raison,5,commande annulée automatiquement raison,commande annuler automatique raison
+247,La qualité de la matière est haut de gamme.,positif,produit,simple,la qualité de la matière est haut de gamme,9,qualité matière haut gamme,qualiter matière haut gamme
+248,Votre service client est aux abonnés absents le week-end.,négatif,support,problème,votre service client est aux abonnés absents le week end,10,service client abonnés absents week end,service client abonnéer absents week end
+249,Je n'aurais pas commandé si je savais que ça venait de si loin.,mitigé,livraison,négation_positive,je n'aurais pas commandé si je savais que ça venait de si loin,13,n'aurais pas commandé savais ça venait loin,n'aurais pas commander savais ça venait loin
+250,"Avoir de fidélité crédité, merci.",neutre,administratif,factuel,avoir de fidélité crédité merci,5,fidélité crédité merci,fidéliter créditer merci
+251,"Le service est correct, sans être exceptionnel.",mitigé,general,opinion_mixte,le service est correct sans être exceptionnel,7,service correct exceptionnel,service correct exceptionnel
+252,J'ai reçu le mauvais article.,négatif,produit,problème,j'ai reçu le mauvais article,5,j'ai reçu mauvais article,j'ai recevoir mauvais article
+253,Je ne pensais pas que vous seriez aussi généreux dans votre geste commercial.,positif,remboursement,négation_positive,je ne pensais pas que vous seriez aussi généreux dans votre geste commercial,13,ne pensais pas seriez généreux geste commercial,ne pensais pas seriez généreux geste commercial
+254,Votre transporteur laisse à désirer.,négatif,livraison,problème,votre transporteur laisse à désirer,5,transporteur laisse désirer,transporteur laisse désirer
+255,Le produit s'est cassé après deux utilisations.,négatif,produit,problème,le produit s'est cassé après deux utilisations,7,produit s'est cassé après deux utilisations,produit s'est casser après deux utilisations
+256,"Franchement je ne m'y attendais pas, très belle surprise.",positif,produit,simple,franchement je ne m'y attendais pas très belle surprise,9,franchement ne m'y attendais pas belle surprise,franche ne m'y attendais pas belle surprise
+257,Votre service de retour est simple et efficace.,positif,remboursement,simple,votre service de retour est simple et efficace,8,service retour simple efficace,service retour simple efficace
+258,"Je n'ai jamais eu à contacter le support, tout fonctionne bien.",positif,support,négation_positive,je n'ai jamais eu à contacter le support tout fonctionne bien,11,n'ai jamais eu contacter support fonctionne,n'ai jamais eu contacter support fonctionne
+259,Paiement validé sous quelques secondes.,positif,paiement,simple,paiement validé sous quelques secondes,5,paiement validé quelques secondes,paie valider quelques secondes
+260,La commande est en cours de préparation.,neutre,livraison,factuel,la commande est en cours de préparation,7,commande cours préparation,commande cours préparation
+261,Aucune réponse à mon email depuis 10 jours.,négatif,support,problème,aucune réponse à mon email depuis 10 jours,7,aucune réponse email depuis jours,aucune réponse email depuis jours
+262,"Produit de qualité, conforme à la description.",positif,produit,simple,produit de qualité conforme à la description,7,produit qualité conforme description,produit qualiter conforme description
+263,Je ne comprends pas pourquoi mon colis est bloqué en douane.,négatif,livraison,problème,je ne comprends pas pourquoi mon colis est bloqué en douane,11,ne comprends pas pourquoi colis bloqué douane,ne comprends pas pourquoi colis bloquer douane
+264,La taille correspond au guide taille indiqué.,positif,produit,simple,la taille correspond au guide taille indiqué,7,taille correspond guide taille indiqué,taille correspond guide taille indiquer
+265,Votre IA répond à côté à chaque fois.,négatif,support,sarcasme,votre ia répond à côté à chaque fois,8,ia répond côté chaque fois,ia répond côter chaque fois
+266,Email de confirmation de commande reçu.,neutre,administratif,factuel,email de confirmation de commande reçu,6,email confirmation commande reçu,email confirmation commande recevoir
+267,"Le chat en ligne fonctionne bien, réponse rapide.",positif,support,simple,le chat en ligne fonctionne bien réponse rapide,8,chat ligne fonctionne réponse rapide,chat ligne fonctionne réponse rapide
+268,J'aurais voulu plus de variantes de couleurs.,mitigé,produit,opinion_mixte,j'aurais voulu plus de variantes de couleurs,7,j'aurais voulu variantes couleurs,j'aurais voulu variantes couleurs
+269,Je ne m'attendais pas à recevoir un cadeau avec ma commande.,positif,general,négation_positive,je ne m'attendais pas à recevoir un cadeau avec ma commande,11,ne m'attendais pas recevoir cadeau commande,ne m'attendais pas recevoir cadeau commande
+270,Application trop lente sur mobile.,négatif,application,problème,application trop lente sur mobile,5,application trop lente mobile,application trop lente mobile
+271,Le technicien est arrivé à l'heure.,positif,support,simple,le technicien est arrivé à l'heure,6,technicien arrivé l'heure,technicien arriver l'heure
+272,Produit bien mais sans SAV digne de ce nom.,mitigé,support,opinion_mixte,produit bien mais sans sav digne de ce nom,9,produit sav digne nom,produit sav digne nom
+273,Votre service fait exactement ce qu'il promet.,positif,general,simple,votre service fait exactement ce qu'il promet,7,service fait exactement qu'il promet,service fait exacte qu'il promet
+274,Je suis navré de devoir revenir encore sur ce problème.,négatif,support,problème,je suis navré de devoir revenir encore sur ce problème,10,suis navré devoir revenir encore problème,suis navrer devoir revenir encore problème
+275,"Livraison le lendemain, parfait.",positif,livraison,simple,livraison le lendemain parfait,4,livraison lendemain parfait,livraison lendemain parfait
+276,L'interface est confuse pour les nouveaux utilisateurs.,négatif,application,problème,l'interface est confuse pour les nouveaux utilisateurs,7,l'interface confuse nouveaux utilisateurs,l'interface confuse nouveaux utilisateurs
+277,"Je n'ai rien eu à faire, tout a été géré automatiquement.",positif,general,négation_positive,je n'ai rien eu à faire tout a été géré automatiquement,11,n'ai rien eu faire été géré automatiquement,n'ai rien eu faire éter gérer automatique
+278,Remboursement en cours.,neutre,remboursement,factuel,remboursement en cours,3,remboursement cours,rembourse cours
+279,La documentation produit est incomplète.,négatif,produit,problème,la documentation produit est incomplète,5,documentation produit incomplète,documentation produit incomplète
+280,Merci pour votre aide et votre patience.,positif,support,simple,merci pour votre aide et votre patience,7,merci aide patience,merci aide patience
+281,"Je suis satisfait à 80%, il reste des points à améliorer.",mitigé,general,opinion_mixte,je suis satisfait à 80 il reste des points à améliorer,10,suis satisfait reste points améliorer,suis satisfaire reste points améliorer
+282,"Le produit est solide, robuste et bien finalisé.",positif,produit,simple,le produit est solide robuste et bien finalisé,8,produit solide robuste finalisé,produit solide robuste finaliser
+283,On m'a menti sur les délais de livraison.,négatif,livraison,problème,on m'a menti sur les délais de livraison,8,on m'a menti délais livraison,on m'a menti délais livraison
+284,Je ne pensais pas faire confiance à un service en ligne mais vous m'avez convaincu.,positif,general,négation_positive,je ne pensais pas faire confiance à un service en ligne mais vous m'avez convaincu,15,ne pensais pas faire confiance service ligne m'avez convaincu,ne pensais pas faire confiance service ligne m'avez convaincu
+285,Statut expédié visible dans mon compte.,neutre,livraison,factuel,statut expédié visible dans mon compte,6,statut expédié visible compte,statut expédier visible compte
+286,Votre formulaire de contact est cassé sur mobile.,négatif,application,problème,votre formulaire de contact est cassé sur mobile,8,formulaire contact cassé mobile,formulaire contact casser mobile
+287,"Service irréprochable, je reviendrai.",positif,general,simple,service irréprochable je reviendrai,4,service irréprochable reviendrai,service irréprochable reviendrai
+288,La commande n'est pas encore arrivée et personne ne me répond.,négatif,support,problème,la commande n'est pas encore arrivée et personne ne me répond,11,commande n'est pas encore arrivée personne ne répond,commande n'est pas encore arriver personne ne répond
+289,Bonne expérience globale malgré quelques imperfections.,mitigé,general,opinion_mixte,bonne expérience globale malgré quelques imperfections,6,bonne expérience globale malgré quelques imperfections,bonne expérience globale malgrer quelques imperfections
+290,Incroyable comme vous faites attendre vos clients.,négatif,support,sarcasme,incroyable comme vous faites attendre vos clients,7,incroyable faites attendre clients,incroyable faites attendre clients
+291,Facture disponible dans votre espace client.,neutre,administratif,factuel,facture disponible dans votre espace client,6,facture disponible espace client,facture disponible espace client
+292,Le produit est léger mais résistant.,positif,produit,simple,le produit est léger mais résistant,6,produit léger résistant,produit léger résistant
+293,Je n'imaginais pas un emballage aussi travaillé.,positif,produit,négation_positive,je n'imaginais pas un emballage aussi travaillé,7,n'imaginais pas emballage travaillé,n'imaginais pas emballage travailler
+294,Livraison au mauvais étage.,négatif,livraison,problème,livraison au mauvais étage,4,livraison mauvais étage,livraison mauvais étage
+295,Le service de rappel automatique est pratique.,positif,support,simple,le service de rappel automatique est pratique,7,service rappel automatique pratique,service rappel automatique pratique
+296,La mise à jour a supprimé mes paramètres.,négatif,application,problème,la mise à jour a supprimé mes paramètres,8,mise jour supprimé paramètres,mise jour supprimer paramètres
+297,"Je suis content et ma femme aussi, on recommande.",positif,general,simple,je suis content et ma femme aussi on recommande,9,suis content femme on recommande,suis content femme on recommande
+298,Application plantée depuis la dernière mise à jour.,négatif,application,problème,application plantée depuis la dernière mise à jour,8,application plantée depuis dernière mise jour,application planter depuis dernière mise jour
+299,"Bon service en général, délais un peu longs.",mitigé,general,opinion_mixte,bon service en général délais un peu longs,8,bon service général délais peu longs,bon service général délais peu long
+300,"Merci, tout s'est bien passé.",positif,general,simple,merci tout s'est bien passé,5,merci s'est passé,merci s'est passer
+301,"Colis remis sans signature, ça m'inquiète.",mitigé,livraison,opinion_mixte,colis remis sans signature ça m'inquiète,6,colis remis signature ça m'inquiète,colis remis signature ça m'inquiète
+302,Je ne peux pas imaginer commander ailleurs désormais.,positif,general,négation_positive,je ne peux pas imaginer commander ailleurs désormais,8,ne peux pas imaginer commander ailleurs désormais,ne peux pas imaginer commander ailleurs désormais
+303,Mon numéro de commande n'est pas reconnu dans l'appli.,négatif,application,problème,mon numéro de commande n'est pas reconnu dans l'appli,9,numéro commande n'est pas reconnu l'appli,numéro commande n'est pas reconnu l'appli
+304,"Excellent service, personnel accueillant.",positif,support,simple,excellent service personnel accueillant,4,excellent service personnel accueillant,excellent service personnel accueillant
+305,La couleur est exactement celle indiquée sur la fiche produit.,positif,produit,simple,la couleur est exactement celle indiquée sur la fiche produit,10,couleur exactement celle indiquée fiche produit,couleur exacte celle indiquer fiche produit
+306,Votre site affiche des promotions qui ne s'appliquent pas.,négatif,paiement,problème,votre site affiche des promotions qui ne s'appliquent pas,9,site affiche promotions ne s'appliquent pas,site affiche promotions ne s'appliquent pas
+307,"Je n'aurais jamais pensé commander ici, mais c'était la bonne décision.",positif,general,négation_positive,je n'aurais jamais pensé commander ici mais c'était la bonne décision,11,n'aurais jamais pensé commander ici c'était bonne décision,n'aurais jamais penser commander ici c'était bonne décision
+308,"L'emballage est recyclable, bonne initiative.",positif,produit,simple,l'emballage est recyclable bonne initiative,5,l'emballage recyclable bonne initiative,l'emballage recyclable bonne initiative
+309,Retour refusé sans explication claire.,négatif,remboursement,problème,retour refusé sans explication claire,5,retour refusé explication claire,retour refuser explication claire
+310,Le produit fait exactement ce qui est décrit.,positif,produit,simple,le produit fait exactement ce qui est décrit,8,produit fait exactement décrit,produit fait exacte décrit
+311,Commande passée sans encombre.,neutre,general,factuel,commande passée sans encombre,4,commande passée encombre,commande passer encombre
+312,Je ne me souviens pas d'une expérience aussi fluide.,positif,general,négation_positive,je ne me souviens pas d'une expérience aussi fluide,9,ne souviens pas d'une expérience fluide,ne souviens pas d'une expérience fluide
+313,Votre service est correct mais pas mémorable.,mitigé,general,opinion_mixte,votre service est correct mais pas mémorable,7,service correct pas mémorable,service correct pas mémorable
+314,Le suivi de livraison est très précis.,positif,livraison,simple,le suivi de livraison est très précis,7,suivi livraison précis,suivi livraison précis
+315,"Encore une fois, colis abîmé.",négatif,produit,sarcasme,encore une fois colis abîmé,5,encore fois colis abîmé,encore fois colis abîmer
+316,Adresse de livraison mise à jour.,neutre,administratif,factuel,adresse de livraison mise à jour,6,adresse livraison mise jour,adresse livraison mise jour
+317,Je suis bluffé par la rapidité de la livraison.,positif,livraison,simple,je suis bluffé par la rapidité de la livraison,9,suis bluffé rapidité livraison,suis bluffer rapiditer livraison
+318,L'interface mobile n'est pas adaptée aux grands écrans.,mitigé,application,opinion_mixte,l'interface mobile n'est pas adaptée aux grands écrans,8,l'interface mobile n'est pas adaptée grands écrans,l'interface mobile n'est pas adapter grands écrans
+319,Je n'aurais pas imaginé que vous gériez aussi bien les réclamations.,positif,support,négation_positive,je n'aurais pas imaginé que vous gériez aussi bien les réclamations,11,n'aurais pas imaginé gériez réclamations,n'aurais pas imaginer gériez réclamations
+320,Paiement en attente depuis 3 jours.,négatif,paiement,problème,paiement en attente depuis 3 jours,5,paiement attente depuis jours,paie attente depuis jours
+321,Le service après-vente a résolu mon problème en un appel.,positif,support,simple,le service après vente a résolu mon problème en un appel,11,service après vente résolu problème appel,service après vente résolu problème appel
+322,Colis signalé livré mais pas reçu.,négatif,livraison,problème,colis signalé livré mais pas reçu,6,colis signalé livré pas reçu,colis signaler livrer pas recevoir
+323,Bon rapport qualité-prix pour ce type de produit.,positif,produit,simple,bon rapport qualité prix pour ce type de produit,9,bon rapport qualité prix type produit,bon rapport qualiter prix type produit
+324,Je ne pensais pas que votre application serait aussi intuitive.,positif,application,négation_positive,je ne pensais pas que votre application serait aussi intuitive,10,ne pensais pas application serait intuitive,ne pensais pas application serait intuitive
+325,Mon abonnement s'est renouvelé sans autorisation.,négatif,paiement,problème,mon abonnement s'est renouvelé sans autorisation,6,abonnement s'est renouvelé autorisation,abonne s'est renouveler autorisation
+326,L'opérateur était sympa mais pas compétent.,mitigé,support,opinion_mixte,l'opérateur était sympa mais pas compétent,6,l'opérateur sympa pas compétent,l'opérateur sympa pas compétent
+327,Je n'ai eu aucun problème avec la livraison.,positif,livraison,négation_positive,je n'ai eu aucun problème avec la livraison,8,n'ai eu aucun problème livraison,n'ai eu aucun problème livraison
+328,"Bravo, vous avez réussi à rater une livraison express.",négatif,livraison,sarcasme,bravo vous avez réussi à rater une livraison express,9,bravo avez réussi rater livraison express,bravo avez réussi rater livraison express
+329,"Livraison OK, produit OK.",neutre,general,factuel,livraison ok produit ok,4,livraison ok produit ok,livraison ok produit ok
+330,Votre service m'a surpris de façon très positive.,positif,support,simple,votre service m'a surpris de façon très positive,8,service m'a surpris façon positive,service m'a surpris façon positive
+331,Le produit est bien mais l'installation est compliquée.,mitigé,produit,opinion_mixte,le produit est bien mais l'installation est compliquée,8,produit l'installation compliquée,produit l'installation compliquer
+332,Je ne m'attendais pas à une résolution aussi rapide.,positif,support,négation_positive,je ne m'attendais pas à une résolution aussi rapide,9,ne m'attendais pas résolution rapide,ne m'attendais pas résolution rapide
+333,"Application stable, aucune erreur en un mois.",positif,application,simple,application stable aucune erreur en un mois,7,application stable aucune erreur mois,application stable aucune erreur mois
+334,"Emballage inadapté, le produit a bougé pendant le transport.",négatif,produit,problème,emballage inadapté le produit a bougé pendant le transport,9,emballage inadapté produit bougé pendant transport,emballage inadapter produit bouger pendant transport
+335,Je n'avais pas confiance au départ mais vous l'avez gagnée.,positif,general,négation_positive,je n'avais pas confiance au départ mais vous l'avez gagnée,10,n'avais pas confiance départ l'avez gagnée,n'avais pas confiance départ l'avez gagner
+336,Espace client clair et bien structuré.,positif,application,simple,espace client clair et bien structuré,6,espace client clair structuré,espace client clair structurer
+337,On attend toujours le bon de retour promis.,négatif,remboursement,problème,on attend toujours le bon de retour promis,8,on attend toujours bon retour promis,on attend toujours bon retour promis
+338,"Le produit est vraiment solide, je l'utilise tous les jours.",positif,produit,simple,le produit est vraiment solide je l'utilise tous les jours,10,produit vraiment solide l'utilise tous jours,produit vrai solide l'utilise tous jours
+339,Impossible de me désabonner de vos emails.,négatif,administratif,problème,impossible de me désabonner de vos emails,7,impossible désabonner emails,impossible désabonner emails
+340,Service client disponible et efficace.,positif,support,simple,service client disponible et efficace,5,service client disponible efficace,service client disponible efficace
+341,Je ne recommanderai pas ce produit.,négatif,produit,simple,je ne recommanderai pas ce produit,6,ne recommanderai pas produit,ne recommanderai pas produit
+342,Les notifications sont trop fréquentes.,mitigé,application,opinion_mixte,les notifications sont trop fréquentes,5,notifications trop fréquentes,notifications trop fréquentes
+343,Très belle qualité de finition.,positif,produit,simple,très belle qualité de finition,5,belle qualité finition,belle qualiter finition
+344,Mon remboursement n'a été que partiel sans justification.,négatif,remboursement,problème,mon remboursement n'a été que partiel sans justification,8,remboursement n'a été partiel justification,rembourse n'a éter partiel justification
+345,L'article a bien été réservé.,neutre,administratif,factuel,l'article a bien été réservé,5,l'article été réservé,l'article éter réserver
+346,Un des meilleurs achats que j'ai fait cette année.,positif,produit,simple,un des meilleurs achats que j'ai fait cette année,9,meilleurs achats j'ai fait année,meilleurs achats j'ai fait anner
+347,Je ne vois pas d'amélioration par rapport à l'ancienne version.,mitigé,application,opinion_mixte,je ne vois pas d'amélioration par rapport à l'ancienne version,10,ne vois pas d'amélioration rapport l'ancienne version,ne vois pas d'amélioration rapport l'ancienne version
+348,La livraison était rapide et bien packagée.,positif,livraison,simple,la livraison était rapide et bien packagée,7,livraison rapide packagée,livraison rapide packager
+349,Mon problème de paiement persiste.,négatif,paiement,problème,mon problème de paiement persiste,5,problème paiement persiste,problème paie persiste
+350,"Application accessible aux personnes handicapées, bravo.",positif,application,simple,application accessible aux personnes handicapées bravo,6,application accessible personnes handicapées bravo,application accessible personnes handicapéer bravo
+351,"Je suis ravi de mon achat, tout correspond.",positif,produit,simple,je suis ravi de mon achat tout correspond,8,suis ravi achat correspond,suis ravi achat correspond
+352,Votre service ressemble à un labyrinthe kafkaïen.,négatif,support,problème,votre service ressemble à un labyrinthe kafkaïen,7,service ressemble labyrinthe kafkaïen,service ressemble labyrinthe kafkaïen
+353,Je n'aurais pas cru pouvoir être aussi satisfait d'un service en ligne.,positif,general,négation_positive,je n'aurais pas cru pouvoir être aussi satisfait d'un service en ligne,12,n'aurais pas cru pouvoir satisfait d'un service ligne,n'aurais pas cru pouvoir satisfaire d'un service ligne
+354,Colis laissé chez le voisin sans mot de la part du livreur.,mitigé,livraison,opinion_mixte,colis laissé chez le voisin sans mot de la part du livreur,12,colis laissé voisin mot part livreur,colis laisser voisin mot part livreur
+355,Application bien notée mais ça ne se voit pas à l'utilisation.,négatif,application,sarcasme,application bien notée mais ça ne se voit pas à l'utilisation,11,application notée ça ne voit pas l'utilisation,application noter ça ne voit pas l'utilisation
+356,Profil mis à jour avec succès.,neutre,administratif,factuel,profil mis à jour avec succès,6,profil mis jour succès,profil mis jour succès
+357,L'article est conforme à mes attentes.,positif,produit,simple,l'article est conforme à mes attentes,6,l'article conforme attentes,l'article conforme attentes
+358,Le processus de retour est rapide et sans friction.,positif,remboursement,simple,le processus de retour est rapide et sans friction,9,processus retour rapide friction,processus retour rapide friction
+359,Je ne m'attendais pas à tant de réactivité de votre part.,positif,support,négation_positive,je ne m'attendais pas à tant de réactivité de votre part,11,ne m'attendais pas tant réactivité part,ne m'attendais pas tant réactiviter part
+360,La livraison a pris deux fois plus longtemps que prévu.,négatif,livraison,problème,la livraison a pris deux fois plus longtemps que prévu,10,livraison pris deux fois longtemps prévu,livraison pris deux fois longtemps prévu
+361,"Très satisfaite de mon achat, je recommande à mes amis.",positif,produit,simple,très satisfaite de mon achat je recommande à mes amis,10,satisfaite achat recommande amis,satisfaire achat recommande amis
+362,L'appli ne propose pas de mode sombre.,mitigé,application,opinion_mixte,l'appli ne propose pas de mode sombre,7,l'appli ne propose pas mode sombre,l'appli ne propose pas mode sombre
+363,Je n'ai jamais eu un service aussi attentionné.,positif,support,négation_positive,je n'ai jamais eu un service aussi attentionné,8,n'ai jamais eu service attentionné,n'ai jamais eu service attentionner
+364,La livraison a été gérée parfaitement.,positif,livraison,simple,la livraison a été gérée parfaitement,6,livraison été gérée parfaitement,livraison éter gérer parfaite
+365,Votre politique de retour n'est pas clairement indiquée sur le site.,négatif,remboursement,problème,votre politique de retour n'est pas clairement indiquée sur le site,11,politique retour n'est pas clairement indiquée site,politique retour n'est pas claire indiquer site
+366,Excellent service du début à la fin.,positif,general,simple,excellent service du début à la fin,7,excellent service début fin,excellent service début fin
+367,J'ai reçu un article d'une autre couleur que celle commandée.,négatif,produit,problème,j'ai reçu un article d'une autre couleur que celle commandée,10,j'ai reçu article d'une autre couleur celle commandée,j'ai recevoir article d'une autre couleur celle commander
+368,Je ne suis pas convaincu par la qualité.,mitigé,produit,opinion_mixte,je ne suis pas convaincu par la qualité,8,ne suis pas convaincu qualité,ne suis pas convaincu qualiter
+369,SMS de confirmation reçu.,neutre,administratif,factuel,sms de confirmation reçu,4,sms confirmation reçu,sms confirmation recevoir
+370,Votre équipe a fait l'impossible pour résoudre mon problème.,positif,support,simple,votre équipe a fait l'impossible pour résoudre mon problème,9,équipe fait l'impossible résoudre problème,équipe fait l'impossible résoudre problème
+371,Paiement refusé sans raison valable.,négatif,paiement,problème,paiement refusé sans raison valable,5,paiement refusé raison valable,paie refuser raison valable
+372,"Je n'aurais pas pensé à cette solution, merci !",positif,support,négation_positive,je n'aurais pas pensé à cette solution merci,8,n'aurais pas pensé solution merci,n'aurais pas penser solution merci
+373,Le produit est bien emballé et protégé.,positif,produit,simple,le produit est bien emballé et protégé,7,produit emballé protégé,produit emballer protéger
+374,L'interface plante sur Safari.,négatif,application,problème,l'interface plante sur safari,4,l'interface plante safari,l'interface plante safari
+375,Bonne expérience générale.,positif,general,simple,bonne expérience générale,3,bonne expérience générale,bonne expérience générale
+376,"Le service fait ce qu'il promet, ni plus ni moins.",neutre,general,factuel,le service fait ce qu'il promet ni plus ni moins,10,service fait qu'il promet,service fait qu'il promet
+377,J'aurais aimé un emballage cadeau disponible.,mitigé,produit,opinion_mixte,j'aurais aimé un emballage cadeau disponible,6,j'aurais aimé emballage cadeau disponible,j'aurais aimer emballage cadeau disponible
+378,Livraison suivie avec précision.,positif,livraison,simple,livraison suivie avec précision,4,livraison suivie précision,livraison suivie précision
+379,Le produit est cassé dès la première utilisation.,négatif,produit,problème,le produit est cassé dès la première utilisation,8,produit cassé dès première utilisation,produit casser dès première utilisation
+380,"Je ne savais pas que vous offriez ce service, bonne surprise.",positif,support,négation_positive,je ne savais pas que vous offriez ce service bonne surprise,11,ne savais pas offriez service bonne surprise,ne savais pas offriez service bonne surprise
+381,Conditions générales mises à jour.,neutre,administratif,factuel,conditions générales mises à jour,5,conditions générales mises jour,conditions générales mises jour
+382,"Très bon service, je ne changerais pas.",positif,general,simple,très bon service je ne changerais pas,7,bon service ne changerais pas,bon service ne changerais pas
+383,Encore en attente de remboursement après un mois.,négatif,remboursement,problème,encore en attente de remboursement après un mois,8,encore attente remboursement après mois,encore attente rembourse après mois
+384,Le service est satisfaisant mais peut mieux faire.,mitigé,general,opinion_mixte,le service est satisfaisant mais peut mieux faire,8,service satisfaisant peut mieux faire,service satisfaisant peut mieux faire
+385,Je pensais que ça serait compliqué et ça ne l'était pas.,positif,general,négation_positive,je pensais que ça serait compliqué et ça ne l'était pas,11,pensais ça serait compliqué ça ne l'était pas,pensais ça serait compliquer ça ne l'était pas
+386,L'appli s'améliore vraiment à chaque mise à jour.,positif,application,simple,l'appli s'améliore vraiment à chaque mise à jour,8,l'appli s'améliore vraiment chaque mise jour,l'appli s'améliore vrai chaque mise jour
+387,Colis reçu en bon état.,neutre,produit,factuel,colis reçu en bon état,5,colis reçu bon état,colis recevoir bon état
+388,"Vraiment décevant, dernier achat ici.",négatif,general,simple,vraiment décevant dernier achat ici,5,vraiment décevant dernier achat ici,vrai décevant dernier achat ici
+389,"Je ne pensais pas à commander ici, mais je suis content.",positif,general,négation_positive,je ne pensais pas à commander ici mais je suis content,11,ne pensais pas commander ici suis content,ne pensais pas commander ici suis content
+390,Mon code promo était valide mais refusé au paiement.,négatif,paiement,problème,mon code promo était valide mais refusé au paiement,9,code promo valide refusé paiement,code promo valide refuser paie
+391,La réactivité du service client est exemplaire.,positif,support,simple,la réactivité du service client est exemplaire,7,réactivité service client exemplaire,réactiviter service client exemplaire
+392,Le produit se ternit après quelques lavages.,négatif,produit,problème,le produit se ternit après quelques lavages,7,produit ternit après quelques lavages,produit ternit après quelques lavages
+393,Je ne me souviens pas d'un service aussi fluide.,positif,general,négation_positive,je ne me souviens pas d'un service aussi fluide,9,ne souviens pas d'un service fluide,ne souviens pas d'un service fluide
+394,Livraison conforme à la promesse.,positif,livraison,simple,livraison conforme à la promesse,5,livraison conforme promesse,livraison conforme promesse
+395,"Super, le livreur a sonné mais je n'ai pas eu le temps d'ouvrir.",mitigé,livraison,sarcasme,super le livreur a sonné mais je n'ai pas eu le temps d'ouvrir,13,super livreur sonné n'ai pas eu temps d'ouvrir,super livreur sonner n'ai pas eu temps d'ouvrir
+396,Commande reçue.,neutre,livraison,factuel,commande reçue,2,commande reçue,commande recevoir
+397,"Le produit est top, je le recommande.",positif,produit,simple,le produit est top je le recommande,7,produit top recommande,produit top recommande
+398,Je n'ai pas été informé du report de ma livraison.,négatif,livraison,problème,je n'ai pas été informé du report de ma livraison,10,n'ai pas été informé report livraison,n'ai pas éter informer report livraison
+399,Retour pris en charge rapidement.,positif,remboursement,simple,retour pris en charge rapidement,5,retour pris charge rapidement,retour pris charge rapide
+400,Très longue attente au téléphone.,négatif,support,problème,très longue attente au téléphone,5,longue attente téléphone,long attente téléphone
+401,Je suis satisfait de la livraison.,positif,livraison,simple,je suis satisfait de la livraison,6,suis satisfait livraison,suis satisfaire livraison
+402,L'appli ne garde pas mes préférences.,négatif,application,problème,l'appli ne garde pas mes préférences,6,l'appli ne garde pas préférences,l'appli ne garde pas préférences
+403,"Je n'avais pas de grandes attentes, elles ont été dépassées.",positif,produit,négation_positive,je n'avais pas de grandes attentes elles ont été dépassées,10,n'avais pas grandes attentes été dépassées,n'avais pas grandes attentes éter dépasséer
+404,Le bon de commande était illisible.,négatif,administratif,problème,le bon de commande était illisible,6,bon commande illisible,bon commande illisible
+405,Réponse rapide et utile.,positif,support,simple,réponse rapide et utile,4,réponse rapide utile,réponse rapide utile
+406,Produit bien mais livraison décevante.,mitigé,livraison,opinion_mixte,produit bien mais livraison décevante,5,produit livraison décevante,produit livraison décevante
+407,Je n'aurais pas cru qu'un retour soit aussi simple.,positif,remboursement,négation_positive,je n'aurais pas cru qu'un retour soit aussi simple,9,n'aurais pas cru qu'un retour soit simple,n'aurais pas cru qu'un retour soit simple
+408,Le bouton de paiement ne répond pas.,négatif,application,problème,le bouton de paiement ne répond pas,7,bouton paiement ne répond pas,bouton paie ne répond pas
+409,"Produit très bien fini, je suis content.",positif,produit,simple,produit très bien fini je suis content,7,produit fini suis content,produit fini suis content
+410,Votre application est à la hauteur de sa réputation.,positif,application,simple,votre application est à la hauteur de sa réputation,9,application hauteur réputation,application hauteur réputation
+411,Je suis globalement satisfait mais quelques points me dérangent.,mitigé,general,opinion_mixte,je suis globalement satisfait mais quelques points me dérangent,9,suis globalement satisfait quelques points dérangent,suis globale satisfaire quelques points dérangent
+412,L'application a bien évolué ces derniers mois.,positif,application,simple,l'application a bien évolué ces derniers mois,7,l'application évolué derniers mois,l'application évoluer derniers mois
+413,Je ne pensais pas que le SAV serait aussi réactif.,positif,support,négation_positive,je ne pensais pas que le sav serait aussi réactif,10,ne pensais pas sav serait réactif,ne pensais pas sav serait réactif
+414,Encore des frais cachés dans la facture.,négatif,paiement,sarcasme,encore des frais cachés dans la facture,7,encore frais cachés facture,encore frais cachéer facture
+415,Confirmation d'expédition envoyée.,neutre,administratif,factuel,confirmation d'expédition envoyée,3,confirmation d'expédition envoyée,confirmation d'expédition envoyer
+416,Le produit est agréable à utiliser au quotidien.,positif,produit,simple,le produit est agréable à utiliser au quotidien,8,produit agréable utiliser quotidien,produit agréable utiliser quotidien
+417,J'ai dû me battre pour obtenir mon remboursement.,négatif,remboursement,problème,j'ai dû me battre pour obtenir mon remboursement,8,j'ai dû battre obtenir remboursement,j'ai dû battre obtenir rembourse
+418,"Bon service, facile à utiliser.",positif,general,simple,bon service facile à utiliser,5,bon service facile utiliser,bon service facile utiliser
+419,Je n'ai pas pu finaliser ma commande à cause d'un bug.,négatif,application,problème,je n'ai pas pu finaliser ma commande à cause d'un bug,11,n'ai pas pu finaliser commande cause d'un bug,n'ai pas pu finaliser commande cause d'un bug
+420,La livraison a été retardée mais le service client m'a tenu informé.,mitigé,livraison,opinion_mixte,la livraison a été retardée mais le service client m'a tenu informé,12,livraison été retardée service client m'a tenu informé,livraison éter retarder service client m'a tenu informer
+421,Je suis fan de votre application.,positif,application,simple,je suis fan de votre application,6,suis fan application,suis fan application
+422,"On m'avait annoncé une livraison avant 12h, reçue à 18h.",négatif,livraison,problème,on m'avait annoncé une livraison avant 12h reçue à 18h,10,on m'avait annoncé livraison avant reçue,on m'avait annoncer livraison avant recevoir
+423,Je n'aurais pas pensé laisser un avis positif au départ.,positif,general,négation_positive,je n'aurais pas pensé laisser un avis positif au départ,10,n'aurais pas pensé laisser avis positif départ,n'aurais pas penser laisser avis positif départ
+424,Produit haut de gamme pour un prix raisonnable.,positif,produit,simple,produit haut de gamme pour un prix raisonnable,8,produit haut gamme prix raisonnable,produit haut gamme prix raisonnable
+425,Impossible de modifier une commande après validation.,négatif,application,problème,impossible de modifier une commande après validation,7,impossible modifier commande après validation,impossible modifier commande après validation
+426,Bonne communication tout au long du processus.,positif,support,simple,bonne communication tout au long du processus,7,bonne communication long processus,bonne communication long processus
+427,Je ne peux pas conseiller ce produit en l'état.,négatif,produit,simple,je ne peux pas conseiller ce produit en l'état,9,ne peux pas conseiller produit l'état,ne peux pas conseiller produit l'état
+428,Le rechargement de la page efface le panier.,négatif,application,problème,le rechargement de la page efface le panier,8,rechargement page efface panier,recharge page efface panier
+429,Je ne pensais pas avoir des nouvelles si vite.,positif,support,négation_positive,je ne pensais pas avoir des nouvelles si vite,9,ne pensais pas nouvelles vite,ne pensais pas nouvelles vite
+430,Informations de facturation incorrectes.,négatif,administratif,problème,informations de facturation incorrectes,4,informations facturation incorrectes,informations facturation incorrectes
+431,"La qualité est là, je ne suis pas déçu.",positif,produit,négation_positive,la qualité est là je ne suis pas déçu,9,qualité là ne suis pas déçu,qualiter là ne suis pas décevoir
+432,L'appli est agréable à utiliser et bien conçue.,positif,application,simple,l'appli est agréable à utiliser et bien conçue,8,l'appli agréable utiliser conçue,l'appli agréable utiliser conçue
+433,Je n'imaginais pas que ce produit serait aussi durable.,positif,produit,négation_positive,je n'imaginais pas que ce produit serait aussi durable,9,n'imaginais pas produit serait durable,n'imaginais pas produit serait durable
+434,Retard important sans communication.,négatif,livraison,problème,retard important sans communication,4,retard important communication,retard important communication
+435,"Excellent achat, sans aucun problème.",positif,produit,simple,excellent achat sans aucun problème,5,excellent achat aucun problème,excellent achat aucun problème
+436,Le mode de paiement en crypto n'est pas disponible.,mitigé,paiement,opinion_mixte,le mode de paiement en crypto n'est pas disponible,9,mode paiement crypto n'est pas disponible,mode paie crypto n'est pas disponible
+437,"Je ne m'y attendais pas, mais votre chat en ligne est vraiment utile.",positif,support,négation_positive,je ne m'y attendais pas mais votre chat en ligne est vraiment utile,13,ne m'y attendais pas chat ligne vraiment utile,ne m'y attendais pas chat ligne vrai utile
+438,Produit abîmé à réception.,négatif,produit,problème,produit abîmé à réception,4,produit abîmé réception,produit abîmer réception
+439,Suivi de commande mis à jour.,neutre,livraison,factuel,suivi de commande mis à jour,6,suivi commande mis jour,suivi commande mis jour
+440,"Très bon produit, conforme à ma commande.",positif,produit,simple,très bon produit conforme à ma commande,7,bon produit conforme commande,bon produit conforme commande
+441,Le support est joignable mais peu efficace.,mitigé,support,opinion_mixte,le support est joignable mais peu efficace,7,support joignable peu efficace,support joignable peu efficace
+442,Je n'attendais pas ça d'une marque comme la vôtre.,négatif,produit,problème,je n'attendais pas ça d'une marque comme la vôtre,9,n'attendais pas ça d'une marque vôtre,n'attendais pas ça d'une marque vôtre
+443,L'emballage est trop volumineux pour si peu.,mitigé,produit,opinion_mixte,l'emballage est trop volumineux pour si peu,7,l'emballage trop volumineux peu,l'emballage trop volumineux peu
+444,Je ne pensais pas finir par recommander ce service.,positif,general,négation_positive,je ne pensais pas finir par recommander ce service,9,ne pensais pas finir recommander service,ne pensais pas finir recommander service
+445,Application disponible sur toutes les plateformes.,positif,application,simple,application disponible sur toutes les plateformes,6,application disponible toutes plateformes,application disponible toutes plateformes
+446,Colis arrivé le bon jour.,neutre,livraison,factuel,colis arrivé le bon jour,5,colis arrivé bon jour,colis arriver bon jour
+447,"Le service est de qualité, personnel attentionné.",positif,support,simple,le service est de qualité personnel attentionné,7,service qualité personnel attentionné,service qualiter personnel attentionner
+448,Je ne pouvais pas imaginer acheter ailleurs.,positif,general,négation_positive,je ne pouvais pas imaginer acheter ailleurs,7,ne pouvais pas imaginer acheter ailleurs,ne pouvais pas imaginer acheter ailleurs
+449,L'article est conforme mais la taille court.,mitigé,produit,opinion_mixte,l'article est conforme mais la taille court,7,l'article conforme taille court,l'article conforme taille court
+450,Votre service client ne déçoit jamais.,positif,support,simple,votre service client ne déçoit jamais,6,service client ne déçoit jamais,service client ne déçoit jamais
+451,Le formulaire de retour renvoie une erreur 404.,négatif,application,problème,le formulaire de retour renvoie une erreur 404,7,formulaire retour renvoie erreur,formulaire retour renvoie erreur
+452,Je pensais que la qualité serait bien inférieure.,positif,produit,négation_positive,je pensais que la qualité serait bien inférieure,8,pensais qualité serait inférieure,pensais qualiter serait inférieure
+453,Livraison rapide et bien emballée.,positif,livraison,simple,livraison rapide et bien emballée,5,livraison rapide emballée,livraison rapide emballer
+454,Le produit s'efface trop vite.,négatif,produit,problème,le produit s'efface trop vite,5,produit s'efface trop vite,produit s'efface trop vite
+455,Compte suspendu sans raison apparente.,négatif,administratif,problème,compte suspendu sans raison apparente,5,compte suspendu raison apparente,compte suspendu raison apparente
+456,J'ai apprécié la transparence sur les délais.,positif,support,simple,j'ai apprécié la transparence sur les délais,7,j'ai apprécié transparence délais,j'ai apprécier transparence délais
+457,Je ne savais pas que votre service était aussi complet.,positif,general,négation_positive,je ne savais pas que votre service était aussi complet,10,ne savais pas service complet,ne savais pas service complet
+458,Application ergonomique et rapide.,positif,application,simple,application ergonomique et rapide,4,application ergonomique rapide,application ergonomique rapide
+459,Mon colis a été retenu à la douane sans que vous m'en informiez.,négatif,livraison,problème,mon colis a été retenu à la douane sans que vous m'en informiez,13,colis été retenu douane m'en informiez,colis éter retenu douane m'en informiez
+460,Je suis impressionné par la qualité du service.,positif,support,simple,je suis impressionné par la qualité du service,8,suis impressionné qualité service,suis impressionner qualiter service
+461,Application difficile à prendre en main au départ.,mitigé,application,opinion_mixte,application difficile à prendre en main au départ,8,application difficile prendre main départ,application difficile prendre main départ
+462,Votre service est dans le top 3 que j'ai utilisé.,positif,general,simple,votre service est dans le top 3 que j'ai utilisé,9,service top j'ai utilisé,service top j'ai utiliser
+463,Le remboursement aurait pu être plus rapide.,mitigé,remboursement,opinion_mixte,le remboursement aurait pu être plus rapide,7,remboursement aurait pu rapide,rembourse aurait pu rapide
+464,Je n'aurais pas commandé autant si le service n'était pas aussi bon.,positif,general,négation_positive,je n'aurais pas commandé autant si le service n'était pas aussi bon,12,n'aurais pas commandé autant service n'était pas bon,n'aurais pas commander autant service n'était pas bon
+465,Notification reçue pour ma livraison.,neutre,livraison,factuel,notification reçue pour ma livraison,5,notification reçue livraison,notification recevoir livraison
+466,Produit bien pensé et ergonomique.,positif,produit,simple,produit bien pensé et ergonomique,5,produit pensé ergonomique,produit penser ergonomique
+467,Je ne comprends pas pourquoi le remboursement est partiel.,négatif,remboursement,problème,je ne comprends pas pourquoi le remboursement est partiel,9,ne comprends pas pourquoi remboursement partiel,ne comprends pas pourquoi rembourse partiel
+468,Le service client a fait preuve d'une grande empathie.,positif,support,simple,le service client a fait preuve d'une grande empathie,9,service client fait preuve d'une grande empathie,service client fait preuve d'une grande empathie
+469,Votre site ne sauvegarde pas le panier.,négatif,application,problème,votre site ne sauvegarde pas le panier,7,site ne sauvegarde pas panier,site ne sauvegarde pas panier
+470,Je n'aurais pas parié sur un service en ligne mais vous avez bien joué.,positif,general,négation_positive,je n'aurais pas parié sur un service en ligne mais vous avez bien joué,14,n'aurais pas parié service ligne avez joué,n'aurais pas parier service ligne avez jouer
+471,Livraison effectuée dans les temps.,neutre,livraison,factuel,livraison effectuée dans les temps,5,livraison effectuée temps,livraison effectuer temps
+472,Très bonne qualité de fabrication.,positif,produit,simple,très bonne qualité de fabrication,5,bonne qualité fabrication,bonne qualiter fabrication
+473,Je suis mécontent de la gestion de ma réclamation.,négatif,support,problème,je suis mécontent de la gestion de ma réclamation,9,suis mécontent gestion réclamation,suis mécontent gestion réclamation
+474,Le site est facile à naviguer.,positif,application,simple,le site est facile à naviguer,6,site facile naviguer,site facile naviguer
+475,Je ne pensais pas qu'on pouvait être aussi satisfait.,positif,general,négation_positive,je ne pensais pas qu'on pouvait être aussi satisfait,9,ne pensais pas qu'on pouvait satisfait,ne pensais pas qu'on pouvait satisfaire
+476,La description du produit ne mentionne pas tous les défauts.,négatif,produit,problème,la description du produit ne mentionne pas tous les défauts,10,description produit ne mentionne pas tous défauts,description produit ne mentionne pas tous défauts
+477,"Commande bien reçue, merci.",positif,livraison,simple,commande bien reçue merci,4,commande reçue merci,commande recevoir merci
+478,J'ai été remboursé plus vite que prévu.,positif,remboursement,simple,j'ai été remboursé plus vite que prévu,7,j'ai été remboursé vite prévu,j'ai éter rembourser vite prévu
+479,L'appli affiche un message d'erreur au démarrage.,négatif,application,problème,l'appli affiche un message d'erreur au démarrage,7,l'appli affiche message d'erreur démarrage,l'appli affiche message d'erreur démarrage
+480,Je n'aurais pas pensé avoir autant de satisfaction.,positif,general,négation_positive,je n'aurais pas pensé avoir autant de satisfaction,8,n'aurais pas pensé autant satisfaction,n'aurais pas penser autant satisfaction
+481,L'article est vendu sans le câble d'alimentation.,négatif,produit,problème,l'article est vendu sans le câble d'alimentation,7,l'article vendu câble d'alimentation,l'article vendu câble d'alimentation
+482,Très bonne expérience du début à la fin.,positif,general,simple,très bonne expérience du début à la fin,8,bonne expérience début fin,bonne expérience début fin
+483,Je ne me doutais pas que le service était si bien organisé.,positif,support,négation_positive,je ne me doutais pas que le service était si bien organisé,12,ne doutais pas service organisé,ne doutais pas service organiser
+484,Votre transporteur perd régulièrement des colis.,négatif,livraison,problème,votre transporteur perd régulièrement des colis,6,transporteur perd régulièrement colis,transporteur perd régulière colis
+485,Mise à jour du compte effectuée.,neutre,administratif,factuel,mise à jour du compte effectuée,6,mise jour compte effectuée,mise jour compte effectuer
+486,"Produit robuste, bonne longévité prévisible.",positif,produit,simple,produit robuste bonne longévité prévisible,5,produit robuste bonne longévité prévisible,produit robuste bonne longéviter prévisible
+487,Je pense que c'est le meilleur achat de l'année.,positif,produit,simple,je pense que c'est le meilleur achat de l'année,9,pense c'est meilleur achat l'année,pense c'est meilleur achat l'anner
+488,Le service m'a déçu par rapport aux attentes créées.,mitigé,general,opinion_mixte,le service m'a déçu par rapport aux attentes créées,9,service m'a déçu rapport attentes créées,service m'a décevoir rapport attentes crééer
+489,"Je n'avais pas vu les frais de livraison, dommage.",mitigé,paiement,opinion_mixte,je n'avais pas vu les frais de livraison dommage,9,n'avais pas vu frais livraison dommage,n'avais pas vu frais livraison dommage
+490,"Livraison rapide, produit en parfait état.",positif,livraison,simple,livraison rapide produit en parfait état,6,livraison rapide produit parfait état,livraison rapide produit parfait état
+491,Je n'arrive pas à retrouver ma facture dans l'espace client.,négatif,administratif,problème,je n'arrive pas à retrouver ma facture dans l'espace client,10,n'arrive pas retrouver facture l'espace client,n'arrive pas retrouver facture l'espace client
+492,Le personnel téléphonique est très agréable.,positif,support,simple,le personnel téléphonique est très agréable,6,personnel téléphonique agréable,personnel téléphonique agréable
+493,Le suivi de ma commande est incohérent.,négatif,livraison,problème,le suivi de ma commande est incohérent,7,suivi commande incohérent,suivi commande incohérent
+494,Je ne pensais pas que vous prendriez ma remarque en compte si vite.,positif,support,négation_positive,je ne pensais pas que vous prendriez ma remarque en compte si vite,13,ne pensais pas prendriez remarque compte vite,ne pensais pas prendriez remarque compte vite
+495,"Bonne application, quelques bugs mineurs.",mitigé,application,opinion_mixte,bonne application quelques bugs mineurs,5,bonne application quelques bugs mineurs,bonne application quelques bugs mineurs
+496,La commande est arrivée le jour dit.,positif,livraison,simple,la commande est arrivée le jour dit,7,commande arrivée jour dit,commande arriver jour dit
+497,Votre service est vraiment une déception.,négatif,general,simple,votre service est vraiment une déception,6,service vraiment déception,service vrai déception
+498,Je suis agréablement surpris par les délais.,positif,livraison,simple,je suis agréablement surpris par les délais,7,suis agréablement surpris délais,suis agréable surpris délais
+499,L'appli consomme trop de batterie.,négatif,application,problème,l'appli consomme trop de batterie,5,l'appli consomme trop batterie,l'appli consomme trop batterie
+500,"Bon service, je vous fais confiance.",positif,general,simple,bon service je vous fais confiance,6,bon service fais confiance,bon service fais confiance
+501,Le produit correspond exactement à la description.,positif,produit,simple,le produit correspond exactement à la description,7,produit correspond exactement description,produit correspond exacte description
+502,Je ne pensais pas que la livraison serait aussi rapide.,positif,livraison,négation_positive,je ne pensais pas que la livraison serait aussi rapide,10,ne pensais pas livraison serait rapide,ne pensais pas livraison serait rapide
+503,Votre site est régulièrement en maintenance.,négatif,application,problème,votre site est régulièrement en maintenance,6,site régulièrement maintenance,site régulière maintenance
+504,Le support a pris en charge ma demande immédiatement.,positif,support,simple,le support a pris en charge ma demande immédiatement,9,support pris charge demande immédiatement,support pris charge demande immédiate
+505,Colis reçu en avance sur les prévisions.,positif,livraison,simple,colis reçu en avance sur les prévisions,7,colis reçu avance prévisions,colis recevoir avance prévisions
+506,Je n'aurais pas commandé là si j'avais eu plus de temps.,mitigé,general,négation_positive,je n'aurais pas commandé là si j'avais eu plus de temps,11,n'aurais pas commandé là j'avais eu temps,n'aurais pas commander là j'avais eu temps
+507,L'article ressemble à de la contrefaçon.,négatif,produit,problème,l'article ressemble à de la contrefaçon,6,l'article ressemble contrefaçon,l'article ressemble contrefaçon
+508,Remboursement reçu conforme.,positif,remboursement,simple,remboursement reçu conforme,3,remboursement reçu conforme,rembourse recevoir conforme
+509,Votre application mériterait plus de fonctionnalités.,mitigé,application,opinion_mixte,votre application mériterait plus de fonctionnalités,6,application mériterait fonctionnalités,application mériterait fonctionnalitéer
+510,"Je suis très satisfait, le produit est excellent.",positif,produit,simple,je suis très satisfait le produit est excellent,8,suis satisfait produit excellent,suis satisfaire produit excellent
+511,Le service est long mais finalement efficace.,mitigé,support,opinion_mixte,le service est long mais finalement efficace,7,service long finalement efficace,service long finale efficace
+512,J'attends toujours une réponse à ma demande.,négatif,support,problème,j'attends toujours une réponse à ma demande,7,j'attends toujours réponse demande,j'attends toujours réponse demande
+513,La mise à jour a amélioré la vitesse de l'application.,positif,application,simple,la mise à jour a amélioré la vitesse de l'application,10,mise jour amélioré vitesse l'application,mise jour améliorer vitesse l'application
+514,Je n'aurais pas imaginé une réponse aussi rapide.,positif,support,négation_positive,je n'aurais pas imaginé une réponse aussi rapide,8,n'aurais pas imaginé réponse rapide,n'aurais pas imaginer réponse rapide
+515,La livraison est arrivée avec 4 jours de retard.,négatif,livraison,problème,la livraison est arrivée avec 4 jours de retard,8,livraison arrivée jours retard,livraison arriver jours retard
+516,L'interface est bien pensée.,positif,application,simple,l'interface est bien pensée,4,l'interface pensée,l'interface penser
+517,Votre SAV n'est pas à la hauteur.,négatif,support,problème,votre sav n'est pas à la hauteur,7,sav n'est pas hauteur,sav n'est pas hauteur
+518,Je ne pensais pas que ce serait aussi simple.,positif,general,négation_positive,je ne pensais pas que ce serait aussi simple,9,ne pensais pas serait simple,ne pensais pas serait simple
+519,"Produit commandé le lundi, reçu le mercredi.",positif,livraison,simple,produit commandé le lundi reçu le mercredi,7,produit commandé lundi reçu mercredi,produit commander lundi recevoir mercredi
+520,Pas convaincu par la robustesse du produit.,mitigé,produit,opinion_mixte,pas convaincu par la robustesse du produit,7,pas convaincu robustesse produit,pas convaincu robustesse produit
+521,Le service client m'a orienté vers la bonne solution.,positif,support,simple,le service client m'a orienté vers la bonne solution,9,service client m'a orienté bonne solution,service client m'a orienter bonne solution
+522,Je n'ai pas reçu l'article offert avec ma commande.,négatif,produit,problème,je n'ai pas reçu l'article offert avec ma commande,9,n'ai pas reçu l'article offert commande,n'ai pas recevoir l'article offert commande
+523,L'application est bien optimisée.,positif,application,simple,l'application est bien optimisée,4,l'application optimisée,l'application optimiser
+524,J'aurais aimé avoir plus de choix dans les modes de livraison.,mitigé,livraison,opinion_mixte,j'aurais aimé avoir plus de choix dans les modes de livraison,11,j'aurais aimé choix modes livraison,j'aurais aimer choix modes livraison
+525,Votre service de suivi en temps réel est vraiment pratique.,positif,livraison,simple,votre service de suivi en temps réel est vraiment pratique,10,service suivi temps réel vraiment pratique,service suivi temps réel vrai pratique
+526,Je ne pensais pas avoir à me plaindre aussi souvent.,négatif,general,négation_positive,je ne pensais pas avoir à me plaindre aussi souvent,10,ne pensais pas plaindre souvent,ne pensais pas plaindre souvent
+527,Le produit est très bien conçu.,positif,produit,simple,le produit est très bien conçu,6,produit conçu,produit conçu
+528,Mon paiement a été doublement prélevé.,négatif,paiement,problème,mon paiement a été doublement prélevé,6,paiement été doublement prélevé,paie éter double prélever
+529,Je suis ravi de ma commande.,positif,general,simple,je suis ravi de ma commande,6,suis ravi commande,suis ravi commande
+530,Votre support connaît ses sujets.,positif,support,simple,votre support connaît ses sujets,5,support connaît sujets,support connaît sujets
+531,La qualité visuelle du produit est très bonne.,positif,produit,simple,la qualité visuelle du produit est très bonne,8,qualité visuelle produit bonne,qualiter visuelle produit bonne
+532,Je ne m'attendais pas à un service de cette qualité.,positif,support,négation_positive,je ne m'attendais pas à un service de cette qualité,10,ne m'attendais pas service qualité,ne m'attendais pas service qualiter
+533,La livraison a été effectuée comme promis.,positif,livraison,simple,la livraison a été effectuée comme promis,7,livraison été effectuée promis,livraison éter effectuer promis
+534,Votre application consomme trop de données mobiles.,négatif,application,problème,votre application consomme trop de données mobiles,7,application consomme trop données mobiles,application consomme trop donnéer mobiles
+535,Je n'ai jamais eu de problème avec votre service.,positif,general,négation_positive,je n'ai jamais eu de problème avec votre service,9,n'ai jamais eu problème service,n'ai jamais eu problème service
+536,Le produit est bruyant à l'utilisation.,négatif,produit,problème,le produit est bruyant à l'utilisation,6,produit bruyant l'utilisation,produit bruyant l'utilisation
+537,Je suis très content de mon achat.,positif,produit,simple,je suis très content de mon achat,7,suis content achat,suis content achat
+538,Votre service est irréprochable.,positif,general,simple,votre service est irréprochable,4,service irréprochable,service irréprochable
+539,Je n'aurais pas pensé avoir un tel niveau de service.,positif,support,négation_positive,je n'aurais pas pensé avoir un tel niveau de service,10,n'aurais pas pensé tel niveau service,n'aurais pas penser tel niveau service
+540,La commande a été bien préparée.,positif,general,simple,la commande a été bien préparée,6,commande été préparée,commande éter préparer
+541,Mon remboursement est parti dans les délais prévus.,positif,remboursement,simple,mon remboursement est parti dans les délais prévus,8,remboursement parti délais prévus,rembourse parti délais prévus
+542,Je ne pensais pas que ce produit serait aussi pratique.,positif,produit,négation_positive,je ne pensais pas que ce produit serait aussi pratique,10,ne pensais pas produit serait pratique,ne pensais pas produit serait pratique
+543,L'application m'a rendu la vie plus simple.,positif,application,simple,l'application m'a rendu la vie plus simple,7,l'application m'a rendu vie simple,l'application m'a rendu vie simple
+544,Votre service de livraison a perdu mon colis.,négatif,livraison,problème,votre service de livraison a perdu mon colis,8,service livraison perdu colis,service livraison perdu colis
+545,Je n'ai pas eu à attendre plus de 5 minutes au téléphone.,positif,support,négation_positive,je n'ai pas eu à attendre plus de 5 minutes au téléphone,11,n'ai pas eu attendre minutes téléphone,n'ai pas eu attendre minutes téléphone
+546,Le produit est bien conçu pour une utilisation quotidienne.,positif,produit,simple,le produit est bien conçu pour une utilisation quotidienne,9,produit conçu utilisation quotidienne,produit conçu utilisation quotidienne
+547,Votre service après-vente a tout résolu.,positif,support,simple,votre service après vente a tout résolu,7,service après vente résolu,service après vente résolu
+548,Je ne m'attendais pas à un emballage aussi soigné.,positif,produit,négation_positive,je ne m'attendais pas à un emballage aussi soigné,9,ne m'attendais pas emballage soigné,ne m'attendais pas emballage soigner
+549,La mise à jour a corrigé les bugs signalés.,positif,application,simple,la mise à jour a corrigé les bugs signalés,9,mise jour corrigé bugs signalés,mise jour corriger bugs signaléer
+550,Mon compte a été bloqué sans raison.,négatif,administratif,problème,mon compte a été bloqué sans raison,7,compte été bloqué raison,compte éter bloquer raison
+551,L'article correspond à la description sur le site.,positif,produit,simple,l'article correspond à la description sur le site,8,l'article correspond description site,l'article correspond description site
+552,Je ne pensais pas être aussi bien traité.,positif,support,négation_positive,je ne pensais pas être aussi bien traité,8,ne pensais pas traité,ne pensais pas traiter
+553,"Livraison dans les temps, colis intact.",positif,livraison,simple,livraison dans les temps colis intact,6,livraison temps colis intact,livraison temps colis intact
+554,Le service m'a demandé les mêmes informations plusieurs fois.,négatif,support,problème,le service m'a demandé les mêmes informations plusieurs fois,9,service m'a demandé mêmes informations plusieurs fois,service m'a demander mêmes informations plusieurs fois
+555,Je suis satisfait de la qualité du produit.,positif,produit,simple,je suis satisfait de la qualité du produit,8,suis satisfait qualité produit,suis satisfaire qualiter produit
+556,"Application bien notée, et ça se confirme à l'usage.",positif,application,simple,application bien notée et ça se confirme à l'usage,9,application notée ça confirme l'usage,application noter ça confirme l'usage
+557,Je n'ai eu aucun souci lors de la commande.,positif,general,négation_positive,je n'ai eu aucun souci lors de la commande,9,n'ai eu aucun souci commande,n'ai eu aucun souci commande
+558,La livraison a été faite avec soin.,positif,livraison,simple,la livraison a été faite avec soin,7,livraison été faite soin,livraison éter faite soin
+559,Votre service est parfois décevant.,mitigé,general,opinion_mixte,votre service est parfois décevant,5,service parfois décevant,service parfois décevant
+560,Je ne pensais pas que l'application serait aussi utile.,positif,application,négation_positive,je ne pensais pas que l'application serait aussi utile,9,ne pensais pas l'application serait utile,ne pensais pas l'application serait utile
+561,Le produit ne chauffe pas trop.,positif,produit,simple,le produit ne chauffe pas trop,6,produit ne chauffe pas trop,produit ne chauffe pas trop
+562,La qualité du service est inégale selon les conseillers.,mitigé,support,opinion_mixte,la qualité du service est inégale selon les conseillers,9,qualité service inégale selon conseillers,qualiter service inégale selon conseillers
+563,Je suis impressionné par la qualité du produit.,positif,produit,simple,je suis impressionné par la qualité du produit,8,suis impressionné qualité produit,suis impressionner qualiter produit
+564,L'application est utile mais elle a encore des défauts.,mitigé,application,opinion_mixte,l'application est utile mais elle a encore des défauts,9,l'application utile encore défauts,l'application utile encore défauts
+565,Votre site web charge rapidement.,positif,application,simple,votre site web charge rapidement,5,site web charge rapidement,site web charge rapide
+566,Je ne m'attendais pas à une telle rigueur.,positif,support,négation_positive,je ne m'attendais pas à une telle rigueur,8,ne m'attendais pas telle rigueur,ne m'attendais pas telle rigueur
+567,Mon article est arrivé en parfait état.,positif,produit,simple,mon article est arrivé en parfait état,7,article arrivé parfait état,article arriver parfait état
+568,Le service client n'est disponible que le matin.,mitigé,support,opinion_mixte,le service client n'est disponible que le matin,8,service client n'est disponible matin,service client n'est disponible matin
+569,Je ne pensais pas que le produit serait aussi polyvalent.,positif,produit,négation_positive,je ne pensais pas que le produit serait aussi polyvalent,10,ne pensais pas produit serait polyvalent,ne pensais pas produit serait polyvalent
+570,L'application propose maintenant des fonctionnalités avancées.,positif,application,simple,l'application propose maintenant des fonctionnalités avancées,6,l'application propose maintenant fonctionnalités avancées,l'application propose maintenant fonctionnalitéer avancéer
+571,Je suis déçu par la qualité globale.,négatif,general,simple,je suis déçu par la qualité globale,7,suis déçu qualité globale,suis décevoir qualiter globale
+572,Votre équipe est toujours disponible et aimable.,positif,support,simple,votre équipe est toujours disponible et aimable,7,équipe toujours disponible aimable,équipe toujours disponible aimable
+573,Je n'avais aucune attente et j'ai été positivement surpris.,positif,produit,négation_positive,je n'avais aucune attente et j'ai été positivement surpris,9,n'avais aucune attente j'ai été positivement surpris,n'avais aucune attente j'ai éter positive surpris
+574,La livraison express coûte trop cher.,mitigé,livraison,opinion_mixte,la livraison express coûte trop cher,6,livraison express coûte trop cher,livraison express coûte trop cher
+575,Votre service mérite vraiment 5 étoiles.,positif,general,simple,votre service mérite vraiment 5 étoiles,5,service mérite vraiment étoiles,service mérite vrai étoiles
+576,J'ai reçu un article soldé à prix plein.,négatif,paiement,problème,j'ai reçu un article soldé à prix plein,8,j'ai reçu article soldé prix plein,j'ai recevoir article solder prix plein
+577,Je ne pensais pas que votre service était aussi fiable.,positif,general,négation_positive,je ne pensais pas que votre service était aussi fiable,10,ne pensais pas service fiable,ne pensais pas service fiable
+578,Le service de retour fonctionne bien.,positif,remboursement,simple,le service de retour fonctionne bien,6,service retour fonctionne,service retour fonctionne
+579,Votre chat en ligne me renvoie toujours vers les FAQ.,négatif,support,problème,votre chat en ligne me renvoie toujours vers les faq,10,chat ligne renvoie toujours faq,chat ligne renvoie toujours faq
+580,Je suis très satisfait de mon expérience globale.,positif,general,simple,je suis très satisfait de mon expérience globale,8,suis satisfait expérience globale,suis satisfaire expérience globale
+581,La qualité du produit est supérieure à ce que j'espérais.,positif,produit,simple,la qualité du produit est supérieure à ce que j'espérais,10,qualité produit supérieure j'espérais,qualiter produit supérieure j'espérais
+582,Je n'aurais pas dû hésiter aussi longtemps.,positif,general,négation_positive,je n'aurais pas dû hésiter aussi longtemps,7,n'aurais pas dû hésiter longtemps,n'aurais pas dû hésiter longtemps
+583,Votre application est devenue indispensable pour moi.,positif,application,simple,votre application est devenue indispensable pour moi,7,application devenue indispensable moi,application devenue indispensable moi
+584,L'email de confirmation est arrivé en spam.,mitigé,administratif,opinion_mixte,l'email de confirmation est arrivé en spam,7,l'email confirmation arrivé spam,l'email confirmation arriver spam
+585,Je ne pensais pas que la résolution serait si rapide.,positif,support,négation_positive,je ne pensais pas que la résolution serait si rapide,10,ne pensais pas résolution serait rapide,ne pensais pas résolution serait rapide
+586,Le produit est arrivé bien emballé.,positif,produit,simple,le produit est arrivé bien emballé,6,produit arrivé emballé,produit arriver emballer
+587,Votre service dépasse mes attentes.,positif,general,simple,votre service dépasse mes attentes,5,service dépasse attentes,service dépasse attentes
+588,J'ai eu du mal à trouver l'assistance en ligne.,mitigé,support,opinion_mixte,j'ai eu du mal à trouver l'assistance en ligne,9,j'ai eu mal trouver l'assistance ligne,j'ai eu mal trouver l'assistance ligne
+589,Je ne m'attendais pas à ce que le retour soit aussi simple.,positif,remboursement,négation_positive,je ne m'attendais pas à ce que le retour soit aussi simple,12,ne m'attendais pas retour soit simple,ne m'attendais pas retour soit simple
+590,Le service est fluide et sans complications.,positif,general,simple,le service est fluide et sans complications,7,service fluide complications,service fluide complications
+591,Votre appli ne synchronise pas les données correctement.,négatif,application,problème,votre appli ne synchronise pas les données correctement,8,appli ne synchronise pas données correctement,appli ne synchronise pas donnéer correcte
+592,Je suis très satisfait du service rendu.,positif,support,simple,je suis très satisfait du service rendu,7,suis satisfait service rendu,suis satisfaire service rendu
+593,La livraison a eu lieu sans encombre.,positif,livraison,simple,la livraison a eu lieu sans encombre,7,livraison eu lieu encombre,livraison eu lieu encombre
+594,Le produit est solide et de belle facture.,positif,produit,simple,le produit est solide et de belle facture,8,produit solide belle facture,produit solide belle facture
+595,Je ne pensais pas que la qualité serait aussi constante.,positif,produit,négation_positive,je ne pensais pas que la qualité serait aussi constante,10,ne pensais pas qualité serait constante,ne pensais pas qualiter serait constante
+596,Mon paiement a pris du temps à être validé.,mitigé,paiement,opinion_mixte,mon paiement a pris du temps à être validé,9,paiement pris temps validé,paie pris temps valider
+597,Je suis content de mon achat.,positif,produit,simple,je suis content de mon achat,6,suis content achat,suis content achat
+598,Votre équipe est toujours réactive.,positif,support,simple,votre équipe est toujours réactive,5,équipe toujours réactive,équipe toujours réactive
+599,Je n'aurais pas imaginé un service aussi personnel.,positif,support,négation_positive,je n'aurais pas imaginé un service aussi personnel,8,n'aurais pas imaginé service personnel,n'aurais pas imaginer service personnel
+600,Application simple et efficace.,positif,application,simple,application simple et efficace,4,application simple efficace,application simple efficace
+601,Votre service m'a aidé à résoudre mon problème rapidement.,positif,support,simple,votre service m'a aidé à résoudre mon problème rapidement,9,service m'a aidé résoudre problème rapidement,service m'a aider résoudre problème rapide
+602,Je n'ai pas eu à relancer mon dossier.,positif,support,négation_positive,je n'ai pas eu à relancer mon dossier,8,n'ai pas eu relancer dossier,n'ai pas eu relancer dossier
+603,L'article a été livré à l'étage sans supplément.,positif,livraison,simple,l'article a été livré à l'étage sans supplément,8,l'article été livré l'étage supplément,l'article éter livrer l'étage supplé
+604,Le service client ne peut pas accéder à mon compte.,négatif,support,problème,le service client ne peut pas accéder à mon compte,10,service client ne peut pas accéder compte,service client ne peut pas accéder compte
+605,Je suis très content de ma commande.,positif,general,simple,je suis très content de ma commande,7,suis content commande,suis content commande
+606,Votre FAQ est claire et bien organisée.,positif,support,simple,votre faq est claire et bien organisée,7,faq claire organisée,faq claire organiser
+607,Je ne m'attendais pas à ce niveau de professionnalisme.,positif,support,négation_positive,je ne m'attendais pas à ce niveau de professionnalisme,9,ne m'attendais pas niveau professionnalisme,ne m'attendais pas niveau professionnalisme
+608,La commande a bien été traitée.,positif,general,simple,la commande a bien été traitée,6,commande été traitée,commande éter traiter
+609,Votre service de chat est plus rapide que le téléphone.,positif,support,simple,votre service de chat est plus rapide que le téléphone,10,service chat rapide téléphone,service chat rapide téléphone
+610,Je suis bluffé par la réactivité de l'équipe.,positif,support,simple,je suis bluffé par la réactivité de l'équipe,8,suis bluffé réactivité l'équipe,suis bluffer réactiviter l'équipe
+611,Le produit est bien fini et agréable en main.,positif,produit,simple,le produit est bien fini et agréable en main,9,produit fini agréable main,produit fini agréable main
+612,Je ne pensais pas être remboursé aussi vite.,positif,remboursement,négation_positive,je ne pensais pas être remboursé aussi vite,8,ne pensais pas remboursé vite,ne pensais pas rembourser vite
+613,Le service est régulièrement indisponible le week-end.,négatif,support,problème,le service est régulièrement indisponible le week end,8,service régulièrement indisponible week end,service régulière indisponible week end
+614,Je suis satisfait de la réactivité du service.,positif,support,simple,je suis satisfait de la réactivité du service,8,suis satisfait réactivité service,suis satisfaire réactiviter service
+615,Votre application est l'une des meilleures du marché.,positif,application,simple,votre application est l'une des meilleures du marché,8,application l'une meilleures marché,application l'une meilleures marcher
+616,Je n'aurais pas pensé que le produit serait aussi léger.,positif,produit,négation_positive,je n'aurais pas pensé que le produit serait aussi léger,10,n'aurais pas pensé produit serait léger,n'aurais pas penser produit serait léger
+617,La commande a été livrée avant l'heure prévue.,positif,livraison,simple,la commande a été livrée avant l'heure prévue,8,commande été livrée avant l'heure prévue,commande éter livrer avant l'heure prévue
+618,Votre service traite les réclamations sérieusement.,positif,support,simple,votre service traite les réclamations sérieusement,6,service traite réclamations sérieusement,service traite réclamations sérieuse
+619,Je suis impressionné par la fluidité de l'application.,positif,application,simple,je suis impressionné par la fluidité de l'application,8,suis impressionné fluidité l'application,suis impressionner fluiditer l'application
+620,La commande est arrivée dans les délais.,positif,livraison,simple,la commande est arrivée dans les délais,7,commande arrivée délais,commande arriver délais
+621,Le suivi de commande est très précis.,positif,livraison,simple,le suivi de commande est très précis,7,suivi commande précis,suivi commande précis
+622,Je ne pensais pas qu'un retour serait aussi sans contrainte.,positif,remboursement,négation_positive,je ne pensais pas qu'un retour serait aussi sans contrainte,10,ne pensais pas qu'un retour serait contrainte,ne pensais pas qu'un retour serait contrainte
+623,Votre service dépasse les attentes.,positif,general,simple,votre service dépasse les attentes,5,service dépasse attentes,service dépasse attentes
+624,J'ai apprécié le suivi proactif de ma commande.,positif,support,simple,j'ai apprécié le suivi proactif de ma commande,8,j'ai apprécié suivi proactif commande,j'ai apprécier suivi proactif commande
+625,Je ne m'attendais pas à un tel soin dans l'emballage.,positif,produit,négation_positive,je ne m'attendais pas à un tel soin dans l'emballage,10,ne m'attendais pas tel soin l'emballage,ne m'attendais pas tel soin l'emballage
+626,Le produit est arrivé en avance.,positif,livraison,simple,le produit est arrivé en avance,6,produit arrivé avance,produit arriver avance
+627,Votre support m'a guidé pas à pas.,positif,support,simple,votre support m'a guidé pas à pas,7,support m'a guidé pas pas,support m'a guider pas pas
+628,Je suis agréablement surpris.,positif,general,simple,je suis agréablement surpris,4,suis agréablement surpris,suis agréable surpris
+629,"Application légère, rapide, sans bug.",positif,application,simple,application légère rapide sans bug,5,application légère rapide bug,application légère rapide bug
+630,Le remboursement a bien été effectué.,positif,remboursement,simple,le remboursement a bien été effectué,6,remboursement été effectué,rembourse éter effectuer
+631,Je ne pensais pas que les délais annoncés seraient respectés.,positif,livraison,négation_positive,je ne pensais pas que les délais annoncés seraient respectés,10,ne pensais pas délais annoncés seraient respectés,ne pensais pas délais annoncéer seraient respectéer
+632,Votre service est exemplaire.,positif,general,simple,votre service est exemplaire,4,service exemplaire,service exemplaire
+633,J'ai reçu un double de ma commande par erreur.,mitigé,produit,problème,j'ai reçu un double de ma commande par erreur,9,j'ai reçu double commande erreur,j'ai recevoir double commande erreur
+634,Je suis très satisfait du service livraison.,positif,livraison,simple,je suis très satisfait du service livraison,7,suis satisfait service livraison,suis satisfaire service livraison
+635,L'agent a résolu mon problème en moins de 5 minutes.,positif,support,simple,l'agent a résolu mon problème en moins de 5 minutes,9,l'agent résolu problème minutes,l'agent résolu problème minutes
+636,Je ne pensais pas avoir une réponse aussi précise.,positif,support,négation_positive,je ne pensais pas avoir une réponse aussi précise,9,ne pensais pas réponse précise,ne pensais pas réponse précise
+637,La qualité de l'emballage est irréprochable.,positif,produit,simple,la qualité de l'emballage est irréprochable,6,qualité l'emballage irréprochable,qualiter l'emballage irréprochable
+638,Votre service client est toujours disponible.,positif,support,simple,votre service client est toujours disponible,6,service client toujours disponible,service client toujours disponible
+639,Je n'aurais pas imaginé commander aussi souvent.,positif,general,négation_positive,je n'aurais pas imaginé commander aussi souvent,7,n'aurais pas imaginé commander souvent,n'aurais pas imaginer commander souvent
+640,"La livraison était en avance, super.",positif,livraison,simple,la livraison était en avance super,6,livraison avance super,livraison avance super
+641,Le produit est conforme à la description et aux photos.,positif,produit,simple,le produit est conforme à la description et aux photos,10,produit conforme description photos,produit conforme description photos
+642,Je suis satisfait mais j'attendais un peu mieux.,mitigé,general,opinion_mixte,je suis satisfait mais j'attendais un peu mieux,8,suis satisfait j'attendais peu mieux,suis satisfaire j'attendais peu mieux
+643,Votre équipe m'a impressionné.,positif,support,simple,votre équipe m'a impressionné,4,équipe m'a impressionné,équipe m'a impressionner
+644,Je ne pensais pas trouver ce produit aussi facilement.,positif,general,négation_positive,je ne pensais pas trouver ce produit aussi facilement,9,ne pensais pas trouver produit facilement,ne pensais pas trouver produit facile
+645,Application fonctionnelle et bien designée.,positif,application,simple,application fonctionnelle et bien designée,5,application fonctionnelle designée,application fonctionnelle designer
+646,"Le service est fluide, sans accroc.",positif,general,simple,le service est fluide sans accroc,6,service fluide accroc,service fluide accroc
+647,Je n'ai eu aucun problème avec ma commande.,positif,general,négation_positive,je n'ai eu aucun problème avec ma commande,8,n'ai eu aucun problème commande,n'ai eu aucun problème commande
+648,La commande a été bien gérée de bout en bout.,positif,general,simple,la commande a été bien gérée de bout en bout,10,commande été gérée bout bout,commande éter gérer bout bout
+649,Le produit est bien sécurisé dans son emballage.,positif,produit,simple,le produit est bien sécurisé dans son emballage,8,produit sécurisé emballage,produit sécuriser emballage
+650,Je suis très satisfait de la qualité du produit.,positif,produit,simple,je suis très satisfait de la qualité du produit,9,suis satisfait qualité produit,suis satisfaire qualiter produit
+651,Je ne pensais pas être aussi bien accompagné.,positif,support,négation_positive,je ne pensais pas être aussi bien accompagné,8,ne pensais pas accompagné,ne pensais pas accompagner
+652,La livraison est rapide et fiable.,positif,livraison,simple,la livraison est rapide et fiable,6,livraison rapide fiable,livraison rapide fiable
+653,Votre service est au top !,positif,general,simple,votre service est au top,5,service top,service top
+654,Je suis impressionné par le professionnalisme.,positif,support,simple,je suis impressionné par le professionnalisme,6,suis impressionné professionnalisme,suis impressionner professionnalisme
+655,L'application est vraiment bien faite.,positif,application,simple,l'application est vraiment bien faite,5,l'application vraiment faite,l'application vrai faite
+656,Je ne m'attendais pas à une telle qualité.,positif,produit,négation_positive,je ne m'attendais pas à une telle qualité,8,ne m'attendais pas telle qualité,ne m'attendais pas telle qualiter
+657,La commande est traitée rapidement.,positif,general,simple,la commande est traitée rapidement,5,commande traitée rapidement,commande traiter rapide
+658,Votre service est vraiment différent des autres.,positif,general,simple,votre service est vraiment différent des autres,7,service vraiment différent autres,service vrai différent autres
+659,Je ne pensais pas être aussi content.,positif,general,négation_positive,je ne pensais pas être aussi content,7,ne pensais pas content,ne pensais pas content
+660,Le service est efficace et sans perte de temps.,positif,general,simple,le service est efficace et sans perte de temps,9,service efficace perte temps,service efficace perte temps
+661,Je ne peux pas imaginer faire autrement.,positif,general,négation_positive,je ne peux pas imaginer faire autrement,7,ne peux pas imaginer faire autrement,ne peux pas imaginer faire autre
+662,La qualité est vraiment bonne.,positif,produit,simple,la qualité est vraiment bonne,5,qualité vraiment bonne,qualiter vrai bonne
+663,Votre service est fiable et ponctuel.,positif,general,simple,votre service est fiable et ponctuel,6,service fiable ponctuel,service fiable ponctuel
+664,Je suis très satisfait de l'expérience.,positif,general,simple,je suis très satisfait de l'expérience,6,suis satisfait l'expérience,suis satisfaire l'expérience
+665,L'appli est bien adaptée à mes besoins.,positif,application,simple,l'appli est bien adaptée à mes besoins,7,l'appli adaptée besoins,l'appli adapter besoins
+666,Je ne pensais pas que ce serait aussi satisfaisant.,positif,general,négation_positive,je ne pensais pas que ce serait aussi satisfaisant,9,ne pensais pas serait satisfaisant,ne pensais pas serait satisfaisant
+667,La commande est arrivée sans problème.,positif,livraison,simple,la commande est arrivée sans problème,6,commande arrivée problème,commande arriver problème
+668,Je suis content de la qualité du service.,positif,support,simple,je suis content de la qualité du service,8,suis content qualité service,suis content qualiter service
+669,L'expérience est fluide et agréable.,positif,general,simple,l'expérience est fluide et agréable,5,l'expérience fluide agréable,l'expérience fluide agréable
+670,Je ne pensais pas trouver une telle qualité.,positif,produit,négation_positive,je ne pensais pas trouver une telle qualité,8,ne pensais pas trouver telle qualité,ne pensais pas trouver telle qualiter
+671,La livraison a été parfaitement gérée.,positif,livraison,simple,la livraison a été parfaitement gérée,6,livraison été parfaitement gérée,livraison éter parfaite gérer
+672,Je suis vraiment satisfait de mon expérience.,positif,general,simple,je suis vraiment satisfait de mon expérience,7,suis vraiment satisfait expérience,suis vrai satisfaire expérience
+673,L'application répond parfaitement à mes attentes.,positif,application,simple,l'application répond parfaitement à mes attentes,6,l'application répond parfaitement attentes,l'application répond parfaite attentes
+674,Je ne m'attendais pas à une telle réactivité.,positif,support,négation_positive,je ne m'attendais pas à une telle réactivité,8,ne m'attendais pas telle réactivité,ne m'attendais pas telle réactiviter
+675,Le produit est bien adapté à l'usage quotidien.,positif,produit,simple,le produit est bien adapté à l'usage quotidien,8,produit adapté l'usage quotidien,produit adapter l'usage quotidien
+676,Votre service est vraiment à la hauteur.,positif,general,simple,votre service est vraiment à la hauteur,7,service vraiment hauteur,service vrai hauteur
+677,Je suis très content de l'ensemble.,positif,general,simple,je suis très content de l'ensemble,6,suis content l'ensemble,suis content l'ensemble
+678,La qualité de service est constante.,positif,general,simple,la qualité de service est constante,6,qualité service constante,qualiter service constante
+679,Je ne pensais pas être aussi bien servi.,positif,support,négation_positive,je ne pensais pas être aussi bien servi,8,ne pensais pas servi,ne pensais pas servi
+680,L'application est pratique et bien conçue.,positif,application,simple,l'application est pratique et bien conçue,6,l'application pratique conçue,l'application pratique conçue
+681,Je suis satisfait de la livraison.,positif,livraison,simple,je suis satisfait de la livraison,6,suis satisfait livraison,suis satisfaire livraison
+682,Votre service est toujours à la hauteur.,positif,general,simple,votre service est toujours à la hauteur,7,service toujours hauteur,service toujours hauteur
+683,Je ne m'attendais pas à une résolution aussi rapide.,positif,support,négation_positive,je ne m'attendais pas à une résolution aussi rapide,9,ne m'attendais pas résolution rapide,ne m'attendais pas résolution rapide
+684,La commande est arrivée dans les délais prévus.,positif,livraison,simple,la commande est arrivée dans les délais prévus,8,commande arrivée délais prévus,commande arriver délais prévus
+685,Je suis impressionné par le service rendu.,positif,support,simple,je suis impressionné par le service rendu,7,suis impressionné service rendu,suis impressionner service rendu
+686,L'appli est simple et intuitive.,positif,application,simple,l'appli est simple et intuitive,5,l'appli simple intuitive,l'appli simple intuitive
+687,Je ne pensais pas que la livraison serait aussi rapide.,positif,livraison,négation_positive,je ne pensais pas que la livraison serait aussi rapide,10,ne pensais pas livraison serait rapide,ne pensais pas livraison serait rapide
+688,"Le produit est de qualité, je le recommande.",positif,produit,simple,le produit est de qualité je le recommande,8,produit qualité recommande,produit qualiter recommande
+689,Votre service m'a encore impressionné.,positif,general,simple,votre service m'a encore impressionné,5,service m'a encore impressionné,service m'a encore impressionner
+690,Je suis très satisfait de cette commande.,positif,general,simple,je suis très satisfait de cette commande,7,suis satisfait commande,suis satisfaire commande
+691,L'application est utile et bien organisée.,positif,application,simple,l'application est utile et bien organisée,6,l'application utile organisée,l'application utile organiser
+692,Je ne pensais pas que le service serait aussi bon.,positif,general,négation_positive,je ne pensais pas que le service serait aussi bon,10,ne pensais pas service serait bon,ne pensais pas service serait bon
+693,La livraison s'est déroulée sans problème.,positif,livraison,simple,la livraison s'est déroulée sans problème,6,livraison s'est déroulée problème,livraison s'est dérouler problème
+694,Je suis content du produit reçu.,positif,produit,simple,je suis content du produit reçu,6,suis content produit reçu,suis content produit recevoir
+695,Votre service est vraiment efficace.,positif,general,simple,votre service est vraiment efficace,5,service vraiment efficace,service vrai efficace
+696,Je ne m'attendais pas à un tel service.,positif,support,négation_positive,je ne m'attendais pas à un tel service,8,ne m'attendais pas tel service,ne m'attendais pas tel service
+697,La commande a été bien préparée et livrée.,positif,general,simple,la commande a été bien préparée et livrée,8,commande été préparée livrée,commande éter préparer livrer
+698,Je suis satisfait de la qualité globale.,positif,general,simple,je suis satisfait de la qualité globale,7,suis satisfait qualité globale,suis satisfaire qualiter globale
+699,L'application est rapide et fonctionnelle.,positif,application,simple,l'application est rapide et fonctionnelle,5,l'application rapide fonctionnelle,l'application rapide fonctionnelle
+700,Je ne pensais pas que le produit serait aussi bon.,positif,produit,négation_positive,je ne pensais pas que le produit serait aussi bon,10,ne pensais pas produit serait bon,ne pensais pas produit serait bon
+701,Le colis était bien scellé et en parfait état.,positif,produit,simple,le colis était bien scellé et en parfait état,9,colis scellé parfait état,colis sceller parfait état
+702,Je n'arrive pas à annuler ma commande en ligne.,négatif,application,problème,je n'arrive pas à annuler ma commande en ligne,9,n'arrive pas annuler commande ligne,n'arrive pas annuler commande ligne
+703,Votre conseiller m'a expliqué clairement la procédure.,positif,support,simple,votre conseiller m'a expliqué clairement la procédure,7,conseiller m'a expliqué clairement procédure,conseiller m'a expliquer claire procédure
+704,Le délai de livraison affiché ne correspond pas à la réalité.,négatif,livraison,problème,le délai de livraison affiché ne correspond pas à la réalité,11,délai livraison affiché ne correspond pas réalité,délai livraison afficher ne correspond pas réaliter
+705,Je suis satisfait de la réponse donnée à ma réclamation.,positif,support,simple,je suis satisfait de la réponse donnée à ma réclamation,10,suis satisfait réponse donnée réclamation,suis satisfaire réponse donner réclamation
+706,La page produit ne charge pas les images.,négatif,application,problème,la page produit ne charge pas les images,8,page produit ne charge pas images,page produit ne charge pas images
+707,Je ne pensais pas qu'un retour serait aussi indolore.,positif,remboursement,négation_positive,je ne pensais pas qu'un retour serait aussi indolore,9,ne pensais pas qu'un retour serait indolore,ne pensais pas qu'un retour serait indolore
+708,Le service m'a écouté et a proposé une vraie solution.,positif,support,simple,le service m'a écouté et a proposé une vraie solution,10,service m'a écouté proposé vraie solution,service m'a écouter proposer vraie solution
+709,Je suis en attente de mon remboursement depuis 6 semaines.,négatif,remboursement,problème,je suis en attente de mon remboursement depuis 6 semaines,9,suis attente remboursement depuis semaines,suis attente rembourse depuis semaines
+710,L'article reçu est une ancienne version non mentionnée.,négatif,produit,problème,l'article reçu est une ancienne version non mentionnée,8,l'article reçu ancienne version non mentionnée,l'article recevoir ancienne version non mentionner
+711,Je suis très content de la livraison express.,positif,livraison,simple,je suis très content de la livraison express,8,suis content livraison express,suis content livraison express
+712,Votre service répond toujours présent.,positif,support,simple,votre service répond toujours présent,5,service répond toujours présent,service répond toujours présent
+713,Je n'aurais pas cru que mon problème serait résolu aussi vite.,positif,support,négation_positive,je n'aurais pas cru que mon problème serait résolu aussi vite,11,n'aurais pas cru problème serait résolu vite,n'aurais pas cru problème serait résolu vite
+714,La commande est en cours de livraison.,neutre,livraison,factuel,la commande est en cours de livraison,7,commande cours livraison,commande cours livraison
+715,Je suis déçu par la qualité de l'emballage.,négatif,produit,problème,je suis déçu par la qualité de l'emballage,8,suis déçu qualité l'emballage,suis décevoir qualiter l'emballage
+716,Le service client a pris note de ma demande.,neutre,support,factuel,le service client a pris note de ma demande,9,service client pris note demande,service client pris note demande
+717,Je n'attendais pas une aussi bonne expérience.,positif,general,négation_positive,je n'attendais pas une aussi bonne expérience,7,n'attendais pas bonne expérience,n'attendais pas bonne expérience
+718,Le produit est arrivé en bon état.,positif,produit,simple,le produit est arrivé en bon état,7,produit arrivé bon état,produit arriver bon état
+719,Votre plateforme est parfois difficile à utiliser.,mitigé,application,opinion_mixte,votre plateforme est parfois difficile à utiliser,7,plateforme parfois difficile utiliser,plateforme parfois difficile utiliser
+720,Je suis satisfait de la rapidité de la livraison.,positif,livraison,simple,je suis satisfait de la rapidité de la livraison,9,suis satisfait rapidité livraison,suis satisfaire rapiditer livraison
+721,L'application affiche parfois des erreurs inexpliquées.,mitigé,application,opinion_mixte,l'application affiche parfois des erreurs inexpliquées,6,l'application affiche parfois erreurs inexpliquées,l'application affiche parfois erreurs inexpliquéer
+722,Je ne pensais pas être aussi bien remboursé.,positif,remboursement,négation_positive,je ne pensais pas être aussi bien remboursé,8,ne pensais pas remboursé,ne pensais pas rembourser
+723,La qualité du produit est irréprochable.,positif,produit,simple,la qualité du produit est irréprochable,6,qualité produit irréprochable,qualiter produit irréprochable
+724,Votre service dépasse toujours mes attentes.,positif,general,simple,votre service dépasse toujours mes attentes,6,service dépasse toujours attentes,service dépasse toujours attentes
+725,Je n'ai eu aucun problème lors de ma commande.,positif,general,négation_positive,je n'ai eu aucun problème lors de ma commande,9,n'ai eu aucun problème commande,n'ai eu aucun problème commande
+726,La livraison est toujours ponctuelle.,positif,livraison,simple,la livraison est toujours ponctuelle,5,livraison toujours ponctuelle,livraison toujours ponctuelle
+727,Je suis impressionné par la qualité de votre service.,positif,support,simple,je suis impressionné par la qualité de votre service,9,suis impressionné qualité service,suis impressionner qualiter service
+728,Votre appli est vraiment bien conçue.,positif,application,simple,votre appli est vraiment bien conçue,6,appli vraiment conçue,appli vrai conçue
+729,Je ne pensais pas que votre service serait aussi irréprochable.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi irréprochable,10,ne pensais pas service serait irréprochable,ne pensais pas service serait irréprochable
+730,La commande est bien arrivée.,positif,livraison,simple,la commande est bien arrivée,5,commande arrivée,commande arriver
+731,Je suis satisfait de votre service.,positif,general,simple,je suis satisfait de votre service,6,suis satisfait service,suis satisfaire service
+732,Le produit est solide et bien conçu.,positif,produit,simple,le produit est solide et bien conçu,7,produit solide conçu,produit solide conçu
+733,Je ne m'attendais pas à un emballage aussi professionnel.,positif,produit,négation_positive,je ne m'attendais pas à un emballage aussi professionnel,9,ne m'attendais pas emballage professionnel,ne m'attendais pas emballage professionnel
+734,L'application est stable depuis la mise à jour.,positif,application,simple,l'application est stable depuis la mise à jour,8,l'application stable depuis mise jour,l'application stable depuis mise jour
+735,Je suis très content du service client.,positif,support,simple,je suis très content du service client,7,suis content service client,suis content service client
+736,La livraison est rapide et sécurisée.,positif,livraison,simple,la livraison est rapide et sécurisée,6,livraison rapide sécurisée,livraison rapide sécuriser
+737,Je ne pensais pas qu'un service en ligne pouvait être aussi humain.,positif,support,négation_positive,je ne pensais pas qu'un service en ligne pouvait être aussi humain,12,ne pensais pas qu'un service ligne pouvait humain,ne pensais pas qu'un service ligne pouvait humain
+738,Le produit est fonctionnel et bien fini.,positif,produit,simple,le produit est fonctionnel et bien fini,7,produit fonctionnel fini,produit fonctionnel fini
+739,Votre service est vraiment fiable.,positif,general,simple,votre service est vraiment fiable,5,service vraiment fiable,service vrai fiable
+740,Je suis satisfait de mon achat.,positif,general,simple,je suis satisfait de mon achat,6,suis satisfait achat,suis satisfaire achat
+741,L'appli est mise à jour régulièrement.,positif,application,simple,l'appli est mise à jour régulièrement,6,l'appli mise jour régulièrement,l'appli mise jour régulière
+742,Je ne pensais pas que vous prendriez mon avis aussi au sérieux.,positif,support,négation_positive,je ne pensais pas que vous prendriez mon avis aussi au sérieux,12,ne pensais pas prendriez avis sérieux,ne pensais pas prendriez avis sérieux
+743,La livraison a été rapide.,positif,livraison,simple,la livraison a été rapide,5,livraison été rapide,livraison éter rapide
+744,Je suis très satisfait de la qualité du service.,positif,support,simple,je suis très satisfait de la qualité du service,9,suis satisfait qualité service,suis satisfaire qualiter service
+745,Le produit est conforme à mes attentes.,positif,produit,simple,le produit est conforme à mes attentes,7,produit conforme attentes,produit conforme attentes
+746,Votre service est toujours efficace.,positif,general,simple,votre service est toujours efficace,5,service toujours efficace,service toujours efficace
+747,Je ne m'attendais pas à être aussi bien accompagné.,positif,support,négation_positive,je ne m'attendais pas à être aussi bien accompagné,9,ne m'attendais pas accompagné,ne m'attendais pas accompagner
+748,La commande est bien packagée.,positif,produit,simple,la commande est bien packagée,5,commande packagée,commande packager
+749,Je suis très satisfait.,positif,general,simple,je suis très satisfait,4,suis satisfait,suis satisfaire
+750,L'application est agréable à utiliser.,positif,application,simple,l'application est agréable à utiliser,5,l'application agréable utiliser,l'application agréable utiliser
+751,Votre service est honnête et transparent.,positif,general,simple,votre service est honnête et transparent,6,service honnête transparent,service honnête transparent
+752,Je ne pensais pas que votre équipe serait aussi réactive.,positif,support,négation_positive,je ne pensais pas que votre équipe serait aussi réactive,10,ne pensais pas équipe serait réactive,ne pensais pas équipe serait réactive
+753,La livraison est toujours dans les délais.,positif,livraison,simple,la livraison est toujours dans les délais,7,livraison toujours délais,livraison toujours délais
+754,Je suis content de la qualité de ce produit.,positif,produit,simple,je suis content de la qualité de ce produit,9,suis content qualité produit,suis content qualiter produit
+755,Votre service client m'a bien guidé.,positif,support,simple,votre service client m'a bien guidé,6,service client m'a guidé,service client m'a guider
+756,Je ne pensais pas trouver un service aussi performant.,positif,general,négation_positive,je ne pensais pas trouver un service aussi performant,9,ne pensais pas trouver service performant,ne pensais pas trouver service performant
+757,La commande a bien été enregistrée.,neutre,administratif,factuel,la commande a bien été enregistrée,6,commande été enregistrée,commande éter enregistrer
+758,Je suis satisfait de la fluidité de l'application.,positif,application,simple,je suis satisfait de la fluidité de l'application,8,suis satisfait fluidité l'application,suis satisfaire fluiditer l'application
+759,Le produit est de très bonne qualité.,positif,produit,simple,le produit est de très bonne qualité,7,produit bonne qualité,produit bonne qualiter
+760,Votre service répond toujours à mes besoins.,positif,general,simple,votre service répond toujours à mes besoins,7,service répond toujours besoins,service répond toujours besoins
+761,Je ne m'attendais pas à recevoir mon colis aussi vite.,positif,livraison,négation_positive,je ne m'attendais pas à recevoir mon colis aussi vite,10,ne m'attendais pas recevoir colis vite,ne m'attendais pas recevoir colis vite
+762,La qualité est au rendez-vous.,positif,produit,simple,la qualité est au rendez vous,6,qualité rendez,qualiter rendez
+763,Je suis très content du résultat.,positif,general,simple,je suis très content du résultat,6,suis content résultat,suis content résultat
+764,L'appli a amélioré mon expérience d'achat.,positif,application,simple,l'appli a amélioré mon expérience d'achat,6,l'appli amélioré expérience d'achat,l'appli améliorer expérience d'achat
+765,Je ne pensais pas que le service serait si complet.,positif,general,négation_positive,je ne pensais pas que le service serait si complet,10,ne pensais pas service serait complet,ne pensais pas service serait complet
+766,La livraison s'est faite sans problème.,positif,livraison,simple,la livraison s'est faite sans problème,6,livraison s'est faite problème,livraison s'est faite problème
+767,Je suis satisfait de la prise en charge de ma demande.,positif,support,simple,je suis satisfait de la prise en charge de ma demande,11,suis satisfait prise charge demande,suis satisfaire prise charge demande
+768,Le produit est léger et facile à utiliser.,positif,produit,simple,le produit est léger et facile à utiliser,8,produit léger facile utiliser,produit léger facile utiliser
+769,Votre service est vraiment remarquable.,positif,general,simple,votre service est vraiment remarquable,5,service vraiment remarquable,service vrai remarquable
+770,Je ne pensais pas que vous seriez aussi efficaces.,positif,support,négation_positive,je ne pensais pas que vous seriez aussi efficaces,9,ne pensais pas seriez efficaces,ne pensais pas seriez efficaces
+771,La commande est arrivée dans un délai raisonnable.,positif,livraison,simple,la commande est arrivée dans un délai raisonnable,8,commande arrivée délai raisonnable,commande arriver délai raisonnable
+772,Je suis satisfait de l'ensemble de mon expérience.,positif,general,simple,je suis satisfait de l'ensemble de mon expérience,8,suis satisfait l'ensemble expérience,suis satisfaire l'ensemble expérience
+773,L'application est bien intégrée à mon quotidien.,positif,application,simple,l'application est bien intégrée à mon quotidien,7,l'application intégrée quotidien,l'application intégrer quotidien
+774,Je ne m'attendais pas à un service aussi pro.,positif,support,négation_positive,je ne m'attendais pas à un service aussi pro,9,ne m'attendais pas service pro,ne m'attendais pas service pro
+775,La qualité du produit justifie son prix.,positif,produit,simple,la qualité du produit justifie son prix,7,qualité produit justifie prix,qualiter produit justifie prix
+776,Votre service est dans les standards les plus élevés.,positif,general,simple,votre service est dans les standards les plus élevés,9,service standards élevés,service standards élevéer
+777,Je suis très satisfait de la fluidité du service.,positif,general,simple,je suis très satisfait de la fluidité du service,9,suis satisfait fluidité service,suis satisfaire fluiditer service
+778,L'appli est parfaitement responsive.,positif,application,simple,l'appli est parfaitement responsive,4,l'appli parfaitement responsive,l'appli parfaite responsive
+779,Je ne pensais pas que ce serait aussi efficace.,positif,general,négation_positive,je ne pensais pas que ce serait aussi efficace,9,ne pensais pas serait efficace,ne pensais pas serait efficace
+780,La livraison est toujours de qualité.,positif,livraison,simple,la livraison est toujours de qualité,6,livraison toujours qualité,livraison toujours qualiter
+781,Je suis content de la façon dont ma réclamation a été gérée.,positif,support,simple,je suis content de la façon dont ma réclamation a été gérée,12,suis content façon réclamation été gérée,suis content façon réclamation éter gérer
+782,Le produit est solide et de qualité.,positif,produit,simple,le produit est solide et de qualité,7,produit solide qualité,produit solide qualiter
+783,Votre service est exemplaire dans sa gestion des retours.,positif,remboursement,simple,votre service est exemplaire dans sa gestion des retours,9,service exemplaire gestion retours,service exemplaire gestion retours
+784,Je ne pensais pas que le processus serait aussi simple.,positif,general,négation_positive,je ne pensais pas que le processus serait aussi simple,10,ne pensais pas processus serait simple,ne pensais pas processus serait simple
+785,La commande a bien été traitée dans les délais.,positif,general,simple,la commande a bien été traitée dans les délais,9,commande été traitée délais,commande éter traiter délais
+786,Je suis satisfait de la qualité du remboursement.,positif,remboursement,simple,je suis satisfait de la qualité du remboursement,8,suis satisfait qualité remboursement,suis satisfaire qualiter rembourse
+787,L'appli est claire et lisible.,positif,application,simple,l'appli est claire et lisible,5,l'appli claire lisible,l'appli claire lisible
+788,Je ne m'attendais pas à autant de soin.,positif,produit,négation_positive,je ne m'attendais pas à autant de soin,8,ne m'attendais pas autant soin,ne m'attendais pas autant soin
+789,La livraison est ponctuelle et soignée.,positif,livraison,simple,la livraison est ponctuelle et soignée,6,livraison ponctuelle soignée,livraison ponctuelle soigner
+790,Je suis impressionné par la cohérence du service.,positif,general,simple,je suis impressionné par la cohérence du service,8,suis impressionné cohérence service,suis impressionner cohérence service
+791,L'application est fiable et rapide.,positif,application,simple,l'application est fiable et rapide,5,l'application fiable rapide,l'application fiable rapide
+792,Je ne pensais pas que la livraison serait aussi réussie.,positif,livraison,négation_positive,je ne pensais pas que la livraison serait aussi réussie,10,ne pensais pas livraison serait réussie,ne pensais pas livraison serait réussie
+793,Le produit est agréable à utiliser.,positif,produit,simple,le produit est agréable à utiliser,6,produit agréable utiliser,produit agréable utiliser
+794,Votre service m'a convaincu de revenir.,positif,general,simple,votre service m'a convaincu de revenir,6,service m'a convaincu revenir,service m'a convaincu revenir
+795,Je suis très satisfait du suivi de ma commande.,positif,livraison,simple,je suis très satisfait du suivi de ma commande,9,suis satisfait suivi commande,suis satisfaire suivi commande
+796,L'appli dispose de toutes les fonctionnalités dont j'ai besoin.,positif,application,simple,l'appli dispose de toutes les fonctionnalités dont j'ai besoin,9,l'appli dispose toutes fonctionnalités j'ai besoin,l'appli dispose toutes fonctionnalitéer j'ai besoin
+797,Je ne pensais pas trouver un tel niveau de service.,positif,general,négation_positive,je ne pensais pas trouver un tel niveau de service,10,ne pensais pas trouver tel niveau service,ne pensais pas trouver tel niveau service
+798,La livraison était soignée et rapide.,positif,livraison,simple,la livraison était soignée et rapide,6,livraison soignée rapide,livraison soigner rapide
+799,Je suis content du service de bout en bout.,positif,general,simple,je suis content du service de bout en bout,9,suis content service bout bout,suis content service bout bout
+800,Le produit est conforme et de qualité.,positif,produit,simple,le produit est conforme et de qualité,7,produit conforme qualité,produit conforme qualiter
+801,J'ai reçu une notification de livraison mais le colis n'est pas là.,négatif,livraison,problème,j'ai reçu une notification de livraison mais le colis n'est pas là,12,j'ai reçu notification livraison colis n'est pas là,j'ai recevoir notification livraison colis n'est pas là
+802,Le service client a bien géré ma demande urgente.,positif,support,simple,le service client a bien géré ma demande urgente,9,service client géré demande urgente,service client gérer demande urgente
+803,Je ne m'attendais pas à un tel souci du détail.,positif,produit,négation_positive,je ne m'attendais pas à un tel souci du détail,10,ne m'attendais pas tel souci détail,ne m'attendais pas tel souci détail
+804,Mon abonnement a été résilié par erreur.,négatif,administratif,problème,mon abonnement a été résilié par erreur,7,abonnement été résilié erreur,abonne éter résilier erreur
+805,L'agent m'a proposé une solution adaptée.,positif,support,simple,l'agent m'a proposé une solution adaptée,6,l'agent m'a proposé solution adaptée,l'agent m'a proposer solution adapter
+806,Je ne pensais pas qu'on pouvait aussi bien gérer un retour.,positif,remboursement,négation_positive,je ne pensais pas qu'on pouvait aussi bien gérer un retour,11,ne pensais pas qu'on pouvait gérer retour,ne pensais pas qu'on pouvait gérer retour
+807,Le produit s'use plus vite que prévu.,négatif,produit,problème,le produit s'use plus vite que prévu,7,produit s'use vite prévu,produit s'use vite prévu
+808,Je suis très content de l'accompagnement reçu.,positif,support,simple,je suis très content de l'accompagnement reçu,7,suis content l'accompagnement reçu,suis content l'accompagne recevoir
+809,Votre service a su dépasser mes attentes.,positif,general,simple,votre service a su dépasser mes attentes,7,service su dépasser attentes,service su dépasser attentes
+810,Je n'aurais pas imaginé une prise en charge aussi rapide.,positif,support,négation_positive,je n'aurais pas imaginé une prise en charge aussi rapide,10,n'aurais pas imaginé prise charge rapide,n'aurais pas imaginer prise charge rapide
+811,La commande a été annulée et remboursée rapidement.,positif,remboursement,simple,la commande a été annulée et remboursée rapidement,8,commande été annulée remboursée rapidement,commande éter annuler rembourser rapide
+812,Je ne pensais pas qu'il y aurait autant d'options de livraison.,positif,livraison,négation_positive,je ne pensais pas qu'il y aurait autant d'options de livraison,11,ne pensais pas qu'il aurait autant d'options livraison,ne pensais pas qu'il aurait autant d'options livraison
+813,Votre application m'a fait gagner beaucoup de temps.,positif,application,simple,votre application m'a fait gagner beaucoup de temps,8,application m'a fait gagner beaucoup temps,application m'a fait gagner beaucoup temps
+814,Je suis très satisfait du produit et du service.,positif,general,simple,je suis très satisfait du produit et du service,9,suis satisfait produit service,suis satisfaire produit service
+815,L'agent m'a bien orienté malgré la complexité.,positif,support,simple,l'agent m'a bien orienté malgré la complexité,7,l'agent m'a orienté malgré complexité,l'agent m'a orienter malgrer complexiter
+816,Je ne m'attendais pas à avoir aussi peu de problèmes.,positif,general,négation_positive,je ne m'attendais pas à avoir aussi peu de problèmes,10,ne m'attendais pas peu problèmes,ne m'attendais pas peu problèmes
+817,La livraison est arrivée avec un jour d'avance.,positif,livraison,simple,la livraison est arrivée avec un jour d'avance,8,livraison arrivée jour d'avance,livraison arriver jour d'avance
+818,Je suis content du niveau de service.,positif,support,simple,je suis content du niveau de service,7,suis content niveau service,suis content niveau service
+819,Votre appli facilite vraiment mes achats.,positif,application,simple,votre appli facilite vraiment mes achats,6,appli facilite vraiment achats,appli facilite vrai achats
+820,Je ne pensais pas qu'un service en ligne serait aussi fiable.,positif,general,négation_positive,je ne pensais pas qu'un service en ligne serait aussi fiable,11,ne pensais pas qu'un service ligne serait fiable,ne pensais pas qu'un service ligne serait fiable
+821,Le colis est arrivé propre et bien fermé.,positif,livraison,simple,le colis est arrivé propre et bien fermé,8,colis arrivé propre fermé,colis arriver propre fermer
+822,Je suis très satisfait de la façon dont ma réclamation a été prise en charge.,positif,support,simple,je suis très satisfait de la façon dont ma réclamation a été prise en charge,15,suis satisfait façon réclamation été prise charge,suis satisfaire façon réclamation éter prise charge
+823,L'application est la meilleure que j'ai utilisée.,positif,application,simple,l'application est la meilleure que j'ai utilisée,7,l'application meilleure j'ai utilisée,l'application meilleure j'ai utiliser
+824,Je ne m'attendais pas à ce que ce soit aussi pratique.,positif,general,négation_positive,je ne m'attendais pas à ce que ce soit aussi pratique,11,ne m'attendais pas soit pratique,ne m'attendais pas soit pratique
+825,"Le produit est top, rien à redire.",positif,produit,simple,le produit est top rien à redire,7,produit top rien redire,produit top rien redire
+826,Votre service est vraiment différenciant.,positif,general,simple,votre service est vraiment différenciant,5,service vraiment différenciant,service vrai différenciant
+827,Je ne pensais pas que votre équipe résoudrait le problème aussi facilement.,positif,support,négation_positive,je ne pensais pas que votre équipe résoudrait le problème aussi facilement,12,ne pensais pas équipe résoudrait problème facilement,ne pensais pas équipe résoudrait problème facile
+828,La livraison était rapide et bien organisée.,positif,livraison,simple,la livraison était rapide et bien organisée,7,livraison rapide organisée,livraison rapide organiser
+829,Je suis très satisfait du remboursement.,positif,remboursement,simple,je suis très satisfait du remboursement,6,suis satisfait remboursement,suis satisfaire rembourse
+830,L'appli est vraiment bien pensée.,positif,application,simple,l'appli est vraiment bien pensée,5,l'appli vraiment pensée,l'appli vrai penser
+831,Je ne m'attendais pas à une telle fluidité.,positif,general,négation_positive,je ne m'attendais pas à une telle fluidité,8,ne m'attendais pas telle fluidité,ne m'attendais pas telle fluiditer
+832,Le produit est élégant et fonctionnel.,positif,produit,simple,le produit est élégant et fonctionnel,6,produit élégant fonctionnel,produit élégant fonctionnel
+833,Votre service est vraiment de qualité.,positif,general,simple,votre service est vraiment de qualité,6,service vraiment qualité,service vrai qualiter
+834,Je ne pensais pas que la commande serait traitée si vite.,positif,general,négation_positive,je ne pensais pas que la commande serait traitée si vite,11,ne pensais pas commande serait traitée vite,ne pensais pas commande serait traiter vite
+835,La livraison est toujours soignée.,positif,livraison,simple,la livraison est toujours soignée,5,livraison toujours soignée,livraison toujours soigner
+836,Je suis très satisfait du produit et de la livraison.,positif,general,simple,je suis très satisfait du produit et de la livraison,10,suis satisfait produit livraison,suis satisfaire produit livraison
+837,L'appli est très bien adaptée à l'utilisation mobile.,positif,application,simple,l'appli est très bien adaptée à l'utilisation mobile,8,l'appli adaptée l'utilisation mobile,l'appli adapter l'utilisation mobile
+838,Je ne pensais pas que votre service serait aussi attentif.,positif,support,négation_positive,je ne pensais pas que votre service serait aussi attentif,10,ne pensais pas service serait attentif,ne pensais pas service serait attentif
+839,Le produit dépasse mes attentes en termes de qualité.,positif,produit,simple,le produit dépasse mes attentes en termes de qualité,9,produit dépasse attentes termes qualité,produit dépasse attentes termes qualiter
+840,Je suis impressionné par l'attention portée à chaque détail.,positif,general,simple,je suis impressionné par l'attention portée à chaque détail,9,suis impressionné l'attention portée chaque détail,suis impressionner l'attention porter chaque détail
+841,Votre service m'a facilité la vie.,positif,general,simple,votre service m'a facilité la vie,6,service m'a facilité vie,service m'a faciliter vie
+842,Je ne m'attendais pas à une telle cohérence.,positif,general,négation_positive,je ne m'attendais pas à une telle cohérence,8,ne m'attendais pas telle cohérence,ne m'attendais pas telle cohérence
+843,La livraison est arrivée dans les délais annoncés.,positif,livraison,simple,la livraison est arrivée dans les délais annoncés,8,livraison arrivée délais annoncés,livraison arriver délais annoncéer
+844,Je suis très satisfait du service client.,positif,support,simple,je suis très satisfait du service client,7,suis satisfait service client,suis satisfaire service client
+845,L'application est toujours à jour.,positif,application,simple,l'application est toujours à jour,5,l'application toujours jour,l'application toujours jour
+846,Je ne pensais pas que vous seriez aussi à l'écoute.,positif,support,négation_positive,je ne pensais pas que vous seriez aussi à l'écoute,10,ne pensais pas seriez l'écoute,ne pensais pas seriez l'écoute
+847,La qualité du service est remarquable.,positif,general,simple,la qualité du service est remarquable,6,qualité service remarquable,qualiter service remarquable
+848,Je suis satisfait du remboursement rapide.,positif,remboursement,simple,je suis satisfait du remboursement rapide,6,suis satisfait remboursement rapide,suis satisfaire rembourse rapide
+849,L'appli est claire et bien structurée.,positif,application,simple,l'appli est claire et bien structurée,6,l'appli claire structurée,l'appli claire structurer
+850,Je ne pensais pas que votre service serait aussi compétent.,positif,support,négation_positive,je ne pensais pas que votre service serait aussi compétent,10,ne pensais pas service serait compétent,ne pensais pas service serait compétent
+851,La livraison était dans les temps et le colis intact.,positif,livraison,simple,la livraison était dans les temps et le colis intact,10,livraison temps colis intact,livraison temps colis intact
+852,Je suis satisfait de la transparence du service.,positif,general,simple,je suis satisfait de la transparence du service,8,suis satisfait transparence service,suis satisfaire transparence service
+853,L'application facilite vraiment mes achats quotidiens.,positif,application,simple,l'application facilite vraiment mes achats quotidiens,6,l'application facilite vraiment achats quotidiens,l'application facilite vrai achats quotidiens
+854,Je ne pensais pas que ce serait aussi bien organisé.,positif,general,négation_positive,je ne pensais pas que ce serait aussi bien organisé,10,ne pensais pas serait organisé,ne pensais pas serait organiser
+855,Le produit est de qualité supérieure.,positif,produit,simple,le produit est de qualité supérieure,6,produit qualité supérieure,produit qualiter supérieure
+856,Votre service est toujours réactif.,positif,support,simple,votre service est toujours réactif,5,service toujours réactif,service toujours réactif
+857,Je ne m'attendais pas à un produit aussi bien fini.,positif,produit,négation_positive,je ne m'attendais pas à un produit aussi bien fini,10,ne m'attendais pas produit fini,ne m'attendais pas produit fini
+858,La commande a été livrée rapidement.,positif,livraison,simple,la commande a été livrée rapidement,6,commande été livrée rapidement,commande éter livrer rapide
+859,Je suis très satisfait de l'ensemble du service.,positif,general,simple,je suis très satisfait de l'ensemble du service,8,suis satisfait l'ensemble service,suis satisfaire l'ensemble service
+860,L'appli est bien optimisée pour mobile.,positif,application,simple,l'appli est bien optimisée pour mobile,6,l'appli optimisée mobile,l'appli optimiser mobile
+861,Je ne pensais pas que votre service serait aussi rapide.,positif,support,négation_positive,je ne pensais pas que votre service serait aussi rapide,10,ne pensais pas service serait rapide,ne pensais pas service serait rapide
+862,Le produit est de très haute qualité.,positif,produit,simple,le produit est de très haute qualité,7,produit haute qualité,produit haute qualiter
+863,Votre service mérite d'être recommandé.,positif,general,simple,votre service mérite d'être recommandé,5,service mérite d'être recommandé,service mérite d'être recommander
+864,Je suis très satisfait de mon expérience globale.,positif,general,simple,je suis très satisfait de mon expérience globale,8,suis satisfait expérience globale,suis satisfaire expérience globale
+865,"L'application est rapide, stable et utile.",positif,application,simple,l'application est rapide stable et utile,6,l'application rapide stable utile,l'application rapide stable utile
+866,Je ne pensais pas trouver une telle qualité de service.,positif,general,négation_positive,je ne pensais pas trouver une telle qualité de service,10,ne pensais pas trouver telle qualité service,ne pensais pas trouver telle qualiter service
+867,La livraison était rapide et fiable.,positif,livraison,simple,la livraison était rapide et fiable,6,livraison rapide fiable,livraison rapide fiable
+868,Je suis content de la qualité du produit livré.,positif,produit,simple,je suis content de la qualité du produit livré,9,suis content qualité produit livré,suis content qualiter produit livrer
+869,Votre service client est accessible et compétent.,positif,support,simple,votre service client est accessible et compétent,7,service client accessible compétent,service client accessible compétent
+870,Je ne m'attendais pas à une telle efficacité.,positif,general,négation_positive,je ne m'attendais pas à une telle efficacité,8,ne m'attendais pas telle efficacité,ne m'attendais pas telle efficaciter
+871,La commande est arrivée en parfait état.,positif,produit,simple,la commande est arrivée en parfait état,7,commande arrivée parfait état,commande arriver parfait état
+872,Je suis très satisfait du service rendu.,positif,support,simple,je suis très satisfait du service rendu,7,suis satisfait service rendu,suis satisfaire service rendu
+873,L'appli est complète et bien conçue.,positif,application,simple,l'appli est complète et bien conçue,6,l'appli complète conçue,l'appli complète conçue
+874,Je ne pensais pas que la livraison serait aussi bien gérée.,positif,livraison,négation_positive,je ne pensais pas que la livraison serait aussi bien gérée,11,ne pensais pas livraison serait gérée,ne pensais pas livraison serait gérer
+875,Le produit est bien adapté à mes besoins.,positif,produit,simple,le produit est bien adapté à mes besoins,8,produit adapté besoins,produit adapter besoins
+876,Votre service est dans les meilleurs.,positif,general,simple,votre service est dans les meilleurs,6,service meilleurs,service meilleurs
+877,Je ne m'attendais pas à tant de soin dans le service.,positif,support,négation_positive,je ne m'attendais pas à tant de soin dans le service,11,ne m'attendais pas tant soin service,ne m'attendais pas tant soin service
+878,La livraison a été parfaite.,positif,livraison,simple,la livraison a été parfaite,5,livraison été parfaite,livraison éter parfaite
+879,Je suis très satisfait de la qualité globale.,positif,general,simple,je suis très satisfait de la qualité globale,8,suis satisfait qualité globale,suis satisfaire qualiter globale
+880,L'application est très réactive.,positif,application,simple,l'application est très réactive,4,l'application réactive,l'application réactive
+881,Je ne pensais pas que le produit serait aussi durable.,positif,produit,négation_positive,je ne pensais pas que le produit serait aussi durable,10,ne pensais pas produit serait durable,ne pensais pas produit serait durable
+882,Le service est de qualité et je le recommande.,positif,general,simple,le service est de qualité et je le recommande,9,service qualité recommande,service qualiter recommande
+883,Votre équipe est professionnelle et efficace.,positif,support,simple,votre équipe est professionnelle et efficace,6,équipe professionnelle efficace,équipe professionnelle efficace
+884,Je ne m'attendais pas à une réactivité aussi grande.,positif,support,négation_positive,je ne m'attendais pas à une réactivité aussi grande,9,ne m'attendais pas réactivité grande,ne m'attendais pas réactiviter grande
+885,La livraison était rapide et bien emballée.,positif,livraison,simple,la livraison était rapide et bien emballée,7,livraison rapide emballée,livraison rapide emballer
+886,Je suis très content de mon expérience.,positif,general,simple,je suis très content de mon expérience,7,suis content expérience,suis content expérience
+887,L'appli est bien pensée pour les utilisateurs réguliers.,positif,application,simple,l'appli est bien pensée pour les utilisateurs réguliers,8,l'appli pensée utilisateurs réguliers,l'appli penser utilisateurs réguliers
+888,Je ne pensais pas que votre service était aussi complet.,positif,general,négation_positive,je ne pensais pas que votre service était aussi complet,10,ne pensais pas service complet,ne pensais pas service complet
+889,Le produit est solide et pratique.,positif,produit,simple,le produit est solide et pratique,6,produit solide pratique,produit solide pratique
+890,Votre service est irréprochable.,positif,general,simple,votre service est irréprochable,4,service irréprochable,service irréprochable
+891,Je ne m'attendais pas à autant d'efficacité.,positif,general,négation_positive,je ne m'attendais pas à autant d'efficacité,7,ne m'attendais pas autant d'efficacité,ne m'attendais pas autant d'efficaciter
+892,La livraison est fiable et rapide.,positif,livraison,simple,la livraison est fiable et rapide,6,livraison fiable rapide,livraison fiable rapide
+893,Je suis très satisfait de la qualité.,positif,produit,simple,je suis très satisfait de la qualité,7,suis satisfait qualité,suis satisfaire qualiter
+894,L'application est excellente dans son domaine.,positif,application,simple,l'application est excellente dans son domaine,6,l'application excellente domaine,l'application excellente domaine
+895,Je ne pensais pas que votre équipe serait aussi disponible.,positif,support,négation_positive,je ne pensais pas que votre équipe serait aussi disponible,10,ne pensais pas équipe serait disponible,ne pensais pas équipe serait disponible
+896,Le produit est beau et fonctionnel.,positif,produit,simple,le produit est beau et fonctionnel,6,produit beau fonctionnel,produit beau fonctionnel
+897,Votre service est à la hauteur de sa réputation.,positif,general,simple,votre service est à la hauteur de sa réputation,9,service hauteur réputation,service hauteur réputation
+898,Je ne m'attendais pas à un tel niveau de service.,positif,support,négation_positive,je ne m'attendais pas à un tel niveau de service,10,ne m'attendais pas tel niveau service,ne m'attendais pas tel niveau service
+899,La livraison est toujours dans les délais.,positif,livraison,simple,la livraison est toujours dans les délais,7,livraison toujours délais,livraison toujours délais
+900,Je suis très satisfait de votre service.,positif,general,simple,je suis très satisfait de votre service,7,suis satisfait service,suis satisfaire service
+901,L'appli répond parfaitement à mes attentes.,positif,application,simple,l'appli répond parfaitement à mes attentes,6,l'appli répond parfaitement attentes,l'appli répond parfaite attentes
+902,Je ne pensais pas trouver un service aussi fiable.,positif,general,négation_positive,je ne pensais pas trouver un service aussi fiable,9,ne pensais pas trouver service fiable,ne pensais pas trouver service fiable
+903,Le produit est conforme et bien conçu.,positif,produit,simple,le produit est conforme et bien conçu,7,produit conforme conçu,produit conforme conçu
+904,Votre service est vraiment au top.,positif,general,simple,votre service est vraiment au top,6,service vraiment top,service vrai top
+905,Je ne m'attendais pas à une telle qualité de produit.,positif,produit,négation_positive,je ne m'attendais pas à une telle qualité de produit,10,ne m'attendais pas telle qualité produit,ne m'attendais pas telle qualiter produit
+906,La livraison est toujours rapide.,positif,livraison,simple,la livraison est toujours rapide,5,livraison toujours rapide,livraison toujours rapide
+907,Je suis très satisfait de l'expérience d'achat.,positif,general,simple,je suis très satisfait de l'expérience d'achat,7,suis satisfait l'expérience d'achat,suis satisfaire l'expérience d'achat
+908,L'application est utile et bien organisée.,positif,application,simple,l'application est utile et bien organisée,6,l'application utile organisée,l'application utile organiser
+909,Je ne pensais pas que le service serait aussi humain.,positif,support,négation_positive,je ne pensais pas que le service serait aussi humain,10,ne pensais pas service serait humain,ne pensais pas service serait humain
+910,Le produit est de qualité et bien fini.,positif,produit,simple,le produit est de qualité et bien fini,8,produit qualité fini,produit qualiter fini
+911,Votre service est efficace et fiable.,positif,general,simple,votre service est efficace et fiable,6,service efficace fiable,service efficace fiable
+912,Je ne m'attendais pas à un tel professionnalisme.,positif,support,négation_positive,je ne m'attendais pas à un tel professionnalisme,8,ne m'attendais pas tel professionnalisme,ne m'attendais pas tel professionnalisme
+913,La livraison est soignée et rapide.,positif,livraison,simple,la livraison est soignée et rapide,6,livraison soignée rapide,livraison soigner rapide
+914,Je suis très satisfait du produit reçu.,positif,produit,simple,je suis très satisfait du produit reçu,7,suis satisfait produit reçu,suis satisfaire produit recevoir
+915,L'appli est parfaitement adaptée à mon usage.,positif,application,simple,l'appli est parfaitement adaptée à mon usage,7,l'appli parfaitement adaptée usage,l'appli parfaite adapter usage
+916,Je ne pensais pas être aussi bien pris en charge.,positif,support,négation_positive,je ne pensais pas être aussi bien pris en charge,10,ne pensais pas pris charge,ne pensais pas pris charge
+917,Le produit est élégant et de qualité.,positif,produit,simple,le produit est élégant et de qualité,7,produit élégant qualité,produit élégant qualiter
+918,Votre service dépasse toujours les attentes.,positif,general,simple,votre service dépasse toujours les attentes,6,service dépasse toujours attentes,service dépasse toujours attentes
+919,Je ne m'attendais pas à autant de satisfaction.,positif,general,négation_positive,je ne m'attendais pas à autant de satisfaction,8,ne m'attendais pas autant satisfaction,ne m'attendais pas autant satisfaction
+920,La livraison était parfaite du début à la fin.,positif,livraison,simple,la livraison était parfaite du début à la fin,9,livraison parfaite début fin,livraison parfaite début fin
+921,Je suis très satisfait de la réactivité du service.,positif,support,simple,je suis très satisfait de la réactivité du service,9,suis satisfait réactivité service,suis satisfaire réactiviter service
+922,L'application est une vraie réussite.,positif,application,simple,l'application est une vraie réussite,5,l'application vraie réussite,l'application vraie réussite
+923,Je ne pensais pas que votre service serait aussi bien noté à juste titre.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi bien noté à juste titre,14,ne pensais pas service serait noté juste titre,ne pensais pas service serait noter juste titre
+924,Le produit est exactement ce que je cherchais.,positif,produit,simple,le produit est exactement ce que je cherchais,8,produit exactement cherchais,produit exacte cherchais
+925,Votre service est dans les meilleurs de sa catégorie.,positif,general,simple,votre service est dans les meilleurs de sa catégorie,9,service meilleurs catégorie,service meilleurs catégorie
+926,Je ne m'attendais pas à une aussi bonne expérience.,positif,general,négation_positive,je ne m'attendais pas à une aussi bonne expérience,9,ne m'attendais pas bonne expérience,ne m'attendais pas bonne expérience
+927,La livraison est dans les délais et bien emballée.,positif,livraison,simple,la livraison est dans les délais et bien emballée,9,livraison délais emballée,livraison délais emballer
+928,Je suis très satisfait du service client.,positif,support,simple,je suis très satisfait du service client,7,suis satisfait service client,suis satisfaire service client
+929,L'appli est fluide et sans bugs.,positif,application,simple,l'appli est fluide et sans bugs,6,l'appli fluide bugs,l'appli fluide bugs
+930,Je ne pensais pas que votre service serait aussi apprécié.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi apprécié,10,ne pensais pas service serait apprécié,ne pensais pas service serait apprécier
+931,Le produit est bien conçu et agréable à utiliser.,positif,produit,simple,le produit est bien conçu et agréable à utiliser,9,produit conçu agréable utiliser,produit conçu agréable utiliser
+932,Votre service est fiable et réactif.,positif,general,simple,votre service est fiable et réactif,6,service fiable réactif,service fiable réactif
+933,Je ne m'attendais pas à autant de fluidité.,positif,general,négation_positive,je ne m'attendais pas à autant de fluidité,8,ne m'attendais pas autant fluidité,ne m'attendais pas autant fluiditer
+934,La livraison est ponctuelle.,positif,livraison,simple,la livraison est ponctuelle,4,livraison ponctuelle,livraison ponctuelle
+935,Je suis très satisfait du produit et du support.,positif,general,simple,je suis très satisfait du produit et du support,9,suis satisfait produit support,suis satisfaire produit support
+936,L'application est bien adaptée à toutes les plateformes.,positif,application,simple,l'application est bien adaptée à toutes les plateformes,8,l'application adaptée toutes plateformes,l'application adapter toutes plateformes
+937,Je ne pensais pas que votre service serait aussi accessible.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi accessible,10,ne pensais pas service serait accessible,ne pensais pas service serait accessible
+938,Le produit est robuste et de belle qualité.,positif,produit,simple,le produit est robuste et de belle qualité,8,produit robuste belle qualité,produit robuste belle qualiter
+939,Votre service est vraiment un modèle.,positif,general,simple,votre service est vraiment un modèle,6,service vraiment modèle,service vrai modèle
+940,Je ne m'attendais pas à une telle disponibilité.,positif,support,négation_positive,je ne m'attendais pas à une telle disponibilité,8,ne m'attendais pas telle disponibilité,ne m'attendais pas telle disponibiliter
+941,La livraison était dans les temps et soignée.,positif,livraison,simple,la livraison était dans les temps et soignée,8,livraison temps soignée,livraison temps soigner
+942,Je suis très satisfait de mon achat en ligne.,positif,general,simple,je suis très satisfait de mon achat en ligne,9,suis satisfait achat ligne,suis satisfaire achat ligne
+943,L'appli est simple à prendre en main.,positif,application,simple,l'appli est simple à prendre en main,7,l'appli simple prendre main,l'appli simple prendre main
+944,Je ne pensais pas que votre service serait aussi impressionnant.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi impressionnant,10,ne pensais pas service serait impressionnant,ne pensais pas service serait impressionnant
+945,Le produit est fonctionnel et bien pensé.,positif,produit,simple,le produit est fonctionnel et bien pensé,7,produit fonctionnel pensé,produit fonctionnel penser
+946,Votre service est excellent à tous les niveaux.,positif,general,simple,votre service est excellent à tous les niveaux,8,service excellent tous niveaux,service excellent tous niveaux
+947,Je ne m'attendais pas à une aussi bonne qualité de service.,positif,support,négation_positive,je ne m'attendais pas à une aussi bonne qualité de service,11,ne m'attendais pas bonne qualité service,ne m'attendais pas bonne qualiter service
+948,"La livraison est rapide, fiable et soignée.",positif,livraison,simple,la livraison est rapide fiable et soignée,7,livraison rapide fiable soignée,livraison rapide fiable soigner
+949,Je suis très satisfait de la qualité du produit.,positif,produit,simple,je suis très satisfait de la qualité du produit,9,suis satisfait qualité produit,suis satisfaire qualiter produit
+950,L'application est vraiment bien réalisée.,positif,application,simple,l'application est vraiment bien réalisée,5,l'application vraiment réalisée,l'application vrai réaliser
+951,Je ne pensais pas que votre service serait aussi performant.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi performant,10,ne pensais pas service serait performant,ne pensais pas service serait performant
+952,Le produit est solide et bien finalisé.,positif,produit,simple,le produit est solide et bien finalisé,7,produit solide finalisé,produit solide finaliser
+953,Votre service est dans les meilleurs que j'ai essayés.,positif,general,simple,votre service est dans les meilleurs que j'ai essayés,9,service meilleurs j'ai essayés,service meilleurs j'ai essayéer
+954,Je ne m'attendais pas à un service aussi soigné.,positif,support,négation_positive,je ne m'attendais pas à un service aussi soigné,9,ne m'attendais pas service soigné,ne m'attendais pas service soigner
+955,La livraison était rapide et le colis en bon état.,positif,livraison,simple,la livraison était rapide et le colis en bon état,10,livraison rapide colis bon état,livraison rapide colis bon état
+956,Je suis très satisfait de l'ensemble.,positif,general,simple,je suis très satisfait de l'ensemble,6,suis satisfait l'ensemble,suis satisfaire l'ensemble
+957,L'appli est fiable et bien pensée.,positif,application,simple,l'appli est fiable et bien pensée,6,l'appli fiable pensée,l'appli fiable penser
+958,Je ne pensais pas que votre service serait aussi satisfaisant.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi satisfaisant,10,ne pensais pas service serait satisfaisant,ne pensais pas service serait satisfaisant
+959,Le produit est de qualité et conforme.,positif,produit,simple,le produit est de qualité et conforme,7,produit qualité conforme,produit qualiter conforme
+960,Votre service est vraiment bien organisé.,positif,general,simple,votre service est vraiment bien organisé,6,service vraiment organisé,service vrai organiser
+961,Je ne m'attendais pas à autant de rigueur.,positif,support,négation_positive,je ne m'attendais pas à autant de rigueur,8,ne m'attendais pas autant rigueur,ne m'attendais pas autant rigueur
+962,La livraison est soignée et rapide.,positif,livraison,simple,la livraison est soignée et rapide,6,livraison soignée rapide,livraison soigner rapide
+963,Je suis très satisfait du service dans son ensemble.,positif,general,simple,je suis très satisfait du service dans son ensemble,9,suis satisfait service ensemble,suis satisfaire service ensemble
+964,L'application est bien conçue et utile.,positif,application,simple,l'application est bien conçue et utile,6,l'application conçue utile,l'application conçue utile
+965,Je ne pensais pas trouver un service aussi bien noté.,positif,general,négation_positive,je ne pensais pas trouver un service aussi bien noté,10,ne pensais pas trouver service noté,ne pensais pas trouver service noter
+966,Le produit est conforme à la description et de qualité.,positif,produit,simple,le produit est conforme à la description et de qualité,10,produit conforme description qualité,produit conforme description qualiter
+967,Votre service est au sommet.,positif,general,simple,votre service est au sommet,5,service sommet,service sommet
+968,Je ne m'attendais pas à un tel niveau de satisfaction.,positif,general,négation_positive,je ne m'attendais pas à un tel niveau de satisfaction,10,ne m'attendais pas tel niveau satisfaction,ne m'attendais pas tel niveau satisfaction
+969,La livraison est toujours bien gérée.,positif,livraison,simple,la livraison est toujours bien gérée,6,livraison toujours gérée,livraison toujours gérer
+970,Je suis très satisfait du produit commandé.,positif,produit,simple,je suis très satisfait du produit commandé,7,suis satisfait produit commandé,suis satisfaire produit commander
+971,L'appli est simple et efficace.,positif,application,simple,l'appli est simple et efficace,5,l'appli simple efficace,l'appli simple efficace
+972,Je ne pensais pas que votre service serait aussi bien structuré.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi bien structuré,11,ne pensais pas service serait structuré,ne pensais pas service serait structurer
+973,Le produit est léger et bien fini.,positif,produit,simple,le produit est léger et bien fini,7,produit léger fini,produit léger fini
+974,Votre service est vraiment au niveau.,positif,general,simple,votre service est vraiment au niveau,6,service vraiment niveau,service vrai niveau
+975,Je ne m'attendais pas à autant de satisfaction.,positif,general,négation_positive,je ne m'attendais pas à autant de satisfaction,8,ne m'attendais pas autant satisfaction,ne m'attendais pas autant satisfaction
+976,La livraison est rapide et de qualité.,positif,livraison,simple,la livraison est rapide et de qualité,7,livraison rapide qualité,livraison rapide qualiter
+977,Je suis très satisfait de votre service client.,positif,support,simple,je suis très satisfait de votre service client,8,suis satisfait service client,suis satisfaire service client
+978,L'application est vraiment excellente.,positif,application,simple,l'application est vraiment excellente,4,l'application vraiment excellente,l'application vrai excellente
+979,Je ne pensais pas trouver un tel service.,positif,general,négation_positive,je ne pensais pas trouver un tel service,8,ne pensais pas trouver tel service,ne pensais pas trouver tel service
+980,Le produit est bien conçu et de qualité.,positif,produit,simple,le produit est bien conçu et de qualité,8,produit conçu qualité,produit conçu qualiter
+981,Votre service est fiable et efficace.,positif,general,simple,votre service est fiable et efficace,6,service fiable efficace,service fiable efficace
+982,Je ne m'attendais pas à une telle qualité de livraison.,positif,livraison,négation_positive,je ne m'attendais pas à une telle qualité de livraison,10,ne m'attendais pas telle qualité livraison,ne m'attendais pas telle qualiter livraison
+983,La livraison est ponctuelle et soignée.,positif,livraison,simple,la livraison est ponctuelle et soignée,6,livraison ponctuelle soignée,livraison ponctuelle soigner
+984,Je suis très satisfait de la qualité de l'application.,positif,application,simple,je suis très satisfait de la qualité de l'application,9,suis satisfait qualité l'application,suis satisfaire qualiter l'application
+985,L'appli est bien adaptée à tous les utilisateurs.,positif,application,simple,l'appli est bien adaptée à tous les utilisateurs,8,l'appli adaptée tous utilisateurs,l'appli adapter tous utilisateurs
+986,Je ne pensais pas que votre service serait aussi bien.,positif,general,négation_positive,je ne pensais pas que votre service serait aussi bien,10,ne pensais pas service serait,ne pensais pas service serait
+987,"Le produit est de qualité, conforme et fonctionnel.",positif,produit,simple,le produit est de qualité conforme et fonctionnel,8,produit qualité conforme fonctionnel,produit qualiter conforme fonctionnel
+988,Votre service est irréprochable dans tous les domaines.,positif,general,simple,votre service est irréprochable dans tous les domaines,8,service irréprochable tous domaines,service irréprochable tous domaines
+989,Je ne m'attendais pas à autant de compétence.,positif,support,négation_positive,je ne m'attendais pas à autant de compétence,8,ne m'attendais pas autant compétence,ne m'attendais pas autant compétence
+990,La livraison était parfaite.,positif,livraison,simple,la livraison était parfaite,4,livraison parfaite,livraison parfaite
+991,Je suis très satisfait de l'expérience complète.,positif,general,simple,je suis très satisfait de l'expérience complète,7,suis satisfait l'expérience complète,suis satisfaire l'expérience complète
+992,L'application est excellente et bien conçue.,positif,application,simple,l'application est excellente et bien conçue,6,l'application excellente conçue,l'application excellente conçue
+993,Je ne pensais pas trouver un service aussi complet.,positif,general,négation_positive,je ne pensais pas trouver un service aussi complet,9,ne pensais pas trouver service complet,ne pensais pas trouver service complet
+994,Le produit est vraiment de qualité.,positif,produit,simple,le produit est vraiment de qualité,6,produit vraiment qualité,produit vrai qualiter
+995,Votre service est vraiment dans les meilleurs.,positif,general,simple,votre service est vraiment dans les meilleurs,7,service vraiment meilleurs,service vrai meilleurs
+996,Je ne m'attendais pas à autant de satisfaction globale.,positif,general,négation_positive,je ne m'attendais pas à autant de satisfaction globale,9,ne m'attendais pas autant satisfaction globale,ne m'attendais pas autant satisfaction globale
+997,"La livraison est fiable, rapide et soignée.",positif,livraison,simple,la livraison est fiable rapide et soignée,7,livraison fiable rapide soignée,livraison fiable rapide soigner
+998,Je suis très satisfait de votre service dans l'ensemble.,positif,general,simple,je suis très satisfait de votre service dans l'ensemble,9,suis satisfait service l'ensemble,suis satisfaire service l'ensemble
+999,"L'appli est bien conçue, intuitive et rapide.",positif,application,simple,l'appli est bien conçue intuitive et rapide,7,l'appli conçue intuitive rapide,l'appli conçue intuitive rapide
+1000,Je ne pensais pas qu'un service en ligne pouvait être aussi parfait.,positif,general,négation_positive,je ne pensais pas qu'un service en ligne pouvait être aussi parfait,12,ne pensais pas qu'un service ligne pouvait parfait,ne pensais pas qu'un service ligne pouvait parfait
