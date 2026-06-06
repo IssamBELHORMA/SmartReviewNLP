@@ -1,7 +1,7 @@
 # SmartReview AI
 
-**Auteur :** [Votre Prénom Nom]  
-**Formation :** Master 1 Data & IA — NLP et Text Mining — Coda Orléans  
+**Auteur :** Issam Belhorma
+**Formation :** Master 1 Data & IA — NLP et Text Mining 
 **Projet final :** Application simple d'analyse d'avis clients avec IA générative et prompt engineering
 
 ---
