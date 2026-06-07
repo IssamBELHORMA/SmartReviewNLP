@@ -186,7 +186,7 @@ Le **LinearSVC calibré** est retenu comme meilleur modèle sur les deux critèr
 
 ## 5. Tests sur les 10 avis de référence
 
-Les 10 avis de `data/avis_test.csv` ont été soumis à l'application en mode **simulation** (sans appel API réel).
+Les 10 avis de `data/raw/avis_test.csv` ont été soumis à l'application en mode **simulation** (sans appel API réel).
 
 | id | Avis | Label attendu | IA prédit | IA ✓ | ML prédit | ML score | ML ✓ | Accord |
 |---|---|---|---|---|---|---|---|---|
