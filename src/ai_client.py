@@ -1,8 +1,16 @@
+"""
+ai_client.py
+Analyse un avis client via l'API Anthropic (Claude).
+Fallback vers simulation pédagogique si l'API n'est pas disponible.
+"""
+
 import json
 import os
 import re
 
+# ---------------------------------------------------------------------------
 # Appel API réel — Anthropic / Claude
+# ---------------------------------------------------------------------------
 
 def analyze_with_api(review_text: str) -> dict:
     """
@@ -55,7 +63,9 @@ def analyze_with_api(review_text: str) -> dict:
     return json.loads(json_match.group())
 
 
+# ---------------------------------------------------------------------------
 # Simulation pédagogique (fallback sans clé API)
+# ---------------------------------------------------------------------------
 
 _POSITIVE_WORDS = [
     "rapide", "professionnel", "agréable", "clair", "bonne qualité",
@@ -135,7 +145,51 @@ def analyze_with_simulated_ai(review_text: str) -> dict:
     }
 
 
+# ---------------------------------------------------------------------------
 # Fonction principale : essaie l'API, bascule sur la simulation
+# ---------------------------------------------------------------------------
+
+def analyze_review_full(review_text: str, force_simulation: bool = False) -> dict:
+    """
+    Analyse complète : appelle le modèle ML ET l'IA (Claude ou simulation).
+
+    Retourne un dict avec deux sections :
+        {
+            "ml":  { sentiment, confiance, score, probabilites },
+            "ia":  { sentiment, confiance, justification, ... },
+            "ia_source": "api" | "simulation",
+            "accord": True | False,   # les deux sont-ils d'accord ?
+        }
+
+    Args:
+        review_text: Texte brut de l'avis client.
+        force_simulation: Si True, bypass l'API Claude.
+    """
+    from src.ml_classifier import predict_raw_text, is_model_available
+
+    # ── Résultat IA ──────────────────────────────────────────────────────
+    ia_result, ia_source = analyze_review(review_text, force_simulation=force_simulation)
+
+    # ── Résultat ML ──────────────────────────────────────────────────────
+    ml_result = None
+    if is_model_available():
+        try:
+            ml_result = predict_raw_text(review_text)
+        except Exception as e:
+            ml_result = {"erreur": str(e)}
+
+    # ── Accord ───────────────────────────────────────────────────────────
+    accord = None
+    if ml_result and "sentiment" in ml_result:
+        accord = ml_result["sentiment"] == ia_result.get("sentiment")
+
+    return {
+        "ml":        ml_result,
+        "ia":        ia_result,
+        "ia_source": ia_source,
+        "accord":    accord,
+    }
+
 
 def analyze_review(review_text: str, force_simulation: bool = False) -> tuple[dict, str]:
     """
