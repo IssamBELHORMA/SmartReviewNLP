@@ -1,8 +1,8 @@
 # SmartReview AI
 
-**Auteur :** Issam BELHORMA
-**Formation :** Master 1 Data & IA — NLP et Text Mining — Coda Orléans  
-**Projet :** Analyse d'avis clients par IA générative et modèle de classification ML
+- **Auteur :** Issam BELHORMA
+- **Formation :** Master 1 Data & IA — NLP et Text Mining — Coda Orléans  
+- **Projet :** Analyse d'avis clients par IA générative et modèle de classification ML
 
 ---
 
