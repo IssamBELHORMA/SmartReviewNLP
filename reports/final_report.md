@@ -1,8 +1,8 @@
 # Rapport final — SmartReview AI
 
-**Auteur :** Issam BELHORMA 
-**Formation :** Master 1 Data & IA — NLP et Text Mining — Coda Orléans  
-**Date :** Juin 2026
+- **Auteur :** Issam BELHORMA 
+- **Formation :** Master 1 Data & IA — NLP et Text Mining — Coda Orléans  
+- **Date :** Juin 2026
 
 ---
 
