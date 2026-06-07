@@ -14,9 +14,9 @@ VECTORIZER_PATH = os.path.join(MODELS_DIR, "tfidf_vectorizer.joblib")
 ENCODER_PATH    = os.path.join(MODELS_DIR, "label_encoder.joblib")
 MODEL_PATH      = os.path.join(MODELS_DIR, "sentiment_classifier.joblib")
 
-# ---------------------------------------------------------------------------
+
 # Chargement paresseux (une seule fois par session)
-# ---------------------------------------------------------------------------
+
 
 _vectorizer = None
 _encoder    = None
@@ -58,9 +58,9 @@ def is_model_available() -> bool:
     )
 
 
-# ---------------------------------------------------------------------------
+
 # Prédiction
-# ---------------------------------------------------------------------------
+
 
 def predict(processed_text: str) -> dict:
     """

@@ -21,9 +21,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 from src.ai_client import analyze_review, analyze_review_full
 from src.ml_classifier import is_model_available
 
-# ---------------------------------------------------------------------------
+
 # Config
-# ---------------------------------------------------------------------------
+
 
 st.set_page_config(
     page_title="SmartReview AI",
@@ -31,16 +31,16 @@ st.set_page_config(
     layout="wide",
 )
 
-# ---------------------------------------------------------------------------
+
 # Session state
-# ---------------------------------------------------------------------------
+
 
 if "history" not in st.session_state:
     st.session_state.history = []
 
-# ---------------------------------------------------------------------------
+
 # Helpers
-# ---------------------------------------------------------------------------
+
 
 SENTIMENT_COLORS = {
     "positif": "🟢",
@@ -107,9 +107,9 @@ def export_history_csv(history: list[dict]) -> str:
     return output.getvalue()
 
 
-# ---------------------------------------------------------------------------
+
 # UI
-# ---------------------------------------------------------------------------
+
 
 st.title("🔍 SmartReview AI")
 st.markdown(

@@ -8,9 +8,9 @@ import json
 import os
 import re
 
-# ---------------------------------------------------------------------------
+
 # Appel API réel — Anthropic / Claude
-# ---------------------------------------------------------------------------
+
 
 def analyze_with_api(review_text: str) -> dict:
     """
@@ -63,9 +63,9 @@ def analyze_with_api(review_text: str) -> dict:
     return json.loads(json_match.group())
 
 
-# ---------------------------------------------------------------------------
+
 # Simulation pédagogique (fallback sans clé API)
-# ---------------------------------------------------------------------------
+
 
 _POSITIVE_WORDS = [
     "rapide", "professionnel", "agréable", "clair", "bonne qualité",
@@ -145,9 +145,9 @@ def analyze_with_simulated_ai(review_text: str) -> dict:
     }
 
 
-# ---------------------------------------------------------------------------
+
 # Fonction principale : essaie l'API, bascule sur la simulation
-# ---------------------------------------------------------------------------
+
 
 def analyze_review_full(review_text: str, force_simulation: bool = False) -> dict:
     """
